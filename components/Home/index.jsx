@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
+
+
 function Home(props) {
   const { logo1, place, app, spanText1, spanText2, joinUs } = props;
 
