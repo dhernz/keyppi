@@ -1,0 +1,97 @@
+.home {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 982px;
+  padding: 64px 105px;
+  width: 1512px;
+}
+
+.flex-row-2 {
+  align-items: center;
+  display: flex;
+  margin-right: 213.0px;
+  min-width: 1089px;
+}
+
+.logo-1 {
+  height: 74px;
+  object-fit: cover;
+  width: 327px;
+}
+
+.place-2 {
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  margin-left: 447px;
+  min-height: 47px;
+  text-align: center;
+  width: 143px;
+}
+
+.app-2 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  margin-left: 29px;
+  min-height: 47px;
+  text-align: center;
+  width: 143px;
+}
+
+.forget-about-managin {
+  -webkit-text-stroke: 1px var(--black);
+  color: transparent;
+  font-family: var(--font-family-space_mono);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-right: 1.0px;
+  margin-top: 139px;
+  min-height: 212px;
+  text-align: center;
+  width: 965px;
+}
+
+.span0 {
+  color: var(--white);
+}
+
+.span1 {
+  color: var(--black);
+}
+
+.overlap-group-1 {
+  height: 101px;
+  margin-right: 20.0px;
+  margin-top: 76px;
+  position: relative;
+  width: 410px;
+}
+
+.rectangle-1 {
+  background: linear-gradient(180deg, rgb(134, 41, 176) 0%, rgba(147, 0, 255, 0.65) 51.04%, rgb(255, 134, 134) 100%);
+  box-shadow: 13px 13px 0px #000000;
+  cursor: pointer;
+  height: 101px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 410px;
+}
+
+.join-us {
+  -webkit-text-stroke: 1px var(--white);
+  color: var(--white);
+  font-family: var(--font-family-space_mono);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  left: 71px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  width: 265px;
+}
+
