@@ -199,5 +199,6 @@ FUNCIÓN A EXPONER AL FRONTEND
 
 function keyppi_protocol(pk /*string*/, nullifier /*string*/) {
     const {H, K} = protect_pk(pk, nullifier)
-    // const pieces = 
+    const pieces = split_protected_pk(H)
+    return pieces
 }
