@@ -20,14 +20,16 @@ function Home(props) {
         <div className="overlap-group1-1">
           <Link to="/connect-wallets">
             <div className="rectangle-1"></div>
-          </Link>
+          
           <div className="join-us">{joinUs}</div>
+          </Link>
         </div>
         <div className="overlap-group-1">
           <Link to="/retrieve-wallet">
             <div className="rectangle-2-1"></div>
-          </Link>
+          
           <div className="retrieve-key">{retrieveKey}</div>
+          </Link>
         </div>
       </div>
     </div>

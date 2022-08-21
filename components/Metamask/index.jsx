@@ -8,7 +8,7 @@ import "./Metamask.css";
 
 function Metamask(props) {
   const { logo2, image9, connect, wallet, email, privateKey, save } = props;
-  const actionId = process.env.WORLD_ID_ACTION_RETRIEVE_KEY
+  const actionId = process.env.WORLD_ID_ACTION_CREATED_WALLET
   const { activate } = useWeb3React();
   const handleConnect = () => {
     activate(connectors.injected)
