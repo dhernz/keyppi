@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 import "./ConnectWallets2.css";
 import { useWeb3React } from '@web3-react/core'
 import { connectors } from "../../utils/connectors"
-
-
-
+  
 function ConnectWallets2(props) {
   const { logo2, place, app, image11, connect, wallet, privateKey, save } = props;
   const { activate } = useWeb3React();
