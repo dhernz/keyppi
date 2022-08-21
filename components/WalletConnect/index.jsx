@@ -3,10 +3,16 @@ import { Link } from "react-router-dom";
 import Header from "../Header";
 import "./WalletConnect.css";
 import {WorldIDWidget} from "@worldcoin/id";
+import { connectors } from "../../utils/connectors"
+import { useWeb3React } from '@web3-react/core'
 
 function WalletConnect(props) {
   const { logo2, connect, wallet, email, privateKey, save, image11 } = props;
-  const actionId = process.env.WORLD_ID_ACTION_RETRIEVE_KEY
+  const actionId = process.env.WORLD_ID_ACTION_CREATED_WALLET
+  const { activate } = useWeb3React();
+  const handleConnect = () => {
+    activate(connectors.walletConnect)
+  }
   return (
     <div className="container-center-horizontal">
       <div className="wallet-connect screen">
@@ -19,13 +25,15 @@ function WalletConnect(props) {
         <div className="overlap-group3">
           <div className="overlap-group1-3 border-3-5px-black">
             <div className="overlap-group-3 border-3-5px-black">
-              <div className="connect-1 spacemono-bold-black-35px">{connect}</div>
+            <button onClick={handleConnect}>
+              <div className="connect spacemono-bold-black-35px">{connect}</div>
+            </button>
             </div>
             <div>
               <br></br>
             <WorldIDWidget
           actionId={actionId}
-          signal="retrieve_key"
+          signal="created_wallet"
           enableTelemetry
           onSuccess={(verificationResponse) =>
             console.log(verificationResponse)
@@ -35,11 +43,11 @@ function WalletConnect(props) {
             </div>
 
             <div className="wallet-1 spacemono-normal-black-30px">{wallet}</div>
-            <div className="rectangle-4-2 border-3-5px-black"></div>
+            <input className="rectangle-4-2 border-3-5px-black"></input>
             <div className="overlap-group1-item-1 spacemono-normal-black-30px">{email}</div>
-            <div className="rectangle-5 border-3-5px-black"></div>
+            <input className="rectangle-5 border-3-5px-black"></input>
             <div className="overlap-group1-item-1 spacemono-normal-black-30px">{privateKey}</div>
-            <div className="rectangle-5 border-3-5px-black"></div>
+            <input className="rectangle-5 border-3-5px-black"></input>
             <div className="overlap-group2-1">
               <div className="rectangle-2-4"></div>
               <a href="javascript:ShowOverlay('loading', 'animate-appear');">
