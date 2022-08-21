@@ -1,18 +1,12 @@
 node_modules
 .DS_Store
 .env
+dist/
 .parcel-cache
-dist
-
-
 node_modules
-.env
-coverage
-coverage.json
-typechain
-typechain-types
+coverage*
+typechain*
 
 #Hardhat files
 cache
 artifacts
-
