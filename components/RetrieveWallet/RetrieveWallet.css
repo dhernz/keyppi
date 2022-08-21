@@ -1,0 +1,86 @@
+.retrieve-wallet {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 1164px;
+  padding: 68px 95px;
+  width: 1512px;
+}
+
+.flex-row-4 {
+  align-items: center;
+  display: flex;
+  min-width: 1279px;
+  position: relative;
+}
+
+.logo-2-4 {
+  cursor: pointer;
+  height: 74px;
+  object-fit: cover;
+  width: 327px;
+}
+
+.group-2-1 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 624px;
+  margin-left: 2.0px;
+  margin-top: 89px;
+  min-width: 464px;
+}
+
+.overlap-group1-5 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 624px;
+  padding: 47.5px 48.5px;
+  width: 462px;
+}
+
+.image-12 {
+  align-self: center;
+  height: 142px;
+  margin-right: 8.0px;
+  width: 155px;
+}
+
+.overlap-group-4 {
+  align-items: flex-start;
+  align-self: center;
+  background-color: var(--white);
+  display: flex;
+  height: 58px;
+  margin-right: 7.31px;
+  margin-top: 50px;
+  min-width: 234px;
+  padding: 0 32.5px;
+}
+
+.login {
+  letter-spacing: 0;
+  margin-top: -3.5px;
+  min-height: 39px;
+  text-align: center;
+  width: 162px;
+}
+
+.private-key-1 {
+  letter-spacing: 0;
+  margin-left: 1.43px;
+  margin-top: 119px;
+  min-height: 30px;
+  width: 304px;
+}
+
+.rectangle-5-1 {
+  background-color: var(--white);
+  height: 44px;
+  margin-top: 24px;
+  width: 359px;
+}
+
