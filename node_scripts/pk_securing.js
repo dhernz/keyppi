@@ -147,11 +147,8 @@ SCATTER/SPLIT/SPLASH THE PK INTO THE UNRECOGNIZABLE AND DISTRIBUTED METAVERSE
 // Se rompe en caso que algún L resulte ser un número primo. 
 function split_protected_pk(protected_pks /*string[]*/) {
 
-    // let L = [] // Int[]
-    // let chosen_divisors = [] // Int[]
     let splitted_pks_sets = [] // string[][]
     protected_pks.forEach(pk => {
-        // L.push(pk.length)
         divisors_of_L = get_divisors(pk.length)
         chosen_divisor = divisors_of_L[Math.floor(Math.random() * divisors_of_L.length)]
         splitted_pks_sets.push(split_string(pk, chosen_divisor))
