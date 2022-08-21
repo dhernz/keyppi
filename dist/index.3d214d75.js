@@ -2932,7 +2932,7 @@ function getLibrary(provider) {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./globals.css":"54n8M","./styleguide.css":"7C4k8","./App":"ifStX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@web3-react/core":"lfDuP","@ethersproject/providers":"bErvj"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./globals.css":"54n8M","./styleguide.css":"7C4k8","./App":"ifStX","@web3-react/core":"lfDuP","@ethersproject/providers":"bErvj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -27264,7 +27264,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./App.css":"7g3a6","react":"21dqq","react-router-dom":"cHIiW","./components/ConnectWallets":"3UUYm","./components/ConnectWallets2":"haVEI","./components/Home":"adc89","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@web3-react/walletlink-connector":"jrUeq","@web3-react/injected-connector":"5F53w","@web3-react/core":"lfDuP","@web3-react/walletconnect-connector":"kQ3v6","dotenv":"lErsX","./components/WorldIDCreatedWallet":"6h1ge","./components/WorldIDRetrieveKey":"7Esol"}],"7g3a6":[function() {},{}],"cHIiW":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./App.css":"7g3a6","react":"21dqq","react-router-dom":"cHIiW","./components/ConnectWallets":"3UUYm","./components/ConnectWallets2":"haVEI","./components/WorldIDCreatedWallet":"6h1ge","./components/WorldIDRetrieveKey":"7Esol","./components/Home":"adc89","@web3-react/walletlink-connector":"jrUeq","@web3-react/walletconnect-connector":"kQ3v6","@web3-react/injected-connector":"5F53w","@web3-react/core":"lfDuP","dotenv":"lErsX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7g3a6":[function() {},{}],"cHIiW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>(0, _reactRouter.MemoryRouter));
@@ -30805,7 +30805,7 @@ $RefreshReg$(_c, "ConnectWallets2");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./ConnectWallets2.css":"MGbDI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@web3-react/core":"lfDuP"}],"MGbDI":[function() {},{}],"lfDuP":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./ConnectWallets2.css":"MGbDI","@web3-react/core":"lfDuP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"MGbDI":[function() {},{}],"lfDuP":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "PRIMARY_KEY", ()=>PRIMARY_KEY);
@@ -32567,1930 +32567,7 @@ var process = require("process");
     }
 })();
 
-},{"process":"d5jf4"}],"adc89":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$990b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$990b.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _homeCss = require("./Home.css");
-function Home(props) {
-    const { logo1 , place , app , spanText1 , spanText2 , joinUs  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "home screen",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex-row-2",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "logo-1",
-                            src: logo1
-                        }, void 0, false, {
-                            fileName: "components/Home/index.jsx",
-                            lineNumber: 14,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "place-2 spacemono-bold-black-35px",
-                            children: place
-                        }, void 0, false, {
-                            fileName: "components/Home/index.jsx",
-                            lineNumber: 15,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/connect-wallets-1",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "app-2 spacemono-bold-black-35px",
-                                children: app
-                            }, void 0, false, {
-                                fileName: "components/Home/index.jsx",
-                                lineNumber: 17,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Home/index.jsx",
-                            lineNumber: 16,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Home/index.jsx",
-                    lineNumber: 13,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    className: "forget-about-managin",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                            className: "span0",
-                            children: spanText1
-                        }, void 0, false, {
-                            fileName: "components/Home/index.jsx",
-                            lineNumber: 21,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                            className: "span1",
-                            children: spanText2
-                        }, void 0, false, {
-                            fileName: "components/Home/index.jsx",
-                            lineNumber: 22,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Home/index.jsx",
-                    lineNumber: 20,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group-1",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/connect-wallets-1",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "rectangle-1"
-                            }, void 0, false, {
-                                fileName: "components/Home/index.jsx",
-                                lineNumber: 26,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Home/index.jsx",
-                            lineNumber: 25,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "join-us",
-                            children: joinUs
-                        }, void 0, false, {
-                            fileName: "components/Home/index.jsx",
-                            lineNumber: 28,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Home/index.jsx",
-                    lineNumber: 24,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "components/Home/index.jsx",
-            lineNumber: 12,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/Home/index.jsx",
-        lineNumber: 11,
-        columnNumber: 5
-    }, this);
-}
-_c = Home;
-exports.default = Home;
-var _c;
-$RefreshReg$(_c, "Home");
-
-  $parcel$ReactRefreshHelpers$990b.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./Home.css":"8jqc7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8jqc7":[function() {},{}],"jrUeq":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "WalletLinkConnector", ()=>WalletLinkConnector);
-var _abstractConnector = require("@web3-react/abstract-connector");
-function _extends() {
-    _extends = Object.assign || function(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
-        }
-        return target;
-    };
-    return _extends.apply(this, arguments);
-}
-function _inheritsLoose(subClass, superClass) {
-    subClass.prototype = Object.create(superClass.prototype);
-    subClass.prototype.constructor = subClass;
-    _setPrototypeOf(subClass, superClass);
-}
-function _setPrototypeOf(o, p) {
-    _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
-        o.__proto__ = p;
-        return o;
-    };
-    return _setPrototypeOf(o, p);
-}
-function _assertThisInitialized(self) {
-    if (self === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-    return self;
-}
-var CHAIN_ID = 1;
-var WalletLinkConnector = /*#__PURE__*/ function(_AbstractConnector) {
-    _inheritsLoose(WalletLinkConnector, _AbstractConnector);
-    function WalletLinkConnector(_ref) {
-        var _this;
-        var url = _ref.url, appName = _ref.appName, appLogoUrl = _ref.appLogoUrl, darkMode = _ref.darkMode, supportedChainIds = _ref.supportedChainIds;
-        _this = _AbstractConnector.call(this, {
-            supportedChainIds: supportedChainIds
-        }) || this;
-        _this.url = url;
-        _this.appName = appName;
-        _this.appLogoUrl = appLogoUrl;
-        _this.darkMode = darkMode || false;
-        _this.handleChainChanged = _this.handleChainChanged.bind(_assertThisInitialized(_this));
-        _this.handleAccountsChanged = _this.handleAccountsChanged.bind(_assertThisInitialized(_this));
-        return _this;
-    }
-    var _proto = WalletLinkConnector.prototype;
-    _proto.activate = function activate() {
-        try {
-            var _this3 = this;
-            var _temp4 = function _temp4() {
-                return Promise.resolve(_this3.provider.request({
-                    method: "eth_requestAccounts"
-                })).then(function(accounts) {
-                    var account = accounts[0];
-                    _this3.provider.on("chainChanged", _this3.handleChainChanged);
-                    _this3.provider.on("accountsChanged", _this3.handleAccountsChanged);
-                    return {
-                        provider: _this3.provider,
-                        account: account
-                    };
-                });
-            };
-            var _temp5 = function() {
-                if (window.ethereum && window.ethereum.isCoinbaseWallet === true) // user is in the dapp browser on Coinbase Wallet
-                _this3.provider = window.ethereum;
-                else {
-                    var _temp6 = function() {
-                        if (!_this3.walletLink) return Promise.resolve(require("dbf99012dfcc3678").then(function(m) {
-                            var _m$default;
-                            return (_m$default = m == null ? void 0 : m["default"]) != null ? _m$default : m;
-                        })).then(function(CoinbaseWalletSDK) {
-                            _this3.walletLink = new CoinbaseWalletSDK(_extends({
-                                appName: _this3.appName,
-                                darkMode: _this3.darkMode
-                            }, _this3.appLogoUrl ? {
-                                appLogoUrl: _this3.appLogoUrl
-                            } : {}));
-                            _this3.provider = _this3.walletLink.makeWeb3Provider(_this3.url, CHAIN_ID);
-                        });
-                    }();
-                    if (_temp6 && _temp6.then) return _temp6.then(function() {});
-                }
-            }();
-            // @ts-ignore
-            return Promise.resolve(_temp5 && _temp5.then ? _temp5.then(_temp4) : _temp4(_temp5));
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.getProvider = function getProvider() {
-        try {
-            var _this5 = this;
-            return Promise.resolve(_this5.provider);
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.getChainId = function getChainId() {
-        try {
-            var _this7 = this;
-            return Promise.resolve(_this7.provider.chainId);
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.getAccount = function getAccount() {
-        try {
-            var _this9 = this;
-            return Promise.resolve(_this9.provider.request({
-                method: "eth_requestAccounts"
-            })).then(function(accounts) {
-                return accounts[0];
-            });
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.deactivate = function deactivate() {
-        this.provider.removeListener("chainChanged", this.handleChainChanged);
-        this.provider.removeListener("accountsChanged", this.handleAccountsChanged);
-    };
-    _proto.close = function close() {
-        try {
-            var _this11 = this;
-            _this11.provider.close();
-            _this11.emitDeactivate();
-            return Promise.resolve();
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.handleChainChanged = function handleChainChanged(chainId) {
-        console.log("Handling 'chainChanged' event with payload", chainId);
-        this.emitUpdate({
-            chainId: chainId
-        });
-    };
-    _proto.handleAccountsChanged = function handleAccountsChanged(accounts) {
-        console.log("Handling 'accountsChanged' event with payload", accounts);
-        this.emitUpdate({
-            account: accounts[0]
-        });
-    };
-    return WalletLinkConnector;
-}((0, _abstractConnector.AbstractConnector));
-
-},{"@web3-react/abstract-connector":"gkcsn","dbf99012dfcc3678":"iZshs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkcsn":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "AbstractConnector", ()=>AbstractConnector);
-var _events = require("events");
-var _types = require("@web3-react/types");
-function _inheritsLoose(subClass, superClass) {
-    subClass.prototype = Object.create(superClass.prototype);
-    subClass.prototype.constructor = subClass;
-    subClass.__proto__ = superClass;
-}
-var AbstractConnector = /*#__PURE__*/ function(_EventEmitter) {
-    _inheritsLoose(AbstractConnector, _EventEmitter);
-    function AbstractConnector(_temp) {
-        var _this;
-        var _ref = _temp === void 0 ? {} : _temp, supportedChainIds = _ref.supportedChainIds;
-        _this = _EventEmitter.call(this) || this;
-        _this.supportedChainIds = supportedChainIds;
-        return _this;
-    }
-    var _proto = AbstractConnector.prototype;
-    _proto.emitUpdate = function emitUpdate(update) {
-        console.log("Emitting '" + (0, _types.ConnectorEvent).Update + "' with payload", update);
-        this.emit((0, _types.ConnectorEvent).Update, update);
-    };
-    _proto.emitError = function emitError(error) {
-        console.log("Emitting '" + (0, _types.ConnectorEvent).Error + "' with payload", error);
-        this.emit((0, _types.ConnectorEvent).Error, error);
-    };
-    _proto.emitDeactivate = function emitDeactivate() {
-        console.log("Emitting '" + (0, _types.ConnectorEvent).Deactivate + "'");
-        this.emit((0, _types.ConnectorEvent).Deactivate);
-    };
-    return AbstractConnector;
-}((0, _events.EventEmitter));
-
-},{"events":"1VQLm","@web3-react/types":"5JR8V","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1VQLm":[function(require,module,exports) {
-// Copyright Joyent, Inc. and other Node contributors.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a
-// copy of this software and associated documentation files (the
-// "Software"), to deal in the Software without restriction, including
-// without limitation the rights to use, copy, modify, merge, publish,
-// distribute, sublicense, and/or sell copies of the Software, and to permit
-// persons to whom the Software is furnished to do so, subject to the
-// following conditions:
-//
-// The above copyright notice and this permission notice shall be included
-// in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-// USE OR OTHER DEALINGS IN THE SOFTWARE.
-"use strict";
-var R = typeof Reflect === "object" ? Reflect : null;
-var ReflectApply = R && typeof R.apply === "function" ? R.apply : function ReflectApply(target, receiver, args) {
-    return Function.prototype.apply.call(target, receiver, args);
-};
-var ReflectOwnKeys;
-if (R && typeof R.ownKeys === "function") ReflectOwnKeys = R.ownKeys;
-else if (Object.getOwnPropertySymbols) ReflectOwnKeys = function ReflectOwnKeys(target) {
-    return Object.getOwnPropertyNames(target).concat(Object.getOwnPropertySymbols(target));
-};
-else ReflectOwnKeys = function ReflectOwnKeys(target) {
-    return Object.getOwnPropertyNames(target);
-};
-function ProcessEmitWarning(warning) {
-    if (console && console.warn) console.warn(warning);
-}
-var NumberIsNaN = Number.isNaN || function NumberIsNaN(value) {
-    return value !== value;
-};
-function EventEmitter() {
-    EventEmitter.init.call(this);
-}
-module.exports = EventEmitter;
-module.exports.once = once;
-// Backwards-compat with node 0.10.x
-EventEmitter.EventEmitter = EventEmitter;
-EventEmitter.prototype._events = undefined;
-EventEmitter.prototype._eventsCount = 0;
-EventEmitter.prototype._maxListeners = undefined;
-// By default EventEmitters will print a warning if more than 10 listeners are
-// added to it. This is a useful default which helps finding memory leaks.
-var defaultMaxListeners = 10;
-function checkListener(listener) {
-    if (typeof listener !== "function") throw new TypeError('The "listener" argument must be of type Function. Received type ' + typeof listener);
-}
-Object.defineProperty(EventEmitter, "defaultMaxListeners", {
-    enumerable: true,
-    get: function() {
-        return defaultMaxListeners;
-    },
-    set: function(arg) {
-        if (typeof arg !== "number" || arg < 0 || NumberIsNaN(arg)) throw new RangeError('The value of "defaultMaxListeners" is out of range. It must be a non-negative number. Received ' + arg + ".");
-        defaultMaxListeners = arg;
-    }
-});
-EventEmitter.init = function() {
-    if (this._events === undefined || this._events === Object.getPrototypeOf(this)._events) {
-        this._events = Object.create(null);
-        this._eventsCount = 0;
-    }
-    this._maxListeners = this._maxListeners || undefined;
-};
-// Obviously not all Emitters should be limited to 10. This function allows
-// that to be increased. Set to zero for unlimited.
-EventEmitter.prototype.setMaxListeners = function setMaxListeners(n) {
-    if (typeof n !== "number" || n < 0 || NumberIsNaN(n)) throw new RangeError('The value of "n" is out of range. It must be a non-negative number. Received ' + n + ".");
-    this._maxListeners = n;
-    return this;
-};
-function _getMaxListeners(that) {
-    if (that._maxListeners === undefined) return EventEmitter.defaultMaxListeners;
-    return that._maxListeners;
-}
-EventEmitter.prototype.getMaxListeners = function getMaxListeners() {
-    return _getMaxListeners(this);
-};
-EventEmitter.prototype.emit = function emit(type) {
-    var args = [];
-    for(var i = 1; i < arguments.length; i++)args.push(arguments[i]);
-    var doError = type === "error";
-    var events = this._events;
-    if (events !== undefined) doError = doError && events.error === undefined;
-    else if (!doError) return false;
-    // If there is no 'error' event listener then throw.
-    if (doError) {
-        var er;
-        if (args.length > 0) er = args[0];
-        if (er instanceof Error) // Note: The comments on the `throw` lines are intentional, they show
-        // up in Node's output if this results in an unhandled exception.
-        throw er; // Unhandled 'error' event
-        // At least give some kind of context to the user
-        var err = new Error("Unhandled error." + (er ? " (" + er.message + ")" : ""));
-        err.context = er;
-        throw err; // Unhandled 'error' event
-    }
-    var handler = events[type];
-    if (handler === undefined) return false;
-    if (typeof handler === "function") ReflectApply(handler, this, args);
-    else {
-        var len = handler.length;
-        var listeners = arrayClone(handler, len);
-        for(var i = 0; i < len; ++i)ReflectApply(listeners[i], this, args);
-    }
-    return true;
-};
-function _addListener(target, type, listener, prepend) {
-    var m;
-    var events;
-    var existing;
-    checkListener(listener);
-    events = target._events;
-    if (events === undefined) {
-        events = target._events = Object.create(null);
-        target._eventsCount = 0;
-    } else {
-        // To avoid recursion in the case that type === "newListener"! Before
-        // adding it to the listeners, first emit "newListener".
-        if (events.newListener !== undefined) {
-            target.emit("newListener", type, listener.listener ? listener.listener : listener);
-            // Re-assign `events` because a newListener handler could have caused the
-            // this._events to be assigned to a new object
-            events = target._events;
-        }
-        existing = events[type];
-    }
-    if (existing === undefined) {
-        // Optimize the case of one listener. Don't need the extra array object.
-        existing = events[type] = listener;
-        ++target._eventsCount;
-    } else {
-        if (typeof existing === "function") // Adding the second element, need to change to array.
-        existing = events[type] = prepend ? [
-            listener,
-            existing
-        ] : [
-            existing,
-            listener
-        ];
-        else if (prepend) existing.unshift(listener);
-        else existing.push(listener);
-        // Check for listener leak
-        m = _getMaxListeners(target);
-        if (m > 0 && existing.length > m && !existing.warned) {
-            existing.warned = true;
-            // No error code for this since it is a Warning
-            // eslint-disable-next-line no-restricted-syntax
-            var w = new Error("Possible EventEmitter memory leak detected. " + existing.length + " " + String(type) + " listeners " + "added. Use emitter.setMaxListeners() to " + "increase limit");
-            w.name = "MaxListenersExceededWarning";
-            w.emitter = target;
-            w.type = type;
-            w.count = existing.length;
-            ProcessEmitWarning(w);
-        }
-    }
-    return target;
-}
-EventEmitter.prototype.addListener = function addListener(type, listener) {
-    return _addListener(this, type, listener, false);
-};
-EventEmitter.prototype.on = EventEmitter.prototype.addListener;
-EventEmitter.prototype.prependListener = function prependListener(type, listener) {
-    return _addListener(this, type, listener, true);
-};
-function onceWrapper() {
-    if (!this.fired) {
-        this.target.removeListener(this.type, this.wrapFn);
-        this.fired = true;
-        if (arguments.length === 0) return this.listener.call(this.target);
-        return this.listener.apply(this.target, arguments);
-    }
-}
-function _onceWrap(target, type, listener) {
-    var state = {
-        fired: false,
-        wrapFn: undefined,
-        target: target,
-        type: type,
-        listener: listener
-    };
-    var wrapped = onceWrapper.bind(state);
-    wrapped.listener = listener;
-    state.wrapFn = wrapped;
-    return wrapped;
-}
-EventEmitter.prototype.once = function once(type, listener) {
-    checkListener(listener);
-    this.on(type, _onceWrap(this, type, listener));
-    return this;
-};
-EventEmitter.prototype.prependOnceListener = function prependOnceListener(type, listener) {
-    checkListener(listener);
-    this.prependListener(type, _onceWrap(this, type, listener));
-    return this;
-};
-// Emits a 'removeListener' event if and only if the listener was removed.
-EventEmitter.prototype.removeListener = function removeListener(type, listener) {
-    var list, events, position, i, originalListener;
-    checkListener(listener);
-    events = this._events;
-    if (events === undefined) return this;
-    list = events[type];
-    if (list === undefined) return this;
-    if (list === listener || list.listener === listener) {
-        if (--this._eventsCount === 0) this._events = Object.create(null);
-        else {
-            delete events[type];
-            if (events.removeListener) this.emit("removeListener", type, list.listener || listener);
-        }
-    } else if (typeof list !== "function") {
-        position = -1;
-        for(i = list.length - 1; i >= 0; i--)if (list[i] === listener || list[i].listener === listener) {
-            originalListener = list[i].listener;
-            position = i;
-            break;
-        }
-        if (position < 0) return this;
-        if (position === 0) list.shift();
-        else spliceOne(list, position);
-        if (list.length === 1) events[type] = list[0];
-        if (events.removeListener !== undefined) this.emit("removeListener", type, originalListener || listener);
-    }
-    return this;
-};
-EventEmitter.prototype.off = EventEmitter.prototype.removeListener;
-EventEmitter.prototype.removeAllListeners = function removeAllListeners(type) {
-    var listeners, events, i;
-    events = this._events;
-    if (events === undefined) return this;
-    // not listening for removeListener, no need to emit
-    if (events.removeListener === undefined) {
-        if (arguments.length === 0) {
-            this._events = Object.create(null);
-            this._eventsCount = 0;
-        } else if (events[type] !== undefined) {
-            if (--this._eventsCount === 0) this._events = Object.create(null);
-            else delete events[type];
-        }
-        return this;
-    }
-    // emit removeListener for all listeners on all events
-    if (arguments.length === 0) {
-        var keys = Object.keys(events);
-        var key;
-        for(i = 0; i < keys.length; ++i){
-            key = keys[i];
-            if (key === "removeListener") continue;
-            this.removeAllListeners(key);
-        }
-        this.removeAllListeners("removeListener");
-        this._events = Object.create(null);
-        this._eventsCount = 0;
-        return this;
-    }
-    listeners = events[type];
-    if (typeof listeners === "function") this.removeListener(type, listeners);
-    else if (listeners !== undefined) // LIFO order
-    for(i = listeners.length - 1; i >= 0; i--)this.removeListener(type, listeners[i]);
-    return this;
-};
-function _listeners(target, type, unwrap) {
-    var events = target._events;
-    if (events === undefined) return [];
-    var evlistener = events[type];
-    if (evlistener === undefined) return [];
-    if (typeof evlistener === "function") return unwrap ? [
-        evlistener.listener || evlistener
-    ] : [
-        evlistener
-    ];
-    return unwrap ? unwrapListeners(evlistener) : arrayClone(evlistener, evlistener.length);
-}
-EventEmitter.prototype.listeners = function listeners(type) {
-    return _listeners(this, type, true);
-};
-EventEmitter.prototype.rawListeners = function rawListeners(type) {
-    return _listeners(this, type, false);
-};
-EventEmitter.listenerCount = function(emitter, type) {
-    if (typeof emitter.listenerCount === "function") return emitter.listenerCount(type);
-    else return listenerCount.call(emitter, type);
-};
-EventEmitter.prototype.listenerCount = listenerCount;
-function listenerCount(type) {
-    var events = this._events;
-    if (events !== undefined) {
-        var evlistener = events[type];
-        if (typeof evlistener === "function") return 1;
-        else if (evlistener !== undefined) return evlistener.length;
-    }
-    return 0;
-}
-EventEmitter.prototype.eventNames = function eventNames() {
-    return this._eventsCount > 0 ? ReflectOwnKeys(this._events) : [];
-};
-function arrayClone(arr, n) {
-    var copy = new Array(n);
-    for(var i = 0; i < n; ++i)copy[i] = arr[i];
-    return copy;
-}
-function spliceOne(list, index) {
-    for(; index + 1 < list.length; index++)list[index] = list[index + 1];
-    list.pop();
-}
-function unwrapListeners(arr) {
-    var ret = new Array(arr.length);
-    for(var i = 0; i < ret.length; ++i)ret[i] = arr[i].listener || arr[i];
-    return ret;
-}
-function once(emitter, name) {
-    return new Promise(function(resolve, reject) {
-        function errorListener(err) {
-            emitter.removeListener(name, resolver);
-            reject(err);
-        }
-        function resolver() {
-            if (typeof emitter.removeListener === "function") emitter.removeListener("error", errorListener);
-            resolve([].slice.call(arguments));
-        }
-        eventTargetAgnosticAddListener(emitter, name, resolver, {
-            once: true
-        });
-        if (name !== "error") addErrorHandlerIfEventEmitter(emitter, errorListener, {
-            once: true
-        });
-    });
-}
-function addErrorHandlerIfEventEmitter(emitter, handler, flags) {
-    if (typeof emitter.on === "function") eventTargetAgnosticAddListener(emitter, "error", handler, flags);
-}
-function eventTargetAgnosticAddListener(emitter, name, listener, flags) {
-    if (typeof emitter.on === "function") {
-        if (flags.once) emitter.once(name, listener);
-        else emitter.on(name, listener);
-    } else if (typeof emitter.addEventListener === "function") // EventTarget does not have `error` event semantics like Node
-    // EventEmitters, we do not listen for `error` events here.
-    emitter.addEventListener(name, function wrapListener(arg) {
-        // IE does not have builtin `{ once: true }` support so we
-        // have to do it manually.
-        if (flags.once) emitter.removeEventListener(name, wrapListener);
-        listener(arg);
-    });
-    else throw new TypeError('The "emitter" argument must be of type EventEmitter. Received type ' + typeof emitter);
-}
-
-},{}],"iZshs":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require("./helpers/bundle-url").getBundleURL("UckoE") + "dist.19f72db1.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root("2gE0L"));
-
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"61B45":[function(require,module,exports) {
-"use strict";
-var cacheLoader = require("../cacheLoader");
-module.exports = cacheLoader(function(bundle) {
-    return new Promise(function(resolve, reject) {
-        // Don't insert the same script twice (e.g. if it was already in the HTML)
-        var existingScripts = document.getElementsByTagName("script");
-        if ([].concat(existingScripts).some(function isCurrentBundle(script) {
-            return script.src === bundle;
-        })) {
-            resolve();
-            return;
-        }
-        var preloadLink = document.createElement("link");
-        preloadLink.href = bundle;
-        preloadLink.rel = "preload";
-        preloadLink.as = "script";
-        document.head.appendChild(preloadLink);
-        var script = document.createElement("script");
-        script.async = true;
-        script.type = "text/javascript";
-        script.src = bundle;
-        script.onerror = function(e) {
-            var error = new TypeError("Failed to fetch dynamically imported module: ".concat(bundle, ". Error: ").concat(e.message));
-            script.onerror = script.onload = null;
-            script.remove();
-            reject(error);
-        };
-        script.onload = function() {
-            script.onerror = script.onload = null;
-            resolve();
-        };
-        document.getElementsByTagName("head")[0].appendChild(script);
-    });
-});
-
-},{"../cacheLoader":"j49pS"}],"j49pS":[function(require,module,exports) {
-"use strict";
-var cachedBundles = {};
-var cachedPreloads = {};
-var cachedPrefetches = {};
-function getCache(type) {
-    switch(type){
-        case "preload":
-            return cachedPreloads;
-        case "prefetch":
-            return cachedPrefetches;
-        default:
-            return cachedBundles;
-    }
-}
-module.exports = function(loader, type) {
-    return function(bundle) {
-        var cache = getCache(type);
-        if (cache[bundle]) return cache[bundle];
-        return cache[bundle] = loader.apply(null, arguments).catch(function(e) {
-            delete cache[bundle];
-            throw e;
-        });
-    };
-};
-
-},{}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"5F53w":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "InjectedConnector", ()=>InjectedConnector);
-parcelHelpers.export(exports, "NoEthereumProviderError", ()=>NoEthereumProviderError);
-parcelHelpers.export(exports, "UserRejectedRequestError", ()=>UserRejectedRequestError);
-var _abstractConnector = require("@web3-react/abstract-connector");
-var _tinyWarning = require("tiny-warning");
-var _tinyWarningDefault = parcelHelpers.interopDefault(_tinyWarning);
-function _extends() {
-    _extends = Object.assign || function(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
-        }
-        return target;
-    };
-    return _extends.apply(this, arguments);
-}
-function _inheritsLoose(subClass, superClass) {
-    subClass.prototype = Object.create(superClass.prototype);
-    subClass.prototype.constructor = subClass;
-    subClass.__proto__ = superClass;
-}
-function _getPrototypeOf(o) {
-    _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
-        return o.__proto__ || Object.getPrototypeOf(o);
-    };
-    return _getPrototypeOf(o);
-}
-function _setPrototypeOf(o, p) {
-    _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
-        o.__proto__ = p;
-        return o;
-    };
-    return _setPrototypeOf(o, p);
-}
-function isNativeReflectConstruct() {
-    if (typeof Reflect === "undefined" || !Reflect.construct) return false;
-    if (Reflect.construct.sham) return false;
-    if (typeof Proxy === "function") return true;
-    try {
-        Date.prototype.toString.call(Reflect.construct(Date, [], function() {}));
-        return true;
-    } catch (e) {
-        return false;
-    }
-}
-function _construct(Parent, args, Class) {
-    if (isNativeReflectConstruct()) _construct = Reflect.construct;
-    else _construct = function _construct(Parent, args, Class) {
-        var a = [
-            null
-        ];
-        a.push.apply(a, args);
-        var Constructor = Function.bind.apply(Parent, a);
-        var instance = new Constructor();
-        if (Class) _setPrototypeOf(instance, Class.prototype);
-        return instance;
-    };
-    return _construct.apply(null, arguments);
-}
-function _isNativeFunction(fn) {
-    return Function.toString.call(fn).indexOf("[native code]") !== -1;
-}
-function _wrapNativeSuper(Class) {
-    var _cache = typeof Map === "function" ? new Map() : undefined;
-    _wrapNativeSuper = function _wrapNativeSuper(Class) {
-        if (Class === null || !_isNativeFunction(Class)) return Class;
-        if (typeof Class !== "function") throw new TypeError("Super expression must either be null or a function");
-        if (typeof _cache !== "undefined") {
-            if (_cache.has(Class)) return _cache.get(Class);
-            _cache.set(Class, Wrapper);
-        }
-        function Wrapper() {
-            return _construct(Class, arguments, _getPrototypeOf(this).constructor);
-        }
-        Wrapper.prototype = Object.create(Class.prototype, {
-            constructor: {
-                value: Wrapper,
-                enumerable: false,
-                writable: true,
-                configurable: true
-            }
-        });
-        return _setPrototypeOf(Wrapper, Class);
-    };
-    return _wrapNativeSuper(Class);
-}
-function _assertThisInitialized(self) {
-    if (self === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-    return self;
-}
-// A type of promise-like that resolves synchronously and supports only one observer
-var _iteratorSymbol = /*#__PURE__*/ typeof Symbol !== "undefined" ? Symbol.iterator || (Symbol.iterator = /*#__PURE__*/ Symbol("Symbol.iterator")) : "@@iterator"; // Asynchronously iterate through an object's values
-var _asyncIteratorSymbol = /*#__PURE__*/ typeof Symbol !== "undefined" ? Symbol.asyncIterator || (Symbol.asyncIterator = /*#__PURE__*/ Symbol("Symbol.asyncIterator")) : "@@asyncIterator"; // Asynchronously iterate on a value using it's async iterator if present, or its synchronous iterator if missing
-function _catch(body, recover) {
-    try {
-        var result = body();
-    } catch (e) {
-        return recover(e);
-    }
-    if (result && result.then) return result.then(void 0, recover);
-    return result;
-} // Asynchronously await a promise and pass the result to a finally continuation
-function parseSendReturn(sendReturn) {
-    return sendReturn.hasOwnProperty("result") ? sendReturn.result : sendReturn;
-}
-var NoEthereumProviderError = /*#__PURE__*/ function(_Error) {
-    _inheritsLoose(NoEthereumProviderError, _Error);
-    function NoEthereumProviderError() {
-        var _this;
-        _this = _Error.call(this) || this;
-        _this.name = _this.constructor.name;
-        _this.message = "No Ethereum provider was found on window.ethereum.";
-        return _this;
-    }
-    return NoEthereumProviderError;
-}(/*#__PURE__*/ _wrapNativeSuper(Error));
-var UserRejectedRequestError = /*#__PURE__*/ function(_Error2) {
-    _inheritsLoose(UserRejectedRequestError, _Error2);
-    function UserRejectedRequestError() {
-        var _this2;
-        _this2 = _Error2.call(this) || this;
-        _this2.name = _this2.constructor.name;
-        _this2.message = "The user rejected the request.";
-        return _this2;
-    }
-    return UserRejectedRequestError;
-}(/*#__PURE__*/ _wrapNativeSuper(Error));
-var InjectedConnector = /*#__PURE__*/ function(_AbstractConnector) {
-    _inheritsLoose(InjectedConnector, _AbstractConnector);
-    function InjectedConnector(kwargs) {
-        var _this3;
-        _this3 = _AbstractConnector.call(this, kwargs) || this;
-        _this3.handleNetworkChanged = _this3.handleNetworkChanged.bind(_assertThisInitialized(_this3));
-        _this3.handleChainChanged = _this3.handleChainChanged.bind(_assertThisInitialized(_this3));
-        _this3.handleAccountsChanged = _this3.handleAccountsChanged.bind(_assertThisInitialized(_this3));
-        _this3.handleClose = _this3.handleClose.bind(_assertThisInitialized(_this3));
-        return _this3;
-    }
-    var _proto = InjectedConnector.prototype;
-    _proto.handleChainChanged = function handleChainChanged(chainId) {
-        console.log("Handling 'chainChanged' event with payload", chainId);
-        this.emitUpdate({
-            chainId: chainId,
-            provider: window.ethereum
-        });
-    };
-    _proto.handleAccountsChanged = function handleAccountsChanged(accounts) {
-        console.log("Handling 'accountsChanged' event with payload", accounts);
-        if (accounts.length === 0) this.emitDeactivate();
-        else this.emitUpdate({
-            account: accounts[0]
-        });
-    };
-    _proto.handleClose = function handleClose(code, reason) {
-        console.log("Handling 'close' event with payload", code, reason);
-        this.emitDeactivate();
-    };
-    _proto.handleNetworkChanged = function handleNetworkChanged(networkId) {
-        console.log("Handling 'networkChanged' event with payload", networkId);
-        this.emitUpdate({
-            chainId: networkId,
-            provider: window.ethereum
-        });
-    };
-    _proto.activate = function activate() {
-        try {
-            var _temp5 = function _temp5(_result) {
-                if (_exit2) return _result;
-                function _temp2() {
-                    return _extends({
-                        provider: window.ethereum
-                    }, account ? {
-                        account: account
-                    } : {});
-                }
-                var _temp = function() {
-                    if (!account) // if enable is successful but doesn't return accounts, fall back to getAccount (not happy i have to do this...)
-                    return Promise.resolve(window.ethereum.enable().then(function(sendReturn) {
-                        return sendReturn && parseSendReturn(sendReturn)[0];
-                    })).then(function(_window$ethereum$enab) {
-                        account = _window$ethereum$enab;
-                    });
-                }();
-                // if unsuccessful, try enable
-                return _temp && _temp.then ? _temp.then(_temp2) : _temp2(_temp);
-            };
-            var _exit2 = false;
-            var _this5 = this;
-            if (!window.ethereum) throw new NoEthereumProviderError();
-            if (window.ethereum.on) {
-                window.ethereum.on("chainChanged", _this5.handleChainChanged);
-                window.ethereum.on("accountsChanged", _this5.handleAccountsChanged);
-                window.ethereum.on("close", _this5.handleClose);
-                window.ethereum.on("networkChanged", _this5.handleNetworkChanged);
-            }
-            if (window.ethereum.isMetaMask) window.ethereum.autoRefreshOnNetworkChange = false;
-             // try to activate + get account via eth_requestAccounts
-            var account;
-            var _temp6 = _catch(function() {
-                return Promise.resolve(window.ethereum.send("eth_requestAccounts").then(function(sendReturn) {
-                    return parseSendReturn(sendReturn)[0];
-                })).then(function(_window$ethereum$send) {
-                    account = _window$ethereum$send;
-                });
-            }, function(error) {
-                if (error.code === 4001) throw new UserRejectedRequestError();
-                (0, _tinyWarningDefault.default)(false, "eth_requestAccounts was unsuccessful, falling back to enable");
-            });
-            return Promise.resolve(_temp6 && _temp6.then ? _temp6.then(_temp5) : _temp5(_temp6));
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.getProvider = function getProvider() {
-        try {
-            return Promise.resolve(window.ethereum);
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.getChainId = function getChainId() {
-        try {
-            var _temp12 = function _temp12() {
-                function _temp9() {
-                    if (!chainId) try {
-                        chainId = parseSendReturn(window.ethereum.send({
-                            method: "net_version"
-                        }));
-                    } catch (_unused) {
-                        (0, _tinyWarningDefault.default)(false, "net_version v2 was unsuccessful, falling back to manual matches and static properties");
-                    }
-                    if (!chainId) {
-                        if (window.ethereum.isDapper) chainId = parseSendReturn(window.ethereum.cachedResults.net_version);
-                        else chainId = window.ethereum.chainId || window.ethereum.netVersion || window.ethereum.networkVersion || window.ethereum._chainId;
-                    }
-                    return chainId;
-                }
-                var _temp8 = function() {
-                    if (!chainId) {
-                        var _temp14 = _catch(function() {
-                            return Promise.resolve(window.ethereum.send("net_version").then(parseSendReturn)).then(function(_window$ethereum$send3) {
-                                chainId = _window$ethereum$send3;
-                            });
-                        }, function() {
-                            (0, _tinyWarningDefault.default)(false, "net_version was unsuccessful, falling back to net version v2");
-                        });
-                        if (_temp14 && _temp14.then) return _temp14.then(function() {});
-                    }
-                }();
-                return _temp8 && _temp8.then ? _temp8.then(_temp9) : _temp9(_temp8);
-            };
-            if (!window.ethereum) throw new NoEthereumProviderError();
-            var chainId;
-            var _temp13 = _catch(function() {
-                return Promise.resolve(window.ethereum.send("eth_chainId").then(parseSendReturn)).then(function(_window$ethereum$send2) {
-                    chainId = _window$ethereum$send2;
-                });
-            }, function() {
-                (0, _tinyWarningDefault.default)(false, "eth_chainId was unsuccessful, falling back to net_version");
-            });
-            return Promise.resolve(_temp13 && _temp13.then ? _temp13.then(_temp12) : _temp12(_temp13));
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.getAccount = function getAccount() {
-        try {
-            var _temp20 = function _temp20() {
-                function _temp17() {
-                    if (!account) account = parseSendReturn(window.ethereum.send({
-                        method: "eth_accounts"
-                    }))[0];
-                    return account;
-                }
-                var _temp16 = function() {
-                    if (!account) {
-                        var _temp22 = _catch(function() {
-                            return Promise.resolve(window.ethereum.enable().then(function(sendReturn) {
-                                return parseSendReturn(sendReturn)[0];
-                            })).then(function(_window$ethereum$enab2) {
-                                account = _window$ethereum$enab2;
-                            });
-                        }, function() {
-                            (0, _tinyWarningDefault.default)(false, "enable was unsuccessful, falling back to eth_accounts v2");
-                        });
-                        if (_temp22 && _temp22.then) return _temp22.then(function() {});
-                    }
-                }();
-                return _temp16 && _temp16.then ? _temp16.then(_temp17) : _temp17(_temp16);
-            };
-            if (!window.ethereum) throw new NoEthereumProviderError();
-            var account;
-            var _temp21 = _catch(function() {
-                return Promise.resolve(window.ethereum.send("eth_accounts").then(function(sendReturn) {
-                    return parseSendReturn(sendReturn)[0];
-                })).then(function(_window$ethereum$send4) {
-                    account = _window$ethereum$send4;
-                });
-            }, function() {
-                (0, _tinyWarningDefault.default)(false, "eth_accounts was unsuccessful, falling back to enable");
-            });
-            return Promise.resolve(_temp21 && _temp21.then ? _temp21.then(_temp20) : _temp20(_temp21));
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.deactivate = function deactivate() {
-        if (window.ethereum && window.ethereum.removeListener) {
-            window.ethereum.removeListener("chainChanged", this.handleChainChanged);
-            window.ethereum.removeListener("accountsChanged", this.handleAccountsChanged);
-            window.ethereum.removeListener("close", this.handleClose);
-            window.ethereum.removeListener("networkChanged", this.handleNetworkChanged);
-        }
-    };
-    _proto.isAuthorized = function isAuthorized() {
-        try {
-            if (!window.ethereum) return Promise.resolve(false);
-            return Promise.resolve(_catch(function() {
-                return Promise.resolve(window.ethereum.send("eth_accounts").then(function(sendReturn) {
-                    if (parseSendReturn(sendReturn).length > 0) return true;
-                    else return false;
-                }));
-            }, function() {
-                return false;
-            }));
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    return InjectedConnector;
-}((0, _abstractConnector.AbstractConnector));
-
-},{"@web3-react/abstract-connector":"gkcsn","tiny-warning":"82vrW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kQ3v6":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "URI_AVAILABLE", ()=>URI_AVAILABLE);
-parcelHelpers.export(exports, "UserRejectedRequestError", ()=>UserRejectedRequestError);
-parcelHelpers.export(exports, "WalletConnectConnector", ()=>WalletConnectConnector);
-var _abstractConnector = require("@web3-react/abstract-connector");
-function _inheritsLoose(subClass, superClass) {
-    subClass.prototype = Object.create(superClass.prototype);
-    subClass.prototype.constructor = subClass;
-    _setPrototypeOf(subClass, superClass);
-}
-function _getPrototypeOf(o) {
-    _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
-        return o.__proto__ || Object.getPrototypeOf(o);
-    };
-    return _getPrototypeOf(o);
-}
-function _setPrototypeOf(o, p) {
-    _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
-        o.__proto__ = p;
-        return o;
-    };
-    return _setPrototypeOf(o, p);
-}
-function _isNativeReflectConstruct() {
-    if (typeof Reflect === "undefined" || !Reflect.construct) return false;
-    if (Reflect.construct.sham) return false;
-    if (typeof Proxy === "function") return true;
-    try {
-        Date.prototype.toString.call(Reflect.construct(Date, [], function() {}));
-        return true;
-    } catch (e) {
-        return false;
-    }
-}
-function _construct(Parent, args, Class) {
-    if (_isNativeReflectConstruct()) _construct = Reflect.construct;
-    else _construct = function _construct(Parent, args, Class) {
-        var a = [
-            null
-        ];
-        a.push.apply(a, args);
-        var Constructor = Function.bind.apply(Parent, a);
-        var instance = new Constructor();
-        if (Class) _setPrototypeOf(instance, Class.prototype);
-        return instance;
-    };
-    return _construct.apply(null, arguments);
-}
-function _isNativeFunction(fn) {
-    return Function.toString.call(fn).indexOf("[native code]") !== -1;
-}
-function _wrapNativeSuper(Class) {
-    var _cache = typeof Map === "function" ? new Map() : undefined;
-    _wrapNativeSuper = function _wrapNativeSuper(Class) {
-        if (Class === null || !_isNativeFunction(Class)) return Class;
-        if (typeof Class !== "function") throw new TypeError("Super expression must either be null or a function");
-        if (typeof _cache !== "undefined") {
-            if (_cache.has(Class)) return _cache.get(Class);
-            _cache.set(Class, Wrapper);
-        }
-        function Wrapper() {
-            return _construct(Class, arguments, _getPrototypeOf(this).constructor);
-        }
-        Wrapper.prototype = Object.create(Class.prototype, {
-            constructor: {
-                value: Wrapper,
-                enumerable: false,
-                writable: true,
-                configurable: true
-            }
-        });
-        return _setPrototypeOf(Wrapper, Class);
-    };
-    return _wrapNativeSuper(Class);
-}
-function _assertThisInitialized(self) {
-    if (self === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-    return self;
-}
-var URI_AVAILABLE = "URI_AVAILABLE";
-var UserRejectedRequestError = /*#__PURE__*/ function(_Error) {
-    _inheritsLoose(UserRejectedRequestError, _Error);
-    function UserRejectedRequestError() {
-        var _this;
-        _this = _Error.call(this) || this;
-        _this.name = _this.constructor.name;
-        _this.message = "The user rejected the request.";
-        return _this;
-    }
-    return UserRejectedRequestError;
-}(/*#__PURE__*/ _wrapNativeSuper(Error));
-function getSupportedChains(_ref) {
-    var supportedChainIds = _ref.supportedChainIds, rpc = _ref.rpc;
-    if (supportedChainIds) return supportedChainIds;
-    return rpc ? Object.keys(rpc).map(function(k) {
-        return Number(k);
-    }) : undefined;
-}
-var WalletConnectConnector = /*#__PURE__*/ function(_AbstractConnector) {
-    _inheritsLoose(WalletConnectConnector, _AbstractConnector);
-    function WalletConnectConnector(config) {
-        var _this2;
-        _this2 = _AbstractConnector.call(this, {
-            supportedChainIds: getSupportedChains(config)
-        }) || this;
-        _this2.config = config;
-        _this2.handleChainChanged = _this2.handleChainChanged.bind(_assertThisInitialized(_this2));
-        _this2.handleAccountsChanged = _this2.handleAccountsChanged.bind(_assertThisInitialized(_this2));
-        _this2.handleDisconnect = _this2.handleDisconnect.bind(_assertThisInitialized(_this2));
-        return _this2;
-    }
-    var _proto = WalletConnectConnector.prototype;
-    _proto.handleChainChanged = function handleChainChanged(chainId) {
-        console.log("Handling 'chainChanged' event with payload", chainId);
-        this.emitUpdate({
-            chainId: chainId
-        });
-    };
-    _proto.handleAccountsChanged = function handleAccountsChanged(accounts) {
-        console.log("Handling 'accountsChanged' event with payload", accounts);
-        this.emitUpdate({
-            account: accounts[0]
-        });
-    };
-    _proto.handleDisconnect = function handleDisconnect() {
-        console.log("Handling 'disconnect' event");
-        if (this.walletConnectProvider) {
-            this.walletConnectProvider.removeListener("chainChanged", this.handleChainChanged);
-            this.walletConnectProvider.removeListener("accountsChanged", this.handleAccountsChanged);
-            this.walletConnectProvider = undefined;
-        }
-        this.emitDeactivate();
-    };
-    _proto.activate = function activate() {
-        try {
-            var _this4 = this;
-            var _temp5 = function _temp5() {
-                function _temp2() {
-                    var account;
-                    return Promise.resolve(new Promise(function(resolve, reject) {
-                        var userReject = function userReject() {
-                            // Erase the provider manually
-                            _this4.walletConnectProvider = undefined;
-                            reject(new UserRejectedRequestError());
-                        }; // Workaround to bubble up the error when user reject the connection
-                        _this4.walletConnectProvider.connector.on("disconnect", function() {
-                            // Check provider has not been enabled to prevent this event callback from being called in the future
-                            if (!account) userReject();
-                        });
-                        _this4.walletConnectProvider.enable().then(function(accounts) {
-                            return resolve(accounts[0]);
-                        })["catch"](function(error) {
-                            // TODO ideally this would be a better check
-                            if (error.message === "User closed modal") {
-                                userReject();
-                                return;
-                            }
-                            reject(error);
-                        });
-                    })["catch"](function(err) {
-                        throw err;
-                    })).then(function(_Promise$catch) {
-                        account = _Promise$catch;
-                        _this4.walletConnectProvider.on("disconnect", _this4.handleDisconnect);
-                        _this4.walletConnectProvider.on("chainChanged", _this4.handleChainChanged);
-                        _this4.walletConnectProvider.on("accountsChanged", _this4.handleAccountsChanged);
-                        return {
-                            provider: _this4.walletConnectProvider,
-                            account: account
-                        };
-                    });
-                }
-                var _temp = function() {
-                    if (!_this4.walletConnectProvider.connector.connected) return Promise.resolve(_this4.walletConnectProvider.connector.createSession(_this4.config.chainId ? {
-                        chainId: _this4.config.chainId
-                    } : undefined)).then(function() {
-                        _this4.emit(URI_AVAILABLE, _this4.walletConnectProvider.connector.uri);
-                    });
-                }();
-                // ensure that the uri is going to be available, and emit an event if there's a new uri
-                return _temp && _temp.then ? _temp.then(_temp2) : _temp2(_temp);
-            };
-            var _temp6 = function() {
-                if (!_this4.walletConnectProvider) return Promise.resolve(require("bb941398b2ccc541").then(function(m) {
-                    var _m$default;
-                    return (_m$default = m == null ? void 0 : m["default"]) != null ? _m$default : m;
-                })).then(function(WalletConnectProvider) {
-                    _this4.walletConnectProvider = new WalletConnectProvider(_this4.config);
-                });
-            }();
-            return Promise.resolve(_temp6 && _temp6.then ? _temp6.then(_temp5) : _temp5(_temp6));
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.getProvider = function getProvider() {
-        try {
-            var _this6 = this;
-            return Promise.resolve(_this6.walletConnectProvider);
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.getChainId = function getChainId() {
-        try {
-            var _this8 = this;
-            return Promise.resolve(_this8.walletConnectProvider.chainId);
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.getAccount = function getAccount() {
-        try {
-            var _this10 = this;
-            return Promise.resolve(_this10.walletConnectProvider.accounts).then(function(accounts) {
-                return accounts[0];
-            });
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.deactivate = function deactivate() {
-        if (this.walletConnectProvider) {
-            this.walletConnectProvider.removeListener("disconnect", this.handleDisconnect);
-            this.walletConnectProvider.removeListener("chainChanged", this.handleChainChanged);
-            this.walletConnectProvider.removeListener("accountsChanged", this.handleAccountsChanged);
-            this.walletConnectProvider.disconnect();
-        }
-    };
-    _proto.close = function close() {
-        try {
-            var _this12 = this;
-            _this12.emitDeactivate();
-            return Promise.resolve();
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    return WalletConnectConnector;
-}((0, _abstractConnector.AbstractConnector));
-
-},{"@web3-react/abstract-connector":"gkcsn","bb941398b2ccc541":"d0tNZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d0tNZ":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require("./helpers/bundle-url").getBundleURL("UckoE") + "esm.dcb881e5.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root("bBAaA"));
-
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"lErsX":[function(require,module,exports) {
-var process = require("process");
-const fs = require("fs");
-const path = require("path");
-const os = require("os");
-const LINE = /(?:^|^)\s*(?:export\s+)?([\w.-]+)(?:\s*=\s*?|:\s+?)(\s*'(?:\\'|[^'])*'|\s*"(?:\\"|[^"])*"|\s*`(?:\\`|[^`])*`|[^#\r\n]+)?\s*(?:#.*)?(?:$|$)/mg;
-// Parser src into an Object
-function parse(src) {
-    const obj = {};
-    // Convert buffer to string
-    let lines = src.toString();
-    // Convert line breaks to same format
-    lines = lines.replace(/\r\n?/mg, "\n");
-    let match;
-    while((match = LINE.exec(lines)) != null){
-        const key = match[1];
-        // Default undefined or null to empty string
-        let value = match[2] || "";
-        // Remove whitespace
-        value = value.trim();
-        // Check if double quoted
-        const maybeQuote = value[0];
-        // Remove surrounding quotes
-        value = value.replace(/^(['"`])([\s\S]*)\1$/mg, "$2");
-        // Expand newlines if double quoted
-        if (maybeQuote === '"') {
-            value = value.replace(/\\n/g, "\n");
-            value = value.replace(/\\r/g, "\r");
-        }
-        // Add to object
-        obj[key] = value;
-    }
-    return obj;
-}
-function _log(message) {
-    console.log(`[dotenv][DEBUG] ${message}`);
-}
-function _resolveHome(envPath) {
-    return envPath[0] === "~" ? path.join(os.homedir(), envPath.slice(1)) : envPath;
-}
-// Populates process.env from .env file
-function config(options) {
-    let dotenvPath = path.resolve(process.cwd(), ".env");
-    let encoding = "utf8";
-    const debug = Boolean(options && options.debug);
-    const override = Boolean(options && options.override);
-    if (options) {
-        if (options.path != null) dotenvPath = _resolveHome(options.path);
-        if (options.encoding != null) encoding = options.encoding;
-    }
-    try {
-        // Specifying an encoding returns a string instead of a buffer
-        const parsed = DotenvModule.parse(fs.readFileSync(dotenvPath, {
-            encoding
-        }));
-        Object.keys(parsed).forEach(function(key) {
-            if (!Object.prototype.hasOwnProperty.call(process.env, key)) parsed[key];
-            else {
-                if (override === true) parsed[key];
-                if (debug) {
-                    if (override === true) _log(`"${key}" is already defined in \`process.env\` and WAS overwritten`);
-                    else _log(`"${key}" is already defined in \`process.env\` and was NOT overwritten`);
-                }
-            }
-        });
-        return {
-            parsed
-        };
-    } catch (e) {
-        if (debug) _log(`Failed to load ${dotenvPath} ${e.message}`);
-        return {
-            error: e
-        };
-    }
-}
-const DotenvModule = {
-    config,
-    parse
-};
-module.exports.config = DotenvModule.config;
-module.exports.parse = DotenvModule.parse;
-module.exports = DotenvModule;
-
-},{"process":"d5jf4","fs":"jhUEF","path":"loE3o","os":"6yyXu"}],"jhUEF":[function(require,module,exports) {
-"use strict";
-
-},{}],"loE3o":[function(require,module,exports) {
-// 'path' module extracted from Node.js v8.11.1 (only the posix part)
-// transplited with Babel
-// Copyright Joyent, Inc. and other Node contributors.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a
-// copy of this software and associated documentation files (the
-// "Software"), to deal in the Software without restriction, including
-// without limitation the rights to use, copy, modify, merge, publish,
-// distribute, sublicense, and/or sell copies of the Software, and to permit
-// persons to whom the Software is furnished to do so, subject to the
-// following conditions:
-//
-// The above copyright notice and this permission notice shall be included
-// in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-// USE OR OTHER DEALINGS IN THE SOFTWARE.
-"use strict";
-var process = require("process");
-function assertPath(path) {
-    if (typeof path !== "string") throw new TypeError("Path must be a string. Received " + JSON.stringify(path));
-}
-// Resolves . and .. elements in a path with directory names
-function normalizeStringPosix(path, allowAboveRoot) {
-    var res = "";
-    var lastSegmentLength = 0;
-    var lastSlash = -1;
-    var dots = 0;
-    var code;
-    for(var i = 0; i <= path.length; ++i){
-        if (i < path.length) code = path.charCodeAt(i);
-        else if (code === 47 /*/*/ ) break;
-        else code = 47 /*/*/ ;
-        if (code === 47 /*/*/ ) {
-            if (lastSlash === i - 1 || dots === 1) ;
-            else if (lastSlash !== i - 1 && dots === 2) {
-                if (res.length < 2 || lastSegmentLength !== 2 || res.charCodeAt(res.length - 1) !== 46 /*.*/  || res.charCodeAt(res.length - 2) !== 46 /*.*/ ) {
-                    if (res.length > 2) {
-                        var lastSlashIndex = res.lastIndexOf("/");
-                        if (lastSlashIndex !== res.length - 1) {
-                            if (lastSlashIndex === -1) {
-                                res = "";
-                                lastSegmentLength = 0;
-                            } else {
-                                res = res.slice(0, lastSlashIndex);
-                                lastSegmentLength = res.length - 1 - res.lastIndexOf("/");
-                            }
-                            lastSlash = i;
-                            dots = 0;
-                            continue;
-                        }
-                    } else if (res.length === 2 || res.length === 1) {
-                        res = "";
-                        lastSegmentLength = 0;
-                        lastSlash = i;
-                        dots = 0;
-                        continue;
-                    }
-                }
-                if (allowAboveRoot) {
-                    if (res.length > 0) res += "/..";
-                    else res = "..";
-                    lastSegmentLength = 2;
-                }
-            } else {
-                if (res.length > 0) res += "/" + path.slice(lastSlash + 1, i);
-                else res = path.slice(lastSlash + 1, i);
-                lastSegmentLength = i - lastSlash - 1;
-            }
-            lastSlash = i;
-            dots = 0;
-        } else if (code === 46 /*.*/  && dots !== -1) ++dots;
-        else dots = -1;
-    }
-    return res;
-}
-function _format(sep, pathObject) {
-    var dir = pathObject.dir || pathObject.root;
-    var base = pathObject.base || (pathObject.name || "") + (pathObject.ext || "");
-    if (!dir) return base;
-    if (dir === pathObject.root) return dir + base;
-    return dir + sep + base;
-}
-var posix = {
-    // path.resolve([from ...], to)
-    resolve: function resolve() {
-        var resolvedPath = "";
-        var resolvedAbsolute = false;
-        var cwd;
-        for(var i = arguments.length - 1; i >= -1 && !resolvedAbsolute; i--){
-            var path;
-            if (i >= 0) path = arguments[i];
-            else {
-                if (cwd === undefined) cwd = process.cwd();
-                path = cwd;
-            }
-            assertPath(path);
-            // Skip empty entries
-            if (path.length === 0) continue;
-            resolvedPath = path + "/" + resolvedPath;
-            resolvedAbsolute = path.charCodeAt(0) === 47 /*/*/ ;
-        }
-        // At this point the path should be resolved to a full absolute path, but
-        // handle relative paths to be safe (might happen when process.cwd() fails)
-        // Normalize the path
-        resolvedPath = normalizeStringPosix(resolvedPath, !resolvedAbsolute);
-        if (resolvedAbsolute) {
-            if (resolvedPath.length > 0) return "/" + resolvedPath;
-            else return "/";
-        } else if (resolvedPath.length > 0) return resolvedPath;
-        else return ".";
-    },
-    normalize: function normalize(path) {
-        assertPath(path);
-        if (path.length === 0) return ".";
-        var isAbsolute = path.charCodeAt(0) === 47 /*/*/ ;
-        var trailingSeparator = path.charCodeAt(path.length - 1) === 47 /*/*/ ;
-        // Normalize the path
-        path = normalizeStringPosix(path, !isAbsolute);
-        if (path.length === 0 && !isAbsolute) path = ".";
-        if (path.length > 0 && trailingSeparator) path += "/";
-        if (isAbsolute) return "/" + path;
-        return path;
-    },
-    isAbsolute: function isAbsolute(path) {
-        assertPath(path);
-        return path.length > 0 && path.charCodeAt(0) === 47 /*/*/ ;
-    },
-    join: function join() {
-        if (arguments.length === 0) return ".";
-        var joined;
-        for(var i = 0; i < arguments.length; ++i){
-            var arg = arguments[i];
-            assertPath(arg);
-            if (arg.length > 0) {
-                if (joined === undefined) joined = arg;
-                else joined += "/" + arg;
-            }
-        }
-        if (joined === undefined) return ".";
-        return posix.normalize(joined);
-    },
-    relative: function relative(from, to) {
-        assertPath(from);
-        assertPath(to);
-        if (from === to) return "";
-        from = posix.resolve(from);
-        to = posix.resolve(to);
-        if (from === to) return "";
-        // Trim any leading backslashes
-        var fromStart = 1;
-        for(; fromStart < from.length; ++fromStart){
-            if (from.charCodeAt(fromStart) !== 47 /*/*/ ) break;
-        }
-        var fromEnd = from.length;
-        var fromLen = fromEnd - fromStart;
-        // Trim any leading backslashes
-        var toStart = 1;
-        for(; toStart < to.length; ++toStart){
-            if (to.charCodeAt(toStart) !== 47 /*/*/ ) break;
-        }
-        var toEnd = to.length;
-        var toLen = toEnd - toStart;
-        // Compare paths to find the longest common path from root
-        var length = fromLen < toLen ? fromLen : toLen;
-        var lastCommonSep = -1;
-        var i = 0;
-        for(; i <= length; ++i){
-            if (i === length) {
-                if (toLen > length) {
-                    if (to.charCodeAt(toStart + i) === 47 /*/*/ ) // We get here if `from` is the exact base path for `to`.
-                    // For example: from='/foo/bar'; to='/foo/bar/baz'
-                    return to.slice(toStart + i + 1);
-                    else if (i === 0) // We get here if `from` is the root
-                    // For example: from='/'; to='/foo'
-                    return to.slice(toStart + i);
-                } else if (fromLen > length) {
-                    if (from.charCodeAt(fromStart + i) === 47 /*/*/ ) // We get here if `to` is the exact base path for `from`.
-                    // For example: from='/foo/bar/baz'; to='/foo/bar'
-                    lastCommonSep = i;
-                    else if (i === 0) // We get here if `to` is the root.
-                    // For example: from='/foo'; to='/'
-                    lastCommonSep = 0;
-                }
-                break;
-            }
-            var fromCode = from.charCodeAt(fromStart + i);
-            var toCode = to.charCodeAt(toStart + i);
-            if (fromCode !== toCode) break;
-            else if (fromCode === 47 /*/*/ ) lastCommonSep = i;
-        }
-        var out = "";
-        // Generate the relative path based on the path difference between `to`
-        // and `from`
-        for(i = fromStart + lastCommonSep + 1; i <= fromEnd; ++i)if (i === fromEnd || from.charCodeAt(i) === 47 /*/*/ ) {
-            if (out.length === 0) out += "..";
-            else out += "/..";
-        }
-        // Lastly, append the rest of the destination (`to`) path that comes after
-        // the common path parts
-        if (out.length > 0) return out + to.slice(toStart + lastCommonSep);
-        else {
-            toStart += lastCommonSep;
-            if (to.charCodeAt(toStart) === 47 /*/*/ ) ++toStart;
-            return to.slice(toStart);
-        }
-    },
-    _makeLong: function _makeLong(path) {
-        return path;
-    },
-    dirname: function dirname(path) {
-        assertPath(path);
-        if (path.length === 0) return ".";
-        var code = path.charCodeAt(0);
-        var hasRoot = code === 47 /*/*/ ;
-        var end = -1;
-        var matchedSlash = true;
-        for(var i = path.length - 1; i >= 1; --i){
-            code = path.charCodeAt(i);
-            if (code === 47 /*/*/ ) {
-                if (!matchedSlash) {
-                    end = i;
-                    break;
-                }
-            } else // We saw the first non-path separator
-            matchedSlash = false;
-        }
-        if (end === -1) return hasRoot ? "/" : ".";
-        if (hasRoot && end === 1) return "//";
-        return path.slice(0, end);
-    },
-    basename: function basename(path, ext) {
-        if (ext !== undefined && typeof ext !== "string") throw new TypeError('"ext" argument must be a string');
-        assertPath(path);
-        var start = 0;
-        var end = -1;
-        var matchedSlash = true;
-        var i;
-        if (ext !== undefined && ext.length > 0 && ext.length <= path.length) {
-            if (ext.length === path.length && ext === path) return "";
-            var extIdx = ext.length - 1;
-            var firstNonSlashEnd = -1;
-            for(i = path.length - 1; i >= 0; --i){
-                var code = path.charCodeAt(i);
-                if (code === 47 /*/*/ ) // If we reached a path separator that was not part of a set of path
-                // separators at the end of the string, stop now
-                {
-                    if (!matchedSlash) {
-                        start = i + 1;
-                        break;
-                    }
-                } else {
-                    if (firstNonSlashEnd === -1) {
-                        // We saw the first non-path separator, remember this index in case
-                        // we need it if the extension ends up not matching
-                        matchedSlash = false;
-                        firstNonSlashEnd = i + 1;
-                    }
-                    if (extIdx >= 0) {
-                        // Try to match the explicit extension
-                        if (code === ext.charCodeAt(extIdx)) {
-                            if (--extIdx === -1) // We matched the extension, so mark this as the end of our path
-                            // component
-                            end = i;
-                        } else {
-                            // Extension does not match, so our result is the entire path
-                            // component
-                            extIdx = -1;
-                            end = firstNonSlashEnd;
-                        }
-                    }
-                }
-            }
-            if (start === end) end = firstNonSlashEnd;
-            else if (end === -1) end = path.length;
-            return path.slice(start, end);
-        } else {
-            for(i = path.length - 1; i >= 0; --i){
-                if (path.charCodeAt(i) === 47 /*/*/ ) // If we reached a path separator that was not part of a set of path
-                // separators at the end of the string, stop now
-                {
-                    if (!matchedSlash) {
-                        start = i + 1;
-                        break;
-                    }
-                } else if (end === -1) {
-                    // We saw the first non-path separator, mark this as the end of our
-                    // path component
-                    matchedSlash = false;
-                    end = i + 1;
-                }
-            }
-            if (end === -1) return "";
-            return path.slice(start, end);
-        }
-    },
-    extname: function extname(path) {
-        assertPath(path);
-        var startDot = -1;
-        var startPart = 0;
-        var end = -1;
-        var matchedSlash = true;
-        // Track the state of characters (if any) we see before our first dot and
-        // after any path separator we find
-        var preDotState = 0;
-        for(var i = path.length - 1; i >= 0; --i){
-            var code = path.charCodeAt(i);
-            if (code === 47 /*/*/ ) {
-                // If we reached a path separator that was not part of a set of path
-                // separators at the end of the string, stop now
-                if (!matchedSlash) {
-                    startPart = i + 1;
-                    break;
-                }
-                continue;
-            }
-            if (end === -1) {
-                // We saw the first non-path separator, mark this as the end of our
-                // extension
-                matchedSlash = false;
-                end = i + 1;
-            }
-            if (code === 46 /*.*/ ) {
-                // If this is our first dot, mark it as the start of our extension
-                if (startDot === -1) startDot = i;
-                else if (preDotState !== 1) preDotState = 1;
-            } else if (startDot !== -1) // We saw a non-dot and non-path separator before our dot, so we should
-            // have a good chance at having a non-empty extension
-            preDotState = -1;
-        }
-        if (startDot === -1 || end === -1 || // We saw a non-dot character immediately before the dot
-        preDotState === 0 || // The (right-most) trimmed path component is exactly '..'
-        preDotState === 1 && startDot === end - 1 && startDot === startPart + 1) return "";
-        return path.slice(startDot, end);
-    },
-    format: function format(pathObject) {
-        if (pathObject === null || typeof pathObject !== "object") throw new TypeError('The "pathObject" argument must be of type Object. Received type ' + typeof pathObject);
-        return _format("/", pathObject);
-    },
-    parse: function parse(path) {
-        assertPath(path);
-        var ret = {
-            root: "",
-            dir: "",
-            base: "",
-            ext: "",
-            name: ""
-        };
-        if (path.length === 0) return ret;
-        var code = path.charCodeAt(0);
-        var isAbsolute = code === 47 /*/*/ ;
-        var start;
-        if (isAbsolute) {
-            ret.root = "/";
-            start = 1;
-        } else start = 0;
-        var startDot = -1;
-        var startPart = 0;
-        var end = -1;
-        var matchedSlash = true;
-        var i = path.length - 1;
-        // Track the state of characters (if any) we see before our first dot and
-        // after any path separator we find
-        var preDotState = 0;
-        // Get non-dir info
-        for(; i >= start; --i){
-            code = path.charCodeAt(i);
-            if (code === 47 /*/*/ ) {
-                // If we reached a path separator that was not part of a set of path
-                // separators at the end of the string, stop now
-                if (!matchedSlash) {
-                    startPart = i + 1;
-                    break;
-                }
-                continue;
-            }
-            if (end === -1) {
-                // We saw the first non-path separator, mark this as the end of our
-                // extension
-                matchedSlash = false;
-                end = i + 1;
-            }
-            if (code === 46 /*.*/ ) {
-                // If this is our first dot, mark it as the start of our extension
-                if (startDot === -1) startDot = i;
-                else if (preDotState !== 1) preDotState = 1;
-            } else if (startDot !== -1) // We saw a non-dot and non-path separator before our dot, so we should
-            // have a good chance at having a non-empty extension
-            preDotState = -1;
-        }
-        if (startDot === -1 || end === -1 || // We saw a non-dot character immediately before the dot
-        preDotState === 0 || // The (right-most) trimmed path component is exactly '..'
-        preDotState === 1 && startDot === end - 1 && startDot === startPart + 1) {
-            if (end !== -1) {
-                if (startPart === 0 && isAbsolute) ret.base = ret.name = path.slice(1, end);
-                else ret.base = ret.name = path.slice(startPart, end);
-            }
-        } else {
-            if (startPart === 0 && isAbsolute) {
-                ret.name = path.slice(1, startDot);
-                ret.base = path.slice(1, end);
-            } else {
-                ret.name = path.slice(startPart, startDot);
-                ret.base = path.slice(startPart, end);
-            }
-            ret.ext = path.slice(startDot, end);
-        }
-        if (startPart > 0) ret.dir = path.slice(0, startPart - 1);
-        else if (isAbsolute) ret.dir = "/";
-        return ret;
-    },
-    sep: "/",
-    delimiter: ":",
-    win32: null,
-    posix: null
-};
-posix.posix = posix;
-module.exports = posix;
-
-},{"process":"d5jf4"}],"6yyXu":[function(require,module,exports) {
-exports.endianness = function() {
-    return "LE";
-};
-exports.hostname = function() {
-    if (typeof location !== "undefined") return location.hostname;
-    else return "";
-};
-exports.loadavg = function() {
-    return [];
-};
-exports.uptime = function() {
-    return 0;
-};
-exports.freemem = function() {
-    return Number.MAX_VALUE;
-};
-exports.totalmem = function() {
-    return Number.MAX_VALUE;
-};
-exports.cpus = function() {
-    return [];
-};
-exports.type = function() {
-    return "Browser";
-};
-exports.release = function() {
-    if (typeof navigator !== "undefined") return navigator.appVersion;
-    return "";
-};
-exports.networkInterfaces = exports.getNetworkInterfaces = function() {
-    return {};
-};
-exports.arch = function() {
-    return "javascript";
-};
-exports.platform = function() {
-    return "browser";
-};
-exports.tmpdir = exports.tmpDir = function() {
-    return "/tmp";
-};
-exports.EOL = "\n";
-exports.homedir = function() {
-    return "/";
-};
-
-},{}],"6h1ge":[function(require,module,exports) {
+},{"process":"d5jf4"}],"6h1ge":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$b5c0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34507,7 +32584,7 @@ var _id = require("@worldcoin/id");
 var _worldIDCss = require("./WorldID.css");
 function WorldIDCreatedWallet(props) {
     const { logo2 , place , app , image11 , connect , wallet , privateKey , save  } = props;
-    const actionId = "wid_staging_4a6e0089f6aa9448cdf3b053a8e016b9";
+    const actionId = undefined;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "container-center-horizontal",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -59883,7 +57960,1930 @@ $RefreshReg$(_c, "WorldIDRetrieveKey");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","@worldcoin/id":"1iJYp","./WorldID.css":"2wQjq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2wQjq":[function() {},{}],"bErvj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","@worldcoin/id":"1iJYp","./WorldID.css":"2wQjq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2wQjq":[function() {},{}],"adc89":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$990b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$990b.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _homeCss = require("./Home.css");
+function Home(props) {
+    const { logo1 , place , app , spanText1 , spanText2 , joinUs  } = props;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "container-center-horizontal",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "home screen",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex-row-2",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "logo-1",
+                            src: logo1
+                        }, void 0, false, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 14,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "place-2 spacemono-bold-black-35px",
+                            children: place
+                        }, void 0, false, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 15,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/connect-wallets-1",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "app-2 spacemono-bold-black-35px",
+                                children: app
+                            }, void 0, false, {
+                                fileName: "components/Home/index.jsx",
+                                lineNumber: 17,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 16,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Home/index.jsx",
+                    lineNumber: 13,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    className: "forget-about-managin",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            className: "span0",
+                            children: spanText1
+                        }, void 0, false, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 21,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            className: "span1",
+                            children: spanText2
+                        }, void 0, false, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 22,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Home/index.jsx",
+                    lineNumber: 20,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-group-1",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/connect-wallets-1",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "rectangle-1"
+                            }, void 0, false, {
+                                fileName: "components/Home/index.jsx",
+                                lineNumber: 26,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 25,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "join-us",
+                            children: joinUs
+                        }, void 0, false, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 28,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Home/index.jsx",
+                    lineNumber: 24,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/Home/index.jsx",
+            lineNumber: 12,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "components/Home/index.jsx",
+        lineNumber: 11,
+        columnNumber: 5
+    }, this);
+}
+_c = Home;
+exports.default = Home;
+var _c;
+$RefreshReg$(_c, "Home");
+
+  $parcel$ReactRefreshHelpers$990b.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./Home.css":"8jqc7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8jqc7":[function() {},{}],"jrUeq":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "WalletLinkConnector", ()=>WalletLinkConnector);
+var _abstractConnector = require("@web3-react/abstract-connector");
+function _extends() {
+    _extends = Object.assign || function(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return _extends.apply(this, arguments);
+}
+function _inheritsLoose(subClass, superClass) {
+    subClass.prototype = Object.create(superClass.prototype);
+    subClass.prototype.constructor = subClass;
+    _setPrototypeOf(subClass, superClass);
+}
+function _setPrototypeOf(o, p) {
+    _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+        o.__proto__ = p;
+        return o;
+    };
+    return _setPrototypeOf(o, p);
+}
+function _assertThisInitialized(self) {
+    if (self === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+    return self;
+}
+var CHAIN_ID = 1;
+var WalletLinkConnector = /*#__PURE__*/ function(_AbstractConnector) {
+    _inheritsLoose(WalletLinkConnector, _AbstractConnector);
+    function WalletLinkConnector(_ref) {
+        var _this;
+        var url = _ref.url, appName = _ref.appName, appLogoUrl = _ref.appLogoUrl, darkMode = _ref.darkMode, supportedChainIds = _ref.supportedChainIds;
+        _this = _AbstractConnector.call(this, {
+            supportedChainIds: supportedChainIds
+        }) || this;
+        _this.url = url;
+        _this.appName = appName;
+        _this.appLogoUrl = appLogoUrl;
+        _this.darkMode = darkMode || false;
+        _this.handleChainChanged = _this.handleChainChanged.bind(_assertThisInitialized(_this));
+        _this.handleAccountsChanged = _this.handleAccountsChanged.bind(_assertThisInitialized(_this));
+        return _this;
+    }
+    var _proto = WalletLinkConnector.prototype;
+    _proto.activate = function activate() {
+        try {
+            var _this3 = this;
+            var _temp4 = function _temp4() {
+                return Promise.resolve(_this3.provider.request({
+                    method: "eth_requestAccounts"
+                })).then(function(accounts) {
+                    var account = accounts[0];
+                    _this3.provider.on("chainChanged", _this3.handleChainChanged);
+                    _this3.provider.on("accountsChanged", _this3.handleAccountsChanged);
+                    return {
+                        provider: _this3.provider,
+                        account: account
+                    };
+                });
+            };
+            var _temp5 = function() {
+                if (window.ethereum && window.ethereum.isCoinbaseWallet === true) // user is in the dapp browser on Coinbase Wallet
+                _this3.provider = window.ethereum;
+                else {
+                    var _temp6 = function() {
+                        if (!_this3.walletLink) return Promise.resolve(require("cc885775b1d2eb50").then(function(m) {
+                            var _m$default;
+                            return (_m$default = m == null ? void 0 : m["default"]) != null ? _m$default : m;
+                        })).then(function(CoinbaseWalletSDK) {
+                            _this3.walletLink = new CoinbaseWalletSDK(_extends({
+                                appName: _this3.appName,
+                                darkMode: _this3.darkMode
+                            }, _this3.appLogoUrl ? {
+                                appLogoUrl: _this3.appLogoUrl
+                            } : {}));
+                            _this3.provider = _this3.walletLink.makeWeb3Provider(_this3.url, CHAIN_ID);
+                        });
+                    }();
+                    if (_temp6 && _temp6.then) return _temp6.then(function() {});
+                }
+            }();
+            // @ts-ignore
+            return Promise.resolve(_temp5 && _temp5.then ? _temp5.then(_temp4) : _temp4(_temp5));
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.getProvider = function getProvider() {
+        try {
+            var _this5 = this;
+            return Promise.resolve(_this5.provider);
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.getChainId = function getChainId() {
+        try {
+            var _this7 = this;
+            return Promise.resolve(_this7.provider.chainId);
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.getAccount = function getAccount() {
+        try {
+            var _this9 = this;
+            return Promise.resolve(_this9.provider.request({
+                method: "eth_requestAccounts"
+            })).then(function(accounts) {
+                return accounts[0];
+            });
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.deactivate = function deactivate() {
+        this.provider.removeListener("chainChanged", this.handleChainChanged);
+        this.provider.removeListener("accountsChanged", this.handleAccountsChanged);
+    };
+    _proto.close = function close() {
+        try {
+            var _this11 = this;
+            _this11.provider.close();
+            _this11.emitDeactivate();
+            return Promise.resolve();
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.handleChainChanged = function handleChainChanged(chainId) {
+        console.log("Handling 'chainChanged' event with payload", chainId);
+        this.emitUpdate({
+            chainId: chainId
+        });
+    };
+    _proto.handleAccountsChanged = function handleAccountsChanged(accounts) {
+        console.log("Handling 'accountsChanged' event with payload", accounts);
+        this.emitUpdate({
+            account: accounts[0]
+        });
+    };
+    return WalletLinkConnector;
+}((0, _abstractConnector.AbstractConnector));
+
+},{"@web3-react/abstract-connector":"gkcsn","cc885775b1d2eb50":"iZshs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkcsn":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "AbstractConnector", ()=>AbstractConnector);
+var _events = require("events");
+var _types = require("@web3-react/types");
+function _inheritsLoose(subClass, superClass) {
+    subClass.prototype = Object.create(superClass.prototype);
+    subClass.prototype.constructor = subClass;
+    subClass.__proto__ = superClass;
+}
+var AbstractConnector = /*#__PURE__*/ function(_EventEmitter) {
+    _inheritsLoose(AbstractConnector, _EventEmitter);
+    function AbstractConnector(_temp) {
+        var _this;
+        var _ref = _temp === void 0 ? {} : _temp, supportedChainIds = _ref.supportedChainIds;
+        _this = _EventEmitter.call(this) || this;
+        _this.supportedChainIds = supportedChainIds;
+        return _this;
+    }
+    var _proto = AbstractConnector.prototype;
+    _proto.emitUpdate = function emitUpdate(update) {
+        console.log("Emitting '" + (0, _types.ConnectorEvent).Update + "' with payload", update);
+        this.emit((0, _types.ConnectorEvent).Update, update);
+    };
+    _proto.emitError = function emitError(error) {
+        console.log("Emitting '" + (0, _types.ConnectorEvent).Error + "' with payload", error);
+        this.emit((0, _types.ConnectorEvent).Error, error);
+    };
+    _proto.emitDeactivate = function emitDeactivate() {
+        console.log("Emitting '" + (0, _types.ConnectorEvent).Deactivate + "'");
+        this.emit((0, _types.ConnectorEvent).Deactivate);
+    };
+    return AbstractConnector;
+}((0, _events.EventEmitter));
+
+},{"events":"1VQLm","@web3-react/types":"5JR8V","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1VQLm":[function(require,module,exports) {
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+"use strict";
+var R = typeof Reflect === "object" ? Reflect : null;
+var ReflectApply = R && typeof R.apply === "function" ? R.apply : function ReflectApply(target, receiver, args) {
+    return Function.prototype.apply.call(target, receiver, args);
+};
+var ReflectOwnKeys;
+if (R && typeof R.ownKeys === "function") ReflectOwnKeys = R.ownKeys;
+else if (Object.getOwnPropertySymbols) ReflectOwnKeys = function ReflectOwnKeys(target) {
+    return Object.getOwnPropertyNames(target).concat(Object.getOwnPropertySymbols(target));
+};
+else ReflectOwnKeys = function ReflectOwnKeys(target) {
+    return Object.getOwnPropertyNames(target);
+};
+function ProcessEmitWarning(warning) {
+    if (console && console.warn) console.warn(warning);
+}
+var NumberIsNaN = Number.isNaN || function NumberIsNaN(value) {
+    return value !== value;
+};
+function EventEmitter() {
+    EventEmitter.init.call(this);
+}
+module.exports = EventEmitter;
+module.exports.once = once;
+// Backwards-compat with node 0.10.x
+EventEmitter.EventEmitter = EventEmitter;
+EventEmitter.prototype._events = undefined;
+EventEmitter.prototype._eventsCount = 0;
+EventEmitter.prototype._maxListeners = undefined;
+// By default EventEmitters will print a warning if more than 10 listeners are
+// added to it. This is a useful default which helps finding memory leaks.
+var defaultMaxListeners = 10;
+function checkListener(listener) {
+    if (typeof listener !== "function") throw new TypeError('The "listener" argument must be of type Function. Received type ' + typeof listener);
+}
+Object.defineProperty(EventEmitter, "defaultMaxListeners", {
+    enumerable: true,
+    get: function() {
+        return defaultMaxListeners;
+    },
+    set: function(arg) {
+        if (typeof arg !== "number" || arg < 0 || NumberIsNaN(arg)) throw new RangeError('The value of "defaultMaxListeners" is out of range. It must be a non-negative number. Received ' + arg + ".");
+        defaultMaxListeners = arg;
+    }
+});
+EventEmitter.init = function() {
+    if (this._events === undefined || this._events === Object.getPrototypeOf(this)._events) {
+        this._events = Object.create(null);
+        this._eventsCount = 0;
+    }
+    this._maxListeners = this._maxListeners || undefined;
+};
+// Obviously not all Emitters should be limited to 10. This function allows
+// that to be increased. Set to zero for unlimited.
+EventEmitter.prototype.setMaxListeners = function setMaxListeners(n) {
+    if (typeof n !== "number" || n < 0 || NumberIsNaN(n)) throw new RangeError('The value of "n" is out of range. It must be a non-negative number. Received ' + n + ".");
+    this._maxListeners = n;
+    return this;
+};
+function _getMaxListeners(that) {
+    if (that._maxListeners === undefined) return EventEmitter.defaultMaxListeners;
+    return that._maxListeners;
+}
+EventEmitter.prototype.getMaxListeners = function getMaxListeners() {
+    return _getMaxListeners(this);
+};
+EventEmitter.prototype.emit = function emit(type) {
+    var args = [];
+    for(var i = 1; i < arguments.length; i++)args.push(arguments[i]);
+    var doError = type === "error";
+    var events = this._events;
+    if (events !== undefined) doError = doError && events.error === undefined;
+    else if (!doError) return false;
+    // If there is no 'error' event listener then throw.
+    if (doError) {
+        var er;
+        if (args.length > 0) er = args[0];
+        if (er instanceof Error) // Note: The comments on the `throw` lines are intentional, they show
+        // up in Node's output if this results in an unhandled exception.
+        throw er; // Unhandled 'error' event
+        // At least give some kind of context to the user
+        var err = new Error("Unhandled error." + (er ? " (" + er.message + ")" : ""));
+        err.context = er;
+        throw err; // Unhandled 'error' event
+    }
+    var handler = events[type];
+    if (handler === undefined) return false;
+    if (typeof handler === "function") ReflectApply(handler, this, args);
+    else {
+        var len = handler.length;
+        var listeners = arrayClone(handler, len);
+        for(var i = 0; i < len; ++i)ReflectApply(listeners[i], this, args);
+    }
+    return true;
+};
+function _addListener(target, type, listener, prepend) {
+    var m;
+    var events;
+    var existing;
+    checkListener(listener);
+    events = target._events;
+    if (events === undefined) {
+        events = target._events = Object.create(null);
+        target._eventsCount = 0;
+    } else {
+        // To avoid recursion in the case that type === "newListener"! Before
+        // adding it to the listeners, first emit "newListener".
+        if (events.newListener !== undefined) {
+            target.emit("newListener", type, listener.listener ? listener.listener : listener);
+            // Re-assign `events` because a newListener handler could have caused the
+            // this._events to be assigned to a new object
+            events = target._events;
+        }
+        existing = events[type];
+    }
+    if (existing === undefined) {
+        // Optimize the case of one listener. Don't need the extra array object.
+        existing = events[type] = listener;
+        ++target._eventsCount;
+    } else {
+        if (typeof existing === "function") // Adding the second element, need to change to array.
+        existing = events[type] = prepend ? [
+            listener,
+            existing
+        ] : [
+            existing,
+            listener
+        ];
+        else if (prepend) existing.unshift(listener);
+        else existing.push(listener);
+        // Check for listener leak
+        m = _getMaxListeners(target);
+        if (m > 0 && existing.length > m && !existing.warned) {
+            existing.warned = true;
+            // No error code for this since it is a Warning
+            // eslint-disable-next-line no-restricted-syntax
+            var w = new Error("Possible EventEmitter memory leak detected. " + existing.length + " " + String(type) + " listeners " + "added. Use emitter.setMaxListeners() to " + "increase limit");
+            w.name = "MaxListenersExceededWarning";
+            w.emitter = target;
+            w.type = type;
+            w.count = existing.length;
+            ProcessEmitWarning(w);
+        }
+    }
+    return target;
+}
+EventEmitter.prototype.addListener = function addListener(type, listener) {
+    return _addListener(this, type, listener, false);
+};
+EventEmitter.prototype.on = EventEmitter.prototype.addListener;
+EventEmitter.prototype.prependListener = function prependListener(type, listener) {
+    return _addListener(this, type, listener, true);
+};
+function onceWrapper() {
+    if (!this.fired) {
+        this.target.removeListener(this.type, this.wrapFn);
+        this.fired = true;
+        if (arguments.length === 0) return this.listener.call(this.target);
+        return this.listener.apply(this.target, arguments);
+    }
+}
+function _onceWrap(target, type, listener) {
+    var state = {
+        fired: false,
+        wrapFn: undefined,
+        target: target,
+        type: type,
+        listener: listener
+    };
+    var wrapped = onceWrapper.bind(state);
+    wrapped.listener = listener;
+    state.wrapFn = wrapped;
+    return wrapped;
+}
+EventEmitter.prototype.once = function once(type, listener) {
+    checkListener(listener);
+    this.on(type, _onceWrap(this, type, listener));
+    return this;
+};
+EventEmitter.prototype.prependOnceListener = function prependOnceListener(type, listener) {
+    checkListener(listener);
+    this.prependListener(type, _onceWrap(this, type, listener));
+    return this;
+};
+// Emits a 'removeListener' event if and only if the listener was removed.
+EventEmitter.prototype.removeListener = function removeListener(type, listener) {
+    var list, events, position, i, originalListener;
+    checkListener(listener);
+    events = this._events;
+    if (events === undefined) return this;
+    list = events[type];
+    if (list === undefined) return this;
+    if (list === listener || list.listener === listener) {
+        if (--this._eventsCount === 0) this._events = Object.create(null);
+        else {
+            delete events[type];
+            if (events.removeListener) this.emit("removeListener", type, list.listener || listener);
+        }
+    } else if (typeof list !== "function") {
+        position = -1;
+        for(i = list.length - 1; i >= 0; i--)if (list[i] === listener || list[i].listener === listener) {
+            originalListener = list[i].listener;
+            position = i;
+            break;
+        }
+        if (position < 0) return this;
+        if (position === 0) list.shift();
+        else spliceOne(list, position);
+        if (list.length === 1) events[type] = list[0];
+        if (events.removeListener !== undefined) this.emit("removeListener", type, originalListener || listener);
+    }
+    return this;
+};
+EventEmitter.prototype.off = EventEmitter.prototype.removeListener;
+EventEmitter.prototype.removeAllListeners = function removeAllListeners(type) {
+    var listeners, events, i;
+    events = this._events;
+    if (events === undefined) return this;
+    // not listening for removeListener, no need to emit
+    if (events.removeListener === undefined) {
+        if (arguments.length === 0) {
+            this._events = Object.create(null);
+            this._eventsCount = 0;
+        } else if (events[type] !== undefined) {
+            if (--this._eventsCount === 0) this._events = Object.create(null);
+            else delete events[type];
+        }
+        return this;
+    }
+    // emit removeListener for all listeners on all events
+    if (arguments.length === 0) {
+        var keys = Object.keys(events);
+        var key;
+        for(i = 0; i < keys.length; ++i){
+            key = keys[i];
+            if (key === "removeListener") continue;
+            this.removeAllListeners(key);
+        }
+        this.removeAllListeners("removeListener");
+        this._events = Object.create(null);
+        this._eventsCount = 0;
+        return this;
+    }
+    listeners = events[type];
+    if (typeof listeners === "function") this.removeListener(type, listeners);
+    else if (listeners !== undefined) // LIFO order
+    for(i = listeners.length - 1; i >= 0; i--)this.removeListener(type, listeners[i]);
+    return this;
+};
+function _listeners(target, type, unwrap) {
+    var events = target._events;
+    if (events === undefined) return [];
+    var evlistener = events[type];
+    if (evlistener === undefined) return [];
+    if (typeof evlistener === "function") return unwrap ? [
+        evlistener.listener || evlistener
+    ] : [
+        evlistener
+    ];
+    return unwrap ? unwrapListeners(evlistener) : arrayClone(evlistener, evlistener.length);
+}
+EventEmitter.prototype.listeners = function listeners(type) {
+    return _listeners(this, type, true);
+};
+EventEmitter.prototype.rawListeners = function rawListeners(type) {
+    return _listeners(this, type, false);
+};
+EventEmitter.listenerCount = function(emitter, type) {
+    if (typeof emitter.listenerCount === "function") return emitter.listenerCount(type);
+    else return listenerCount.call(emitter, type);
+};
+EventEmitter.prototype.listenerCount = listenerCount;
+function listenerCount(type) {
+    var events = this._events;
+    if (events !== undefined) {
+        var evlistener = events[type];
+        if (typeof evlistener === "function") return 1;
+        else if (evlistener !== undefined) return evlistener.length;
+    }
+    return 0;
+}
+EventEmitter.prototype.eventNames = function eventNames() {
+    return this._eventsCount > 0 ? ReflectOwnKeys(this._events) : [];
+};
+function arrayClone(arr, n) {
+    var copy = new Array(n);
+    for(var i = 0; i < n; ++i)copy[i] = arr[i];
+    return copy;
+}
+function spliceOne(list, index) {
+    for(; index + 1 < list.length; index++)list[index] = list[index + 1];
+    list.pop();
+}
+function unwrapListeners(arr) {
+    var ret = new Array(arr.length);
+    for(var i = 0; i < ret.length; ++i)ret[i] = arr[i].listener || arr[i];
+    return ret;
+}
+function once(emitter, name) {
+    return new Promise(function(resolve, reject) {
+        function errorListener(err) {
+            emitter.removeListener(name, resolver);
+            reject(err);
+        }
+        function resolver() {
+            if (typeof emitter.removeListener === "function") emitter.removeListener("error", errorListener);
+            resolve([].slice.call(arguments));
+        }
+        eventTargetAgnosticAddListener(emitter, name, resolver, {
+            once: true
+        });
+        if (name !== "error") addErrorHandlerIfEventEmitter(emitter, errorListener, {
+            once: true
+        });
+    });
+}
+function addErrorHandlerIfEventEmitter(emitter, handler, flags) {
+    if (typeof emitter.on === "function") eventTargetAgnosticAddListener(emitter, "error", handler, flags);
+}
+function eventTargetAgnosticAddListener(emitter, name, listener, flags) {
+    if (typeof emitter.on === "function") {
+        if (flags.once) emitter.once(name, listener);
+        else emitter.on(name, listener);
+    } else if (typeof emitter.addEventListener === "function") // EventTarget does not have `error` event semantics like Node
+    // EventEmitters, we do not listen for `error` events here.
+    emitter.addEventListener(name, function wrapListener(arg) {
+        // IE does not have builtin `{ once: true }` support so we
+        // have to do it manually.
+        if (flags.once) emitter.removeEventListener(name, wrapListener);
+        listener(arg);
+    });
+    else throw new TypeError('The "emitter" argument must be of type EventEmitter. Received type ' + typeof emitter);
+}
+
+},{}],"iZshs":[function(require,module,exports) {
+module.exports = require("./helpers/browser/js-loader")(require("./helpers/bundle-url").getBundleURL("UckoE") + "dist.19f72db1.js" + "?" + Date.now()).catch((err)=>{
+    delete module.bundle.cache[module.id];
+    throw err;
+}).then(()=>module.bundle.root("2gE0L"));
+
+},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"61B45":[function(require,module,exports) {
+"use strict";
+var cacheLoader = require("../cacheLoader");
+module.exports = cacheLoader(function(bundle) {
+    return new Promise(function(resolve, reject) {
+        // Don't insert the same script twice (e.g. if it was already in the HTML)
+        var existingScripts = document.getElementsByTagName("script");
+        if ([].concat(existingScripts).some(function isCurrentBundle(script) {
+            return script.src === bundle;
+        })) {
+            resolve();
+            return;
+        }
+        var preloadLink = document.createElement("link");
+        preloadLink.href = bundle;
+        preloadLink.rel = "preload";
+        preloadLink.as = "script";
+        document.head.appendChild(preloadLink);
+        var script = document.createElement("script");
+        script.async = true;
+        script.type = "text/javascript";
+        script.src = bundle;
+        script.onerror = function(e) {
+            var error = new TypeError("Failed to fetch dynamically imported module: ".concat(bundle, ". Error: ").concat(e.message));
+            script.onerror = script.onload = null;
+            script.remove();
+            reject(error);
+        };
+        script.onload = function() {
+            script.onerror = script.onload = null;
+            resolve();
+        };
+        document.getElementsByTagName("head")[0].appendChild(script);
+    });
+});
+
+},{"../cacheLoader":"j49pS"}],"j49pS":[function(require,module,exports) {
+"use strict";
+var cachedBundles = {};
+var cachedPreloads = {};
+var cachedPrefetches = {};
+function getCache(type) {
+    switch(type){
+        case "preload":
+            return cachedPreloads;
+        case "prefetch":
+            return cachedPrefetches;
+        default:
+            return cachedBundles;
+    }
+}
+module.exports = function(loader, type) {
+    return function(bundle) {
+        var cache = getCache(type);
+        if (cache[bundle]) return cache[bundle];
+        return cache[bundle] = loader.apply(null, arguments).catch(function(e) {
+            delete cache[bundle];
+            throw e;
+        });
+    };
+};
+
+},{}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"kQ3v6":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "URI_AVAILABLE", ()=>URI_AVAILABLE);
+parcelHelpers.export(exports, "UserRejectedRequestError", ()=>UserRejectedRequestError);
+parcelHelpers.export(exports, "WalletConnectConnector", ()=>WalletConnectConnector);
+var _abstractConnector = require("@web3-react/abstract-connector");
+function _inheritsLoose(subClass, superClass) {
+    subClass.prototype = Object.create(superClass.prototype);
+    subClass.prototype.constructor = subClass;
+    _setPrototypeOf(subClass, superClass);
+}
+function _getPrototypeOf(o) {
+    _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+        return o.__proto__ || Object.getPrototypeOf(o);
+    };
+    return _getPrototypeOf(o);
+}
+function _setPrototypeOf(o, p) {
+    _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+        o.__proto__ = p;
+        return o;
+    };
+    return _setPrototypeOf(o, p);
+}
+function _isNativeReflectConstruct() {
+    if (typeof Reflect === "undefined" || !Reflect.construct) return false;
+    if (Reflect.construct.sham) return false;
+    if (typeof Proxy === "function") return true;
+    try {
+        Date.prototype.toString.call(Reflect.construct(Date, [], function() {}));
+        return true;
+    } catch (e) {
+        return false;
+    }
+}
+function _construct(Parent, args, Class) {
+    if (_isNativeReflectConstruct()) _construct = Reflect.construct;
+    else _construct = function _construct(Parent, args, Class) {
+        var a = [
+            null
+        ];
+        a.push.apply(a, args);
+        var Constructor = Function.bind.apply(Parent, a);
+        var instance = new Constructor();
+        if (Class) _setPrototypeOf(instance, Class.prototype);
+        return instance;
+    };
+    return _construct.apply(null, arguments);
+}
+function _isNativeFunction(fn) {
+    return Function.toString.call(fn).indexOf("[native code]") !== -1;
+}
+function _wrapNativeSuper(Class) {
+    var _cache = typeof Map === "function" ? new Map() : undefined;
+    _wrapNativeSuper = function _wrapNativeSuper(Class) {
+        if (Class === null || !_isNativeFunction(Class)) return Class;
+        if (typeof Class !== "function") throw new TypeError("Super expression must either be null or a function");
+        if (typeof _cache !== "undefined") {
+            if (_cache.has(Class)) return _cache.get(Class);
+            _cache.set(Class, Wrapper);
+        }
+        function Wrapper() {
+            return _construct(Class, arguments, _getPrototypeOf(this).constructor);
+        }
+        Wrapper.prototype = Object.create(Class.prototype, {
+            constructor: {
+                value: Wrapper,
+                enumerable: false,
+                writable: true,
+                configurable: true
+            }
+        });
+        return _setPrototypeOf(Wrapper, Class);
+    };
+    return _wrapNativeSuper(Class);
+}
+function _assertThisInitialized(self) {
+    if (self === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+    return self;
+}
+var URI_AVAILABLE = "URI_AVAILABLE";
+var UserRejectedRequestError = /*#__PURE__*/ function(_Error) {
+    _inheritsLoose(UserRejectedRequestError, _Error);
+    function UserRejectedRequestError() {
+        var _this;
+        _this = _Error.call(this) || this;
+        _this.name = _this.constructor.name;
+        _this.message = "The user rejected the request.";
+        return _this;
+    }
+    return UserRejectedRequestError;
+}(/*#__PURE__*/ _wrapNativeSuper(Error));
+function getSupportedChains(_ref) {
+    var supportedChainIds = _ref.supportedChainIds, rpc = _ref.rpc;
+    if (supportedChainIds) return supportedChainIds;
+    return rpc ? Object.keys(rpc).map(function(k) {
+        return Number(k);
+    }) : undefined;
+}
+var WalletConnectConnector = /*#__PURE__*/ function(_AbstractConnector) {
+    _inheritsLoose(WalletConnectConnector, _AbstractConnector);
+    function WalletConnectConnector(config) {
+        var _this2;
+        _this2 = _AbstractConnector.call(this, {
+            supportedChainIds: getSupportedChains(config)
+        }) || this;
+        _this2.config = config;
+        _this2.handleChainChanged = _this2.handleChainChanged.bind(_assertThisInitialized(_this2));
+        _this2.handleAccountsChanged = _this2.handleAccountsChanged.bind(_assertThisInitialized(_this2));
+        _this2.handleDisconnect = _this2.handleDisconnect.bind(_assertThisInitialized(_this2));
+        return _this2;
+    }
+    var _proto = WalletConnectConnector.prototype;
+    _proto.handleChainChanged = function handleChainChanged(chainId) {
+        console.log("Handling 'chainChanged' event with payload", chainId);
+        this.emitUpdate({
+            chainId: chainId
+        });
+    };
+    _proto.handleAccountsChanged = function handleAccountsChanged(accounts) {
+        console.log("Handling 'accountsChanged' event with payload", accounts);
+        this.emitUpdate({
+            account: accounts[0]
+        });
+    };
+    _proto.handleDisconnect = function handleDisconnect() {
+        console.log("Handling 'disconnect' event");
+        if (this.walletConnectProvider) {
+            this.walletConnectProvider.removeListener("chainChanged", this.handleChainChanged);
+            this.walletConnectProvider.removeListener("accountsChanged", this.handleAccountsChanged);
+            this.walletConnectProvider = undefined;
+        }
+        this.emitDeactivate();
+    };
+    _proto.activate = function activate() {
+        try {
+            var _this4 = this;
+            var _temp5 = function _temp5() {
+                function _temp2() {
+                    var account;
+                    return Promise.resolve(new Promise(function(resolve, reject) {
+                        var userReject = function userReject() {
+                            // Erase the provider manually
+                            _this4.walletConnectProvider = undefined;
+                            reject(new UserRejectedRequestError());
+                        }; // Workaround to bubble up the error when user reject the connection
+                        _this4.walletConnectProvider.connector.on("disconnect", function() {
+                            // Check provider has not been enabled to prevent this event callback from being called in the future
+                            if (!account) userReject();
+                        });
+                        _this4.walletConnectProvider.enable().then(function(accounts) {
+                            return resolve(accounts[0]);
+                        })["catch"](function(error) {
+                            // TODO ideally this would be a better check
+                            if (error.message === "User closed modal") {
+                                userReject();
+                                return;
+                            }
+                            reject(error);
+                        });
+                    })["catch"](function(err) {
+                        throw err;
+                    })).then(function(_Promise$catch) {
+                        account = _Promise$catch;
+                        _this4.walletConnectProvider.on("disconnect", _this4.handleDisconnect);
+                        _this4.walletConnectProvider.on("chainChanged", _this4.handleChainChanged);
+                        _this4.walletConnectProvider.on("accountsChanged", _this4.handleAccountsChanged);
+                        return {
+                            provider: _this4.walletConnectProvider,
+                            account: account
+                        };
+                    });
+                }
+                var _temp = function() {
+                    if (!_this4.walletConnectProvider.connector.connected) return Promise.resolve(_this4.walletConnectProvider.connector.createSession(_this4.config.chainId ? {
+                        chainId: _this4.config.chainId
+                    } : undefined)).then(function() {
+                        _this4.emit(URI_AVAILABLE, _this4.walletConnectProvider.connector.uri);
+                    });
+                }();
+                // ensure that the uri is going to be available, and emit an event if there's a new uri
+                return _temp && _temp.then ? _temp.then(_temp2) : _temp2(_temp);
+            };
+            var _temp6 = function() {
+                if (!_this4.walletConnectProvider) return Promise.resolve(require("d9426125b120ffc3").then(function(m) {
+                    var _m$default;
+                    return (_m$default = m == null ? void 0 : m["default"]) != null ? _m$default : m;
+                })).then(function(WalletConnectProvider) {
+                    _this4.walletConnectProvider = new WalletConnectProvider(_this4.config);
+                });
+            }();
+            return Promise.resolve(_temp6 && _temp6.then ? _temp6.then(_temp5) : _temp5(_temp6));
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.getProvider = function getProvider() {
+        try {
+            var _this6 = this;
+            return Promise.resolve(_this6.walletConnectProvider);
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.getChainId = function getChainId() {
+        try {
+            var _this8 = this;
+            return Promise.resolve(_this8.walletConnectProvider.chainId);
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.getAccount = function getAccount() {
+        try {
+            var _this10 = this;
+            return Promise.resolve(_this10.walletConnectProvider.accounts).then(function(accounts) {
+                return accounts[0];
+            });
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.deactivate = function deactivate() {
+        if (this.walletConnectProvider) {
+            this.walletConnectProvider.removeListener("disconnect", this.handleDisconnect);
+            this.walletConnectProvider.removeListener("chainChanged", this.handleChainChanged);
+            this.walletConnectProvider.removeListener("accountsChanged", this.handleAccountsChanged);
+            this.walletConnectProvider.disconnect();
+        }
+    };
+    _proto.close = function close() {
+        try {
+            var _this12 = this;
+            _this12.emitDeactivate();
+            return Promise.resolve();
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    return WalletConnectConnector;
+}((0, _abstractConnector.AbstractConnector));
+
+},{"@web3-react/abstract-connector":"gkcsn","d9426125b120ffc3":"d0tNZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d0tNZ":[function(require,module,exports) {
+module.exports = require("./helpers/browser/js-loader")(require("./helpers/bundle-url").getBundleURL("UckoE") + "esm.dcb881e5.js" + "?" + Date.now()).catch((err)=>{
+    delete module.bundle.cache[module.id];
+    throw err;
+}).then(()=>module.bundle.root("bBAaA"));
+
+},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"5F53w":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "InjectedConnector", ()=>InjectedConnector);
+parcelHelpers.export(exports, "NoEthereumProviderError", ()=>NoEthereumProviderError);
+parcelHelpers.export(exports, "UserRejectedRequestError", ()=>UserRejectedRequestError);
+var _abstractConnector = require("@web3-react/abstract-connector");
+var _tinyWarning = require("tiny-warning");
+var _tinyWarningDefault = parcelHelpers.interopDefault(_tinyWarning);
+function _extends() {
+    _extends = Object.assign || function(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return _extends.apply(this, arguments);
+}
+function _inheritsLoose(subClass, superClass) {
+    subClass.prototype = Object.create(superClass.prototype);
+    subClass.prototype.constructor = subClass;
+    subClass.__proto__ = superClass;
+}
+function _getPrototypeOf(o) {
+    _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+        return o.__proto__ || Object.getPrototypeOf(o);
+    };
+    return _getPrototypeOf(o);
+}
+function _setPrototypeOf(o, p) {
+    _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+        o.__proto__ = p;
+        return o;
+    };
+    return _setPrototypeOf(o, p);
+}
+function isNativeReflectConstruct() {
+    if (typeof Reflect === "undefined" || !Reflect.construct) return false;
+    if (Reflect.construct.sham) return false;
+    if (typeof Proxy === "function") return true;
+    try {
+        Date.prototype.toString.call(Reflect.construct(Date, [], function() {}));
+        return true;
+    } catch (e) {
+        return false;
+    }
+}
+function _construct(Parent, args, Class) {
+    if (isNativeReflectConstruct()) _construct = Reflect.construct;
+    else _construct = function _construct(Parent, args, Class) {
+        var a = [
+            null
+        ];
+        a.push.apply(a, args);
+        var Constructor = Function.bind.apply(Parent, a);
+        var instance = new Constructor();
+        if (Class) _setPrototypeOf(instance, Class.prototype);
+        return instance;
+    };
+    return _construct.apply(null, arguments);
+}
+function _isNativeFunction(fn) {
+    return Function.toString.call(fn).indexOf("[native code]") !== -1;
+}
+function _wrapNativeSuper(Class) {
+    var _cache = typeof Map === "function" ? new Map() : undefined;
+    _wrapNativeSuper = function _wrapNativeSuper(Class) {
+        if (Class === null || !_isNativeFunction(Class)) return Class;
+        if (typeof Class !== "function") throw new TypeError("Super expression must either be null or a function");
+        if (typeof _cache !== "undefined") {
+            if (_cache.has(Class)) return _cache.get(Class);
+            _cache.set(Class, Wrapper);
+        }
+        function Wrapper() {
+            return _construct(Class, arguments, _getPrototypeOf(this).constructor);
+        }
+        Wrapper.prototype = Object.create(Class.prototype, {
+            constructor: {
+                value: Wrapper,
+                enumerable: false,
+                writable: true,
+                configurable: true
+            }
+        });
+        return _setPrototypeOf(Wrapper, Class);
+    };
+    return _wrapNativeSuper(Class);
+}
+function _assertThisInitialized(self) {
+    if (self === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+    return self;
+}
+// A type of promise-like that resolves synchronously and supports only one observer
+var _iteratorSymbol = /*#__PURE__*/ typeof Symbol !== "undefined" ? Symbol.iterator || (Symbol.iterator = /*#__PURE__*/ Symbol("Symbol.iterator")) : "@@iterator"; // Asynchronously iterate through an object's values
+var _asyncIteratorSymbol = /*#__PURE__*/ typeof Symbol !== "undefined" ? Symbol.asyncIterator || (Symbol.asyncIterator = /*#__PURE__*/ Symbol("Symbol.asyncIterator")) : "@@asyncIterator"; // Asynchronously iterate on a value using it's async iterator if present, or its synchronous iterator if missing
+function _catch(body, recover) {
+    try {
+        var result = body();
+    } catch (e) {
+        return recover(e);
+    }
+    if (result && result.then) return result.then(void 0, recover);
+    return result;
+} // Asynchronously await a promise and pass the result to a finally continuation
+function parseSendReturn(sendReturn) {
+    return sendReturn.hasOwnProperty("result") ? sendReturn.result : sendReturn;
+}
+var NoEthereumProviderError = /*#__PURE__*/ function(_Error) {
+    _inheritsLoose(NoEthereumProviderError, _Error);
+    function NoEthereumProviderError() {
+        var _this;
+        _this = _Error.call(this) || this;
+        _this.name = _this.constructor.name;
+        _this.message = "No Ethereum provider was found on window.ethereum.";
+        return _this;
+    }
+    return NoEthereumProviderError;
+}(/*#__PURE__*/ _wrapNativeSuper(Error));
+var UserRejectedRequestError = /*#__PURE__*/ function(_Error2) {
+    _inheritsLoose(UserRejectedRequestError, _Error2);
+    function UserRejectedRequestError() {
+        var _this2;
+        _this2 = _Error2.call(this) || this;
+        _this2.name = _this2.constructor.name;
+        _this2.message = "The user rejected the request.";
+        return _this2;
+    }
+    return UserRejectedRequestError;
+}(/*#__PURE__*/ _wrapNativeSuper(Error));
+var InjectedConnector = /*#__PURE__*/ function(_AbstractConnector) {
+    _inheritsLoose(InjectedConnector, _AbstractConnector);
+    function InjectedConnector(kwargs) {
+        var _this3;
+        _this3 = _AbstractConnector.call(this, kwargs) || this;
+        _this3.handleNetworkChanged = _this3.handleNetworkChanged.bind(_assertThisInitialized(_this3));
+        _this3.handleChainChanged = _this3.handleChainChanged.bind(_assertThisInitialized(_this3));
+        _this3.handleAccountsChanged = _this3.handleAccountsChanged.bind(_assertThisInitialized(_this3));
+        _this3.handleClose = _this3.handleClose.bind(_assertThisInitialized(_this3));
+        return _this3;
+    }
+    var _proto = InjectedConnector.prototype;
+    _proto.handleChainChanged = function handleChainChanged(chainId) {
+        console.log("Handling 'chainChanged' event with payload", chainId);
+        this.emitUpdate({
+            chainId: chainId,
+            provider: window.ethereum
+        });
+    };
+    _proto.handleAccountsChanged = function handleAccountsChanged(accounts) {
+        console.log("Handling 'accountsChanged' event with payload", accounts);
+        if (accounts.length === 0) this.emitDeactivate();
+        else this.emitUpdate({
+            account: accounts[0]
+        });
+    };
+    _proto.handleClose = function handleClose(code, reason) {
+        console.log("Handling 'close' event with payload", code, reason);
+        this.emitDeactivate();
+    };
+    _proto.handleNetworkChanged = function handleNetworkChanged(networkId) {
+        console.log("Handling 'networkChanged' event with payload", networkId);
+        this.emitUpdate({
+            chainId: networkId,
+            provider: window.ethereum
+        });
+    };
+    _proto.activate = function activate() {
+        try {
+            var _temp5 = function _temp5(_result) {
+                if (_exit2) return _result;
+                function _temp2() {
+                    return _extends({
+                        provider: window.ethereum
+                    }, account ? {
+                        account: account
+                    } : {});
+                }
+                var _temp = function() {
+                    if (!account) // if enable is successful but doesn't return accounts, fall back to getAccount (not happy i have to do this...)
+                    return Promise.resolve(window.ethereum.enable().then(function(sendReturn) {
+                        return sendReturn && parseSendReturn(sendReturn)[0];
+                    })).then(function(_window$ethereum$enab) {
+                        account = _window$ethereum$enab;
+                    });
+                }();
+                // if unsuccessful, try enable
+                return _temp && _temp.then ? _temp.then(_temp2) : _temp2(_temp);
+            };
+            var _exit2 = false;
+            var _this5 = this;
+            if (!window.ethereum) throw new NoEthereumProviderError();
+            if (window.ethereum.on) {
+                window.ethereum.on("chainChanged", _this5.handleChainChanged);
+                window.ethereum.on("accountsChanged", _this5.handleAccountsChanged);
+                window.ethereum.on("close", _this5.handleClose);
+                window.ethereum.on("networkChanged", _this5.handleNetworkChanged);
+            }
+            if (window.ethereum.isMetaMask) window.ethereum.autoRefreshOnNetworkChange = false;
+             // try to activate + get account via eth_requestAccounts
+            var account;
+            var _temp6 = _catch(function() {
+                return Promise.resolve(window.ethereum.send("eth_requestAccounts").then(function(sendReturn) {
+                    return parseSendReturn(sendReturn)[0];
+                })).then(function(_window$ethereum$send) {
+                    account = _window$ethereum$send;
+                });
+            }, function(error) {
+                if (error.code === 4001) throw new UserRejectedRequestError();
+                (0, _tinyWarningDefault.default)(false, "eth_requestAccounts was unsuccessful, falling back to enable");
+            });
+            return Promise.resolve(_temp6 && _temp6.then ? _temp6.then(_temp5) : _temp5(_temp6));
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.getProvider = function getProvider() {
+        try {
+            return Promise.resolve(window.ethereum);
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.getChainId = function getChainId() {
+        try {
+            var _temp12 = function _temp12() {
+                function _temp9() {
+                    if (!chainId) try {
+                        chainId = parseSendReturn(window.ethereum.send({
+                            method: "net_version"
+                        }));
+                    } catch (_unused) {
+                        (0, _tinyWarningDefault.default)(false, "net_version v2 was unsuccessful, falling back to manual matches and static properties");
+                    }
+                    if (!chainId) {
+                        if (window.ethereum.isDapper) chainId = parseSendReturn(window.ethereum.cachedResults.net_version);
+                        else chainId = window.ethereum.chainId || window.ethereum.netVersion || window.ethereum.networkVersion || window.ethereum._chainId;
+                    }
+                    return chainId;
+                }
+                var _temp8 = function() {
+                    if (!chainId) {
+                        var _temp14 = _catch(function() {
+                            return Promise.resolve(window.ethereum.send("net_version").then(parseSendReturn)).then(function(_window$ethereum$send3) {
+                                chainId = _window$ethereum$send3;
+                            });
+                        }, function() {
+                            (0, _tinyWarningDefault.default)(false, "net_version was unsuccessful, falling back to net version v2");
+                        });
+                        if (_temp14 && _temp14.then) return _temp14.then(function() {});
+                    }
+                }();
+                return _temp8 && _temp8.then ? _temp8.then(_temp9) : _temp9(_temp8);
+            };
+            if (!window.ethereum) throw new NoEthereumProviderError();
+            var chainId;
+            var _temp13 = _catch(function() {
+                return Promise.resolve(window.ethereum.send("eth_chainId").then(parseSendReturn)).then(function(_window$ethereum$send2) {
+                    chainId = _window$ethereum$send2;
+                });
+            }, function() {
+                (0, _tinyWarningDefault.default)(false, "eth_chainId was unsuccessful, falling back to net_version");
+            });
+            return Promise.resolve(_temp13 && _temp13.then ? _temp13.then(_temp12) : _temp12(_temp13));
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.getAccount = function getAccount() {
+        try {
+            var _temp20 = function _temp20() {
+                function _temp17() {
+                    if (!account) account = parseSendReturn(window.ethereum.send({
+                        method: "eth_accounts"
+                    }))[0];
+                    return account;
+                }
+                var _temp16 = function() {
+                    if (!account) {
+                        var _temp22 = _catch(function() {
+                            return Promise.resolve(window.ethereum.enable().then(function(sendReturn) {
+                                return parseSendReturn(sendReturn)[0];
+                            })).then(function(_window$ethereum$enab2) {
+                                account = _window$ethereum$enab2;
+                            });
+                        }, function() {
+                            (0, _tinyWarningDefault.default)(false, "enable was unsuccessful, falling back to eth_accounts v2");
+                        });
+                        if (_temp22 && _temp22.then) return _temp22.then(function() {});
+                    }
+                }();
+                return _temp16 && _temp16.then ? _temp16.then(_temp17) : _temp17(_temp16);
+            };
+            if (!window.ethereum) throw new NoEthereumProviderError();
+            var account;
+            var _temp21 = _catch(function() {
+                return Promise.resolve(window.ethereum.send("eth_accounts").then(function(sendReturn) {
+                    return parseSendReturn(sendReturn)[0];
+                })).then(function(_window$ethereum$send4) {
+                    account = _window$ethereum$send4;
+                });
+            }, function() {
+                (0, _tinyWarningDefault.default)(false, "eth_accounts was unsuccessful, falling back to enable");
+            });
+            return Promise.resolve(_temp21 && _temp21.then ? _temp21.then(_temp20) : _temp20(_temp21));
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.deactivate = function deactivate() {
+        if (window.ethereum && window.ethereum.removeListener) {
+            window.ethereum.removeListener("chainChanged", this.handleChainChanged);
+            window.ethereum.removeListener("accountsChanged", this.handleAccountsChanged);
+            window.ethereum.removeListener("close", this.handleClose);
+            window.ethereum.removeListener("networkChanged", this.handleNetworkChanged);
+        }
+    };
+    _proto.isAuthorized = function isAuthorized() {
+        try {
+            if (!window.ethereum) return Promise.resolve(false);
+            return Promise.resolve(_catch(function() {
+                return Promise.resolve(window.ethereum.send("eth_accounts").then(function(sendReturn) {
+                    if (parseSendReturn(sendReturn).length > 0) return true;
+                    else return false;
+                }));
+            }, function() {
+                return false;
+            }));
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    return InjectedConnector;
+}((0, _abstractConnector.AbstractConnector));
+
+},{"@web3-react/abstract-connector":"gkcsn","tiny-warning":"82vrW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lErsX":[function(require,module,exports) {
+var process = require("process");
+const fs = require("fs");
+const path = require("path");
+const os = require("os");
+const LINE = /(?:^|^)\s*(?:export\s+)?([\w.-]+)(?:\s*=\s*?|:\s+?)(\s*'(?:\\'|[^'])*'|\s*"(?:\\"|[^"])*"|\s*`(?:\\`|[^`])*`|[^#\r\n]+)?\s*(?:#.*)?(?:$|$)/mg;
+// Parser src into an Object
+function parse(src) {
+    const obj = {};
+    // Convert buffer to string
+    let lines = src.toString();
+    // Convert line breaks to same format
+    lines = lines.replace(/\r\n?/mg, "\n");
+    let match;
+    while((match = LINE.exec(lines)) != null){
+        const key = match[1];
+        // Default undefined or null to empty string
+        let value = match[2] || "";
+        // Remove whitespace
+        value = value.trim();
+        // Check if double quoted
+        const maybeQuote = value[0];
+        // Remove surrounding quotes
+        value = value.replace(/^(['"`])([\s\S]*)\1$/mg, "$2");
+        // Expand newlines if double quoted
+        if (maybeQuote === '"') {
+            value = value.replace(/\\n/g, "\n");
+            value = value.replace(/\\r/g, "\r");
+        }
+        // Add to object
+        obj[key] = value;
+    }
+    return obj;
+}
+function _log(message) {
+    console.log(`[dotenv][DEBUG] ${message}`);
+}
+function _resolveHome(envPath) {
+    return envPath[0] === "~" ? path.join(os.homedir(), envPath.slice(1)) : envPath;
+}
+// Populates process.env from .env file
+function config(options) {
+    let dotenvPath = path.resolve(process.cwd(), ".env");
+    let encoding = "utf8";
+    const debug = Boolean(options && options.debug);
+    const override = Boolean(options && options.override);
+    if (options) {
+        if (options.path != null) dotenvPath = _resolveHome(options.path);
+        if (options.encoding != null) encoding = options.encoding;
+    }
+    try {
+        // Specifying an encoding returns a string instead of a buffer
+        const parsed = DotenvModule.parse(fs.readFileSync(dotenvPath, {
+            encoding
+        }));
+        Object.keys(parsed).forEach(function(key) {
+            if (!Object.prototype.hasOwnProperty.call(process.env, key)) parsed[key];
+            else {
+                if (override === true) parsed[key];
+                if (debug) {
+                    if (override === true) _log(`"${key}" is already defined in \`process.env\` and WAS overwritten`);
+                    else _log(`"${key}" is already defined in \`process.env\` and was NOT overwritten`);
+                }
+            }
+        });
+        return {
+            parsed
+        };
+    } catch (e) {
+        if (debug) _log(`Failed to load ${dotenvPath} ${e.message}`);
+        return {
+            error: e
+        };
+    }
+}
+const DotenvModule = {
+    config,
+    parse
+};
+module.exports.config = DotenvModule.config;
+module.exports.parse = DotenvModule.parse;
+module.exports = DotenvModule;
+
+},{"process":"d5jf4","fs":"jhUEF","path":"loE3o","os":"6yyXu"}],"jhUEF":[function(require,module,exports) {
+"use strict";
+
+},{}],"loE3o":[function(require,module,exports) {
+// 'path' module extracted from Node.js v8.11.1 (only the posix part)
+// transplited with Babel
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+"use strict";
+var process = require("process");
+function assertPath(path) {
+    if (typeof path !== "string") throw new TypeError("Path must be a string. Received " + JSON.stringify(path));
+}
+// Resolves . and .. elements in a path with directory names
+function normalizeStringPosix(path, allowAboveRoot) {
+    var res = "";
+    var lastSegmentLength = 0;
+    var lastSlash = -1;
+    var dots = 0;
+    var code;
+    for(var i = 0; i <= path.length; ++i){
+        if (i < path.length) code = path.charCodeAt(i);
+        else if (code === 47 /*/*/ ) break;
+        else code = 47 /*/*/ ;
+        if (code === 47 /*/*/ ) {
+            if (lastSlash === i - 1 || dots === 1) ;
+            else if (lastSlash !== i - 1 && dots === 2) {
+                if (res.length < 2 || lastSegmentLength !== 2 || res.charCodeAt(res.length - 1) !== 46 /*.*/  || res.charCodeAt(res.length - 2) !== 46 /*.*/ ) {
+                    if (res.length > 2) {
+                        var lastSlashIndex = res.lastIndexOf("/");
+                        if (lastSlashIndex !== res.length - 1) {
+                            if (lastSlashIndex === -1) {
+                                res = "";
+                                lastSegmentLength = 0;
+                            } else {
+                                res = res.slice(0, lastSlashIndex);
+                                lastSegmentLength = res.length - 1 - res.lastIndexOf("/");
+                            }
+                            lastSlash = i;
+                            dots = 0;
+                            continue;
+                        }
+                    } else if (res.length === 2 || res.length === 1) {
+                        res = "";
+                        lastSegmentLength = 0;
+                        lastSlash = i;
+                        dots = 0;
+                        continue;
+                    }
+                }
+                if (allowAboveRoot) {
+                    if (res.length > 0) res += "/..";
+                    else res = "..";
+                    lastSegmentLength = 2;
+                }
+            } else {
+                if (res.length > 0) res += "/" + path.slice(lastSlash + 1, i);
+                else res = path.slice(lastSlash + 1, i);
+                lastSegmentLength = i - lastSlash - 1;
+            }
+            lastSlash = i;
+            dots = 0;
+        } else if (code === 46 /*.*/  && dots !== -1) ++dots;
+        else dots = -1;
+    }
+    return res;
+}
+function _format(sep, pathObject) {
+    var dir = pathObject.dir || pathObject.root;
+    var base = pathObject.base || (pathObject.name || "") + (pathObject.ext || "");
+    if (!dir) return base;
+    if (dir === pathObject.root) return dir + base;
+    return dir + sep + base;
+}
+var posix = {
+    // path.resolve([from ...], to)
+    resolve: function resolve() {
+        var resolvedPath = "";
+        var resolvedAbsolute = false;
+        var cwd;
+        for(var i = arguments.length - 1; i >= -1 && !resolvedAbsolute; i--){
+            var path;
+            if (i >= 0) path = arguments[i];
+            else {
+                if (cwd === undefined) cwd = process.cwd();
+                path = cwd;
+            }
+            assertPath(path);
+            // Skip empty entries
+            if (path.length === 0) continue;
+            resolvedPath = path + "/" + resolvedPath;
+            resolvedAbsolute = path.charCodeAt(0) === 47 /*/*/ ;
+        }
+        // At this point the path should be resolved to a full absolute path, but
+        // handle relative paths to be safe (might happen when process.cwd() fails)
+        // Normalize the path
+        resolvedPath = normalizeStringPosix(resolvedPath, !resolvedAbsolute);
+        if (resolvedAbsolute) {
+            if (resolvedPath.length > 0) return "/" + resolvedPath;
+            else return "/";
+        } else if (resolvedPath.length > 0) return resolvedPath;
+        else return ".";
+    },
+    normalize: function normalize(path) {
+        assertPath(path);
+        if (path.length === 0) return ".";
+        var isAbsolute = path.charCodeAt(0) === 47 /*/*/ ;
+        var trailingSeparator = path.charCodeAt(path.length - 1) === 47 /*/*/ ;
+        // Normalize the path
+        path = normalizeStringPosix(path, !isAbsolute);
+        if (path.length === 0 && !isAbsolute) path = ".";
+        if (path.length > 0 && trailingSeparator) path += "/";
+        if (isAbsolute) return "/" + path;
+        return path;
+    },
+    isAbsolute: function isAbsolute(path) {
+        assertPath(path);
+        return path.length > 0 && path.charCodeAt(0) === 47 /*/*/ ;
+    },
+    join: function join() {
+        if (arguments.length === 0) return ".";
+        var joined;
+        for(var i = 0; i < arguments.length; ++i){
+            var arg = arguments[i];
+            assertPath(arg);
+            if (arg.length > 0) {
+                if (joined === undefined) joined = arg;
+                else joined += "/" + arg;
+            }
+        }
+        if (joined === undefined) return ".";
+        return posix.normalize(joined);
+    },
+    relative: function relative(from, to) {
+        assertPath(from);
+        assertPath(to);
+        if (from === to) return "";
+        from = posix.resolve(from);
+        to = posix.resolve(to);
+        if (from === to) return "";
+        // Trim any leading backslashes
+        var fromStart = 1;
+        for(; fromStart < from.length; ++fromStart){
+            if (from.charCodeAt(fromStart) !== 47 /*/*/ ) break;
+        }
+        var fromEnd = from.length;
+        var fromLen = fromEnd - fromStart;
+        // Trim any leading backslashes
+        var toStart = 1;
+        for(; toStart < to.length; ++toStart){
+            if (to.charCodeAt(toStart) !== 47 /*/*/ ) break;
+        }
+        var toEnd = to.length;
+        var toLen = toEnd - toStart;
+        // Compare paths to find the longest common path from root
+        var length = fromLen < toLen ? fromLen : toLen;
+        var lastCommonSep = -1;
+        var i = 0;
+        for(; i <= length; ++i){
+            if (i === length) {
+                if (toLen > length) {
+                    if (to.charCodeAt(toStart + i) === 47 /*/*/ ) // We get here if `from` is the exact base path for `to`.
+                    // For example: from='/foo/bar'; to='/foo/bar/baz'
+                    return to.slice(toStart + i + 1);
+                    else if (i === 0) // We get here if `from` is the root
+                    // For example: from='/'; to='/foo'
+                    return to.slice(toStart + i);
+                } else if (fromLen > length) {
+                    if (from.charCodeAt(fromStart + i) === 47 /*/*/ ) // We get here if `to` is the exact base path for `from`.
+                    // For example: from='/foo/bar/baz'; to='/foo/bar'
+                    lastCommonSep = i;
+                    else if (i === 0) // We get here if `to` is the root.
+                    // For example: from='/foo'; to='/'
+                    lastCommonSep = 0;
+                }
+                break;
+            }
+            var fromCode = from.charCodeAt(fromStart + i);
+            var toCode = to.charCodeAt(toStart + i);
+            if (fromCode !== toCode) break;
+            else if (fromCode === 47 /*/*/ ) lastCommonSep = i;
+        }
+        var out = "";
+        // Generate the relative path based on the path difference between `to`
+        // and `from`
+        for(i = fromStart + lastCommonSep + 1; i <= fromEnd; ++i)if (i === fromEnd || from.charCodeAt(i) === 47 /*/*/ ) {
+            if (out.length === 0) out += "..";
+            else out += "/..";
+        }
+        // Lastly, append the rest of the destination (`to`) path that comes after
+        // the common path parts
+        if (out.length > 0) return out + to.slice(toStart + lastCommonSep);
+        else {
+            toStart += lastCommonSep;
+            if (to.charCodeAt(toStart) === 47 /*/*/ ) ++toStart;
+            return to.slice(toStart);
+        }
+    },
+    _makeLong: function _makeLong(path) {
+        return path;
+    },
+    dirname: function dirname(path) {
+        assertPath(path);
+        if (path.length === 0) return ".";
+        var code = path.charCodeAt(0);
+        var hasRoot = code === 47 /*/*/ ;
+        var end = -1;
+        var matchedSlash = true;
+        for(var i = path.length - 1; i >= 1; --i){
+            code = path.charCodeAt(i);
+            if (code === 47 /*/*/ ) {
+                if (!matchedSlash) {
+                    end = i;
+                    break;
+                }
+            } else // We saw the first non-path separator
+            matchedSlash = false;
+        }
+        if (end === -1) return hasRoot ? "/" : ".";
+        if (hasRoot && end === 1) return "//";
+        return path.slice(0, end);
+    },
+    basename: function basename(path, ext) {
+        if (ext !== undefined && typeof ext !== "string") throw new TypeError('"ext" argument must be a string');
+        assertPath(path);
+        var start = 0;
+        var end = -1;
+        var matchedSlash = true;
+        var i;
+        if (ext !== undefined && ext.length > 0 && ext.length <= path.length) {
+            if (ext.length === path.length && ext === path) return "";
+            var extIdx = ext.length - 1;
+            var firstNonSlashEnd = -1;
+            for(i = path.length - 1; i >= 0; --i){
+                var code = path.charCodeAt(i);
+                if (code === 47 /*/*/ ) // If we reached a path separator that was not part of a set of path
+                // separators at the end of the string, stop now
+                {
+                    if (!matchedSlash) {
+                        start = i + 1;
+                        break;
+                    }
+                } else {
+                    if (firstNonSlashEnd === -1) {
+                        // We saw the first non-path separator, remember this index in case
+                        // we need it if the extension ends up not matching
+                        matchedSlash = false;
+                        firstNonSlashEnd = i + 1;
+                    }
+                    if (extIdx >= 0) {
+                        // Try to match the explicit extension
+                        if (code === ext.charCodeAt(extIdx)) {
+                            if (--extIdx === -1) // We matched the extension, so mark this as the end of our path
+                            // component
+                            end = i;
+                        } else {
+                            // Extension does not match, so our result is the entire path
+                            // component
+                            extIdx = -1;
+                            end = firstNonSlashEnd;
+                        }
+                    }
+                }
+            }
+            if (start === end) end = firstNonSlashEnd;
+            else if (end === -1) end = path.length;
+            return path.slice(start, end);
+        } else {
+            for(i = path.length - 1; i >= 0; --i){
+                if (path.charCodeAt(i) === 47 /*/*/ ) // If we reached a path separator that was not part of a set of path
+                // separators at the end of the string, stop now
+                {
+                    if (!matchedSlash) {
+                        start = i + 1;
+                        break;
+                    }
+                } else if (end === -1) {
+                    // We saw the first non-path separator, mark this as the end of our
+                    // path component
+                    matchedSlash = false;
+                    end = i + 1;
+                }
+            }
+            if (end === -1) return "";
+            return path.slice(start, end);
+        }
+    },
+    extname: function extname(path) {
+        assertPath(path);
+        var startDot = -1;
+        var startPart = 0;
+        var end = -1;
+        var matchedSlash = true;
+        // Track the state of characters (if any) we see before our first dot and
+        // after any path separator we find
+        var preDotState = 0;
+        for(var i = path.length - 1; i >= 0; --i){
+            var code = path.charCodeAt(i);
+            if (code === 47 /*/*/ ) {
+                // If we reached a path separator that was not part of a set of path
+                // separators at the end of the string, stop now
+                if (!matchedSlash) {
+                    startPart = i + 1;
+                    break;
+                }
+                continue;
+            }
+            if (end === -1) {
+                // We saw the first non-path separator, mark this as the end of our
+                // extension
+                matchedSlash = false;
+                end = i + 1;
+            }
+            if (code === 46 /*.*/ ) {
+                // If this is our first dot, mark it as the start of our extension
+                if (startDot === -1) startDot = i;
+                else if (preDotState !== 1) preDotState = 1;
+            } else if (startDot !== -1) // We saw a non-dot and non-path separator before our dot, so we should
+            // have a good chance at having a non-empty extension
+            preDotState = -1;
+        }
+        if (startDot === -1 || end === -1 || // We saw a non-dot character immediately before the dot
+        preDotState === 0 || // The (right-most) trimmed path component is exactly '..'
+        preDotState === 1 && startDot === end - 1 && startDot === startPart + 1) return "";
+        return path.slice(startDot, end);
+    },
+    format: function format(pathObject) {
+        if (pathObject === null || typeof pathObject !== "object") throw new TypeError('The "pathObject" argument must be of type Object. Received type ' + typeof pathObject);
+        return _format("/", pathObject);
+    },
+    parse: function parse(path) {
+        assertPath(path);
+        var ret = {
+            root: "",
+            dir: "",
+            base: "",
+            ext: "",
+            name: ""
+        };
+        if (path.length === 0) return ret;
+        var code = path.charCodeAt(0);
+        var isAbsolute = code === 47 /*/*/ ;
+        var start;
+        if (isAbsolute) {
+            ret.root = "/";
+            start = 1;
+        } else start = 0;
+        var startDot = -1;
+        var startPart = 0;
+        var end = -1;
+        var matchedSlash = true;
+        var i = path.length - 1;
+        // Track the state of characters (if any) we see before our first dot and
+        // after any path separator we find
+        var preDotState = 0;
+        // Get non-dir info
+        for(; i >= start; --i){
+            code = path.charCodeAt(i);
+            if (code === 47 /*/*/ ) {
+                // If we reached a path separator that was not part of a set of path
+                // separators at the end of the string, stop now
+                if (!matchedSlash) {
+                    startPart = i + 1;
+                    break;
+                }
+                continue;
+            }
+            if (end === -1) {
+                // We saw the first non-path separator, mark this as the end of our
+                // extension
+                matchedSlash = false;
+                end = i + 1;
+            }
+            if (code === 46 /*.*/ ) {
+                // If this is our first dot, mark it as the start of our extension
+                if (startDot === -1) startDot = i;
+                else if (preDotState !== 1) preDotState = 1;
+            } else if (startDot !== -1) // We saw a non-dot and non-path separator before our dot, so we should
+            // have a good chance at having a non-empty extension
+            preDotState = -1;
+        }
+        if (startDot === -1 || end === -1 || // We saw a non-dot character immediately before the dot
+        preDotState === 0 || // The (right-most) trimmed path component is exactly '..'
+        preDotState === 1 && startDot === end - 1 && startDot === startPart + 1) {
+            if (end !== -1) {
+                if (startPart === 0 && isAbsolute) ret.base = ret.name = path.slice(1, end);
+                else ret.base = ret.name = path.slice(startPart, end);
+            }
+        } else {
+            if (startPart === 0 && isAbsolute) {
+                ret.name = path.slice(1, startDot);
+                ret.base = path.slice(1, end);
+            } else {
+                ret.name = path.slice(startPart, startDot);
+                ret.base = path.slice(startPart, end);
+            }
+            ret.ext = path.slice(startDot, end);
+        }
+        if (startPart > 0) ret.dir = path.slice(0, startPart - 1);
+        else if (isAbsolute) ret.dir = "/";
+        return ret;
+    },
+    sep: "/",
+    delimiter: ":",
+    win32: null,
+    posix: null
+};
+posix.posix = posix;
+module.exports = posix;
+
+},{"process":"d5jf4"}],"6yyXu":[function(require,module,exports) {
+exports.endianness = function() {
+    return "LE";
+};
+exports.hostname = function() {
+    if (typeof location !== "undefined") return location.hostname;
+    else return "";
+};
+exports.loadavg = function() {
+    return [];
+};
+exports.uptime = function() {
+    return 0;
+};
+exports.freemem = function() {
+    return Number.MAX_VALUE;
+};
+exports.totalmem = function() {
+    return Number.MAX_VALUE;
+};
+exports.cpus = function() {
+    return [];
+};
+exports.type = function() {
+    return "Browser";
+};
+exports.release = function() {
+    if (typeof navigator !== "undefined") return navigator.appVersion;
+    return "";
+};
+exports.networkInterfaces = exports.getNetworkInterfaces = function() {
+    return {};
+};
+exports.arch = function() {
+    return "javascript";
+};
+exports.platform = function() {
+    return "browser";
+};
+exports.tmpdir = exports.tmpDir = function() {
+    return "/tmp";
+};
+exports.EOL = "\n";
+exports.homedir = function() {
+    return "/";
+};
+
+},{}],"bErvj":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 ////////////////////////
