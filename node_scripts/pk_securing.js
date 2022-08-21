@@ -5,6 +5,8 @@ CONSTANTS
 */
 const ROBUSTNESS_IPFS_STRING_SET_SIZE = 3
 const MIN_NOISE_LENGTH = 32
+const MIN_NUMBER_OF_PK_SHARDS = 5
+const MAX_NUMBER_OF_PK_SHARDS = 12
 
 /*
 GETTING NOISE FROM THE FIRST NULLIFIER
@@ -82,9 +84,9 @@ function crypt(K, text) {
 };
 
 // Decryption will actually occur at the zkApp after it retrieves the S_i from firebase.
-function decrypt(salt, encoded) {
+function decrypt(K, encoded) {
   const textToChars = (text) => text.split("").map((c) => c.charCodeAt(0));
-  const applyKToChar = (code) => textToChars(K).reduce((a, b) => a ^ b, code);
+  const applySaltToChar = (code) => textToChars(K).reduce((a, b) => a ^ b, code);
   return encoded
     .match(/.{1,2}/g)
     .map((hex) => parseInt(hex, 16))
@@ -92,6 +94,9 @@ function decrypt(salt, encoded) {
     .map((charCode) => String.fromCharCode(charCode))
     .join("");
 };
+
+console.log("PRUEBA1", decrypt("123", crypt("123","holawa")))
+console.log("PRUEBA2", crypt("123", decrypt("123", "holawa")))
 
 
 function fill_noise_and_encrypt(pk /*string*/, S /*string[]*/) {
@@ -138,16 +143,61 @@ console.log(
 SCATTER/SPLIT/SPLASH THE PK INTO THE UNRECOGNIZABLE AND DISTRIBUTED METAVERSE
 */
 
-function split_protected_pk(protected_pk /*string*/) {
-    const L = protected_pk.length
-    return L 
+// Protected_pks es un arreglo de múltiples private keys protegidas.
+// Se rompe en caso que algún L resulte ser un número primo. 
+function split_protected_pk(protected_pks /*string[]*/) {
+
+    // let L = [] // Int[]
+    // let chosen_divisors = [] // Int[]
+    let splitted_pks_sets = [] // string[][]
+    protected_pks.forEach(pk => {
+        // L.push(pk.length)
+        divisors_of_L = get_divisors(pk.length)
+        chosen_divisor = divisors_of_L[Math.floor(Math.random() * divisors_of_L.length)]
+        splitted_pks_sets.push(split_string(pk, chosen_divisor))
+    });
+
+    return splitted_pks_sets
 }
 
-const protected_temp = protect_pk(
+function get_divisors(n /*number*/) {
+    let D = [] // number[]
+    for (let i = 0; i <= Math.min(Math.sqrt(n), MAX_NUMBER_OF_PK_SHARDS); i++) {
+        if (n % i == 0 && i >= MIN_NUMBER_OF_PK_SHARDS) {
+            D.push(i)
+        }
+    }
+    return D
+}
+
+function split_string(s /*string*/, n_pieces /*number*/) {
+    // Supuestos que se pueden usar:
+    // 1) El string s mide L, y L es divisible entre n_pieces.
+    let pieces = [] // string[]
+    const L = s.length
+    for (let i = 0; i < n_pieces; i += 1) {
+        pieces.push(s.slice(i,i+L/n_pieces))
+    }
+    return pieces
+}
+
+console.log(split_string("holawawawiwi", 2)) 
+console.log(split_string("holawawawiwi", 3))
+console.log(split_string("holawawawiwi", 4))
+
+const {H, K} = protect_pk(
                         "B62qphDTxPu59YSpb1XebPFixFMu1vN6mqKQ7bCBtejdAS3LctWFfn7", 
                         "kajhskdjhas"
                         )
-split_protected_pk(
-    protected_temp[Object.keys(protected_temp)[0]]
-)
- 
+console.log(split_protected_pk(H))
+
+//---------------------------------------------------------------------------------------------//
+
+/*
+FUNCIÓN A EXPONER AL FRONTEND
+*/
+
+function keyppi_protocol(pk /*string*/, nullifier /*string*/) {
+    const {H, K} = protect_pk(pk, nullifier)
+    // const pieces = 
+}
