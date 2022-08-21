@@ -2,18 +2,19 @@
   --black: #000000;
   --white: #ffffff;
  
-  --font-size-m: 70px;
-  --font-size-s: 60px;
-  --font-size-xs: 50px;
-  --font-size-xxs: 35px;
-  --font-size-xxxs: 30px;
+  --font-size-l: 40px;
+  --font-size-m: 35px;
+  --font-size-s: 30px;
+  --font-size-xl: 50px;
+  --font-size-xxl: 60px;
+  --font-size-xxxl: 70px;
  
   --font-family-space_mono: "Space Mono", Helvetica;
 }
 .spacemono-bold-black-35px {
   color: var(--black);
   font-family: var(--font-family-space_mono);
-  font-size: var(--font-size-xxs);
+  font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 700;
 }
@@ -21,7 +22,15 @@
 .spacemono-normal-black-30px {
   color: var(--black);
   font-family: var(--font-family-space_mono);
-  font-size: var(--font-size-xxxs);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spacemono-normal-white-40px {
+  color: var(--white);
+  font-family: var(--font-family-space_mono);
+  font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 400;
 }

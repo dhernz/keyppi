@@ -1,0 +1,135 @@
+.wallet-connect {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 1164px;
+  padding: 68px 95px;
+  width: 1512px;
+}
+
+.flex-row-3 {
+  align-items: center;
+  display: flex;
+  min-width: 1279px;
+  position: relative;
+}
+
+.logo-2-2 {
+  cursor: pointer;
+  height: 74px;
+  object-fit: cover;
+  width: 327px;
+}
+
+.overlap-group3 {
+  align-self: center;
+  height: 772px;
+  margin-left: 8.0px;
+  margin-top: 54px;
+  position: relative;
+  width: 480px;
+}
+
+.overlap-group1-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 772px;
+  padding: 34px 49.5px;
+  position: absolute;
+  top: 0;
+  width: 472px;
+}
+
+.overlap-group-3 {
+  align-items: flex-start;
+  align-self: center;
+  background-color: var(--white);
+  display: flex;
+  height: 59px;
+  margin-right: 7.04px;
+  margin-top: 122px;
+  min-width: 239px;
+  padding: 0 39.0px;
+}
+
+.connect-1 {
+  letter-spacing: 0;
+  margin-top: -0.95px;
+  min-height: 42px;
+  text-align: center;
+  width: 154px;
+}
+
+.wallet-1 {
+  letter-spacing: 0;
+  margin-left: 1.0px;
+  margin-top: 43px;
+  min-height: 31px;
+  width: 125px;
+}
+
+.rectangle-4-2 {
+  background-color: var(--white);
+  height: 45px;
+  margin-left: 0;
+  margin-top: 25px;
+  width: 367px;
+}
+
+.overlap-group1-item-1 {
+  letter-spacing: 0;
+  margin-left: 1.0px;
+  margin-top: 25px;
+  min-height: 31px;
+  width: 311px;
+}
+
+.rectangle-5 {
+  background-color: var(--white);
+  height: 45px;
+  margin-top: 25px;
+  width: 367px;
+}
+
+.overlap-group2-1 {
+  align-self: center;
+  height: 65px;
+  margin-right: 13.31px;
+  margin-top: 61px;
+  position: relative;
+  width: 227px;
+}
+
+.rectangle-2-4 {
+  background: linear-gradient(180deg, rgb(134, 41, 176) 0%, rgba(147, 0, 255, 0.65) 51.04%, rgb(255, 134, 134) 100%);
+  box-shadow: 13px 13px 0px #000000;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 227px;
+}
+
+.save-2 {
+  -webkit-text-stroke: 1px var(--white);
+  cursor: pointer;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 226px;
+}
+
+.image-11 {
+  height: 62px;
+  left: 68px;
+  position: absolute;
+  top: 35px;
+  width: 336px;
+}
+
