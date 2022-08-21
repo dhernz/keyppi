@@ -8,7 +8,7 @@ import { useWeb3React } from '@web3-react/core'
 
 function WalletConnect(props) {
   const { logo2, connect, wallet, email, privateKey, save, image11 } = props;
-  const actionId = process.env.WORLD_ID_ACTION_RETRIEVE_KEY
+  const actionId = process.env.WORLD_ID_ACTION_CREATED_WALLET
   const { activate } = useWeb3React();
   const handleConnect = () => {
     activate(connectors.walletConnect)

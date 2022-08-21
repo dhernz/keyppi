@@ -25,9 +25,10 @@ function ConnectWallets(props) {
           <div className="overlap-group2-2">
             <Link to="/wallet-connect">
               <div className="rectangle-6 border-4px-black"></div>
-            </Link>
+            
             <img className="walletconnect-name" src={walletconnectName} />
             <img className="wallet-connect-logo" src={walletConnectLogo} />
+            </Link>
           </div>
           <div className="coinbase-container border-4px-black">
             <img className="coinbase-logo" src={coinbaseLogo} />
@@ -39,9 +40,10 @@ function ConnectWallets(props) {
           <div className="overlap-group1-4">
             <Link to="/metamask">
               <div className="rectangle-6 border-4px-black"></div>
-            </Link>
+            
             <img className="metamask-name" src={metamaskName} />
             <img className="metamask-logo" src={metamaskLogo} />
+            </Link>
           </div>
         </div>
       </div>
