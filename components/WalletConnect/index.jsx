@@ -2,10 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./ConnectWallets2.css";
 import { useWeb3React } from '@web3-react/core'
-
+import { connectors } from "../../utils/connectors"
+  
 function ConnectWallets2(props) {
-  const { logo2, place, app, image11, connect, wallet, privateKey, save, WalletConnect } = props;
-  const { activate, deactivate } = useWeb3React();
+  const { logo2, place, app, image11, connect, wallet, privateKey, save } = props;
+  const { activate } = useWeb3React();
+  const handleConnect = () => {
+    activate(connectors.walletConnect)
+  }
+
 
   return (
     <div className="container-center-horizontal">
@@ -23,12 +28,12 @@ function ConnectWallets2(props) {
           <div className="overlap-group1-1 spacemono-normal-black-30px border-3-5px-black">
             <img className="image-11" src={image11} />
             <div className="overlap-group border-3-5px-black">
-              {/* <a href=""> */}
-              <button onClick={() => { activate({WalletConnect}) }}>
-
+              <button onClick={handleConnect}>
               <div className="connect spacemono-bold-black-35px">{connect}</div>
               </button>
-              {/* </a> */}
+        
+              
+          
             </div>
             <div className="wallet">{wallet}</div>
             <div className="rectangle-4 border-3-5px-black"><textarea/></div>

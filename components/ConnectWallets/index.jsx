@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./ConnectWallets.css";
 
+
+
 function ConnectWallets(props) {
   const { logo2, image10, image8, image7, place, app, image6 } = props;
 
