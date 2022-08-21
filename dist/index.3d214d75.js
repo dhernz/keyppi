@@ -37551,8 +37551,8 @@ function rc(e) {
 }
 
 },{"react":"21dqq","js-sha3":"7x0z6","@ethersproject/bytes":"htrqZ","@stitches/react":"5m0Or","kea":"cGGhG","posthog-js-lite":"kaCAi","react-dom":"j6uA9","react-dom/server":"5iqCq","qr-code-styling-new":"et72f","process":"d5jf4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7x0z6":[function(require,module,exports) {
-var process = require("process");
 var global = arguments[3];
+var process = require("process");
 /**
  * [js-sha3]{@link https://github.com/emn178/js-sha3}
  *
