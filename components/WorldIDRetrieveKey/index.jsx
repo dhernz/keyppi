@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import {WorldIDWidget} from "@worldcoin/id";
 import "./WorldID.css";
 
-function WorldID(props) {
+function WorldIDRetrieveKey(props) {
   const { logo2, place, app, image11, connect, wallet, privateKey, save } =
     props;
+
+  const actionId = process.env.WORLD_ID_ACTION_RETRIEVE_KEY
 
   return (
     <div className="container-center-horizontal">
@@ -21,8 +23,8 @@ function WorldID(props) {
         </div>
         <div className="group-2">
         <WorldIDWidget
-          actionId="wid_staging_4a6e0089f6aa9448cdf3b053a8e016b9"
-          signal="my_signal"
+          actionId={actionId}
+          signal="retrieve_key"
           enableTelemetry
           onSuccess={(verificationResponse) =>
             console.log(verificationResponse)
@@ -35,4 +37,4 @@ function WorldID(props) {
   );
 }
 
-export default WorldID;
+export default WorldIDRetrieveKey;
