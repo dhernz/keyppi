@@ -6,7 +6,7 @@ Keyppi is a zero-knowledge private key recovery platform. We secure your keys by
 1. Laura Navarro- Project Manager (cryptomeetlaunamu@gmail.com)
 2. Doris Hernandez- Fullstack Developer (d.hernz@gmail.com)
 3. Carlos Erazo - Backend Developer (a.erazo@beanar.io)
-4. Felipe Flores - Backend Developer ( github.com/LF-Flores)
+4. Felipe Flores - Backend Developer (lffm.fismat@gmail.com)
 5. Yasmeen Roumie - Fullstack Developer (yasmeenroumie@gmail.com)
 
 ***How is the project built?***
