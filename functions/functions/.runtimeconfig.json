@@ -1,0 +1,13 @@
+{
+  "twilio": {
+    "token": "faf64a552fa91efde90261176f61ba97",
+    "phone": "+19206898752",
+    "accountsid": "ACbb83a030aea0a3794b8ababdadaf35f9"
+  },
+  "ipfs": {
+    "nft_storage_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGViMzc0YzU5NmMwMUI2YTdFRGNkNWM5MTc3YTY2NDQ2NjA5ZDZhNGEiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY2MTAxMjI0NzA1MSwibmFtZSI6ImtleXBwaSJ9.KNijtenSq9VQUdjBEGF6rQEk3mZAcWg02HMAvUl2Qes"
+  },
+  "seed": {
+    "private_key_id": "F9MU16ccu2n8mS6MpbTvXjphq2zhfqQKUhgX2UC6"
+  }
+}

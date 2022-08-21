@@ -2,16 +2,12 @@
 import functions from "firebase-functions";
 // Firebase Admin SDK
 import admin from "firebase-admin";
-import bcrypt from "bcrypt";
 // Twilio Helper Library
-import twilio from twilio;
+import twilio from "twilio";
 // Two-factor authentication for Node.js.
-import speakeasy from speakeasy;
+import speakeasy from "speakeasy";
 // Base32 encoder.
 import base32 from "hi-base32";
-
-// Initialize firestore db
-const db = admin.firestore();
 
 let httpChallengesServices = functions.https.onCall(async (data, context) => {
   console.log("incoming: ", data);
@@ -41,7 +37,7 @@ const smsChallenge = (phone) => {
     return new Promise(async (resolve, reject) => {
       try {
         // Static seed to generate tokens
-        const seed = functions.config().seed;
+        const seed = await functions.config().seed;
         let secret = seed.private_key_id;
 
         // Retrieve Twilio credentials
@@ -49,9 +45,9 @@ const smsChallenge = (phone) => {
         const authToken = await functions.config().twilio.token; // Your Auth Token from www.twilio.com/console
 
         const client = new twilio(accountSid, authToken);
-        const message = "Your Keyppi verification code is: ${token}";
+        let message = "Your Keyppi verification code is: ${token}";
 
-        const key = phone;
+        let key = phone;
         if (!key) {
             reject({data:{
                 message: 'A key is required to generate OTP'
@@ -66,6 +62,7 @@ const smsChallenge = (phone) => {
               secret: key,
               encoding: 'base32'
           });
+          console.log("Token...:", token);
 
           // Include OTP in SMS
           message = eval("`" + message + "`");
@@ -78,15 +75,23 @@ const smsChallenge = (phone) => {
               to: `${phone}`, // Destination number
               from: fromPhone // Twilio number
             });
+            // Initialize firestore db
+            const db = admin.firestore();
+            const response = JSON.stringify(messageResponse);
             db.collection("challengeLogs").add({
               "channel": "phone",
-              "response": messageResponse
+              "to": messageResponse.to,
+              "dateCreated": messageResponse.dateCreated
             })
             .catch( (error) => {
               console.log("Error while logging challenge...:", error);
             });
             console.log("messageResponse...:", messageResponse);
-            resolve(messageResponse);
+            resolve({
+              "channel": "phone",
+              "to": messageResponse.to,
+              "dateCreated": messageResponse.dateCreated
+            });
           } catch (error) {
             console.log("Error sending SMS message...:", error);
             reject(error);
@@ -134,7 +139,8 @@ const verifySmsChallenge = (phone, token) => {
         key = base32.encode(key);
 
         // Validate OTP
-        validation = speakeasy.totp.verify({
+        const window = 5;
+        validation = await speakeasy.totp.verify({
             secret: key,
             encoding: 'base32',
             token: token,
@@ -150,4 +156,3 @@ const verifySmsChallenge = (phone, token) => {
 };
 
 export {httpChallengesServices};
-

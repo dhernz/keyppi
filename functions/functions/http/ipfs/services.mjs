@@ -1,6 +1,9 @@
 // Firebase Functions SDK
 import functions from "firebase-functions";
 import _ from "underscore";
+import { NFTStorage, File, Blob } from "nft.storage";
+import axios from "axios";
+
 // import * as url from "url";
 
 // const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
@@ -59,15 +62,29 @@ const getInfo = (cid) => {
     return new Promise(async (resolve, reject) => {
       try {
         // Prepare iPFS url
-        const url = cid.replace("ipfs://", "https://api.nft.storage/");
+        // const url = cid.replace("ipfs://", "https://api.nft.storage/");
+        const url = `https://api.nft.storage/${cid}`;
+        console.log("IPFS NFT URL...:", url);
         try {
           const nft_storage_key = await functions.config().ipfs.nft_storage_key;
-          const response = await fetch(url, {
+          const config = {
+            url: url,
             headers: {
               Authorization: `Bearer ${nft_storage_key}`,
-            },
-          });
-          resolve(response.json);
+            }
+          }
+          const response = await axios(config);
+          console.log(Object.keys(response));
+          console.log("response.data...:", response.data);
+          console.log("response.data.value", response.data.value);
+          // console.log("response.status...:", response.status);
+          // console.log("response.config...:")
+          // const response = await fetch(url, {
+          //   headers: {
+          //     Authorization: `Bearer ${nft_storage_key}`,
+          //   },
+          // });
+          resolve(response.data.value);
         } catch (error) {
           console.log("Error retrieving shards from IPFS...:", error);
           reject(error);

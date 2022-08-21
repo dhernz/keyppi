@@ -52,10 +52,6 @@ const sudoku = () => {
           console.log("Submitting solution...");
           // let testContract = await contract.submitSolution(parm1, parm2);
           let testContract = await contract.submitSolution(problem, solution);
-          //   "B62qphDTxPu59YSpb1XebPFixFMu1vN6mqKQ7bCBtejdAS3LctWFfn7", // Public Key
-          //   "B62qphDTxPu59YSpb1XebPFixFMu1vN6mqKQ7bCBtejdAS3LctWFfn7", // zkApp Public Key
-          //   "EKE7N8xMWKZqQ3Xiz2o1pBZSgrD1BqQ5pZsUnSfUcqqdPcQVHH6Z" // Private Key
-          // );
           console.log("Solution response...:", testContract);
           resolve(testContract);
         } catch (error) {
