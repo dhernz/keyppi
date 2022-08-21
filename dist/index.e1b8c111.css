@@ -99,125 +99,6 @@
 
 
 
-.connect-wallets {
-  background-color: var(--white);
-  height: 1180px;
-  width: 1512px;
-  align-items: flex-start;
-  padding: 68px 95px;
-  display: flex;
-}
-
-.flex-col {
-  min-height: 1013px;
-  width: 586px;
-  flex-direction: column;
-  align-items: flex-end;
-  display: flex;
-}
-
-.logo-2-3 {
-  cursor: pointer;
-  height: 74px;
-  object-fit: cover;
-  width: 327px;
-  align-self: flex-start;
-}
-
-.overlap-group2-2 {
-  height: 368px;
-  width: 368px;
-  margin-top: 147px;
-  position: relative;
-}
-
-.rectangle-6 {
-  background-color: var(--white);
-  cursor: pointer;
-  height: 368px;
-  width: 368px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.walletconnect-name {
-  height: 46px;
-  width: 255px;
-  position: absolute;
-  top: 219px;
-  left: 56px;
-}
-
-.wallet-connect-logo {
-  height: 110px;
-  object-fit: cover;
-  width: 109px;
-  position: absolute;
-  top: 82px;
-  left: 130px;
-}
-
-.coinbase-container {
-  background-color: var(--white);
-  min-height: 368px;
-  width: 368px;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 56px;
-  padding: 99px 45px;
-  display: flex;
-}
-
-.coinbase-logo {
-  height: 84px;
-  object-fit: cover;
-  width: 84px;
-  align-self: center;
-  margin-right: 8px;
-}
-
-.coinbase-name {
-  height: 79px;
-  object-fit: cover;
-  width: 271px;
-}
-
-.flex-col-1 {
-  min-height: 575px;
-  width: 645px;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 14px;
-  display: flex;
-  position: relative;
-}
-
-.overlap-group1-4 {
-  height: 368px;
-  width: 368px;
-  margin-top: 160px;
-  margin-left: 23px;
-  position: relative;
-}
-
-.metamask-name {
-  height: 54px;
-  width: 221px;
-  position: absolute;
-  top: 192px;
-  left: 77px;
-}
-
-.metamask-logo {
-  height: 122px;
-  object-fit: cover;
-  width: 122px;
-  position: absolute;
-  top: 72px;
-  left: 120px;
-}
-
 .header {
   height: 47px;
   min-width: 645px;
@@ -276,243 +157,6 @@
 
 .header.header-5 {
   cursor: pointer;
-}
-
-.connect-wallets-1 {
-  background-color: var(--white);
-  height: 1474px;
-  width: 1512px;
-  align-items: flex-start;
-  padding: 68px 95px;
-  display: flex;
-}
-
-.flex-col-2 {
-  min-height: 1099px;
-  width: 586px;
-  flex-direction: column;
-  align-items: flex-end;
-  display: flex;
-}
-
-.logo-2-5 {
-  cursor: pointer;
-  height: 74px;
-  object-fit: cover;
-  width: 327px;
-  align-self: flex-start;
-}
-
-.overlap-group-5 {
-  height: 368px;
-  width: 368px;
-  margin-top: 147px;
-  position: relative;
-}
-
-.rectangle-2-5 {
-  background-color: var(--white);
-  cursor: pointer;
-  height: 368px;
-  width: 368px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.image-10 {
-  height: 110px;
-  object-fit: cover;
-  width: 109px;
-  position: absolute;
-  top: 82px;
-  left: 130px;
-}
-
-.image-container {
-  background-color: var(--white);
-  min-height: 368px;
-  width: 368px;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 142px;
-  padding: 99px 45px;
-  display: flex;
-}
-
-.image-8 {
-  height: 84px;
-  object-fit: cover;
-  width: 84px;
-  align-self: center;
-  margin-right: 8px;
-}
-
-.image-7 {
-  height: 79px;
-  object-fit: cover;
-  width: 271px;
-}
-
-.flex-col-3 {
-  min-height: 576px;
-  width: 368px;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 13px;
-  margin-left: 150px;
-  display: flex;
-}
-
-.flex-row-5 {
-  height: 47px;
-  min-width: 315px;
-  align-items: flex-start;
-  margin-left: 23px;
-  display: flex;
-}
-
-.place-1 {
-  cursor: pointer;
-  letter-spacing: 0;
-  min-height: 47px;
-  text-align: center;
-  width: 143px;
-}
-
-.app-6 {
-  letter-spacing: 0;
-  min-height: 47px;
-  text-align: center;
-  width: 143px;
-  margin-left: 29px;
-}
-
-.overlap-group1-6 {
-  background-color: var(--white);
-  height: 368px;
-  min-width: 368px;
-  align-items: flex-end;
-  margin-top: 161px;
-  padding: 126px 73px;
-  display: flex;
-}
-
-.image-6 {
-  height: 54px;
-  width: 221px;
-}
-
-.home {
-  background-color: var(--white);
-  height: 982px;
-  width: 1512px;
-  flex-direction: column;
-  align-items: center;
-  padding: 64px 105px;
-  display: flex;
-}
-
-.flex-row-1 {
-  min-width: 1211px;
-  align-self: flex-start;
-  align-items: center;
-  display: flex;
-  position: relative;
-}
-
-.logo-1 {
-  height: 74px;
-  object-fit: cover;
-  width: 327px;
-}
-
-.forget-about-managin {
-  -webkit-text-stroke: 1px var(--black);
-  color: #0000;
-  font-family: var(--font-family-space_mono);
-  font-size: var(--font-size-xxxl);
-  letter-spacing: 0;
-  min-height: 212px;
-  text-align: center;
-  width: 965px;
-  margin-top: 139px;
-  margin-right: 1px;
-  font-weight: 700;
-}
-
-.span0 {
-  color: var(--white);
-}
-
-.span1 {
-  color: var(--black);
-}
-
-.overlap-group1-1 {
-  height: 101px;
-  width: 410px;
-  margin-top: 76px;
-  margin-right: 20px;
-  position: relative;
-}
-
-.rectangle-1 {
-  cursor: pointer;
-  height: 101px;
-  width: 410px;
-  background: linear-gradient(#8629b0 0%, #9300ffa6 51.04%, #ff8686 100%);
-  position: absolute;
-  top: 0;
-  left: 0;
-  box-shadow: 13px 13px #000;
-}
-
-.join-us {
-  -webkit-text-stroke: 1px var(--white);
-  color: var(--white);
-  font-family: var(--font-family-space_mono);
-  font-size: var(--font-size-xxl);
-  letter-spacing: 0;
-  text-align: center;
-  width: 265px;
-  font-weight: 400;
-  position: absolute;
-  top: 11px;
-  left: 71px;
-}
-
-.overlap-group-1 {
-  height: 103px;
-  width: 570px;
-  margin-top: 85px;
-  margin-right: 20px;
-  position: relative;
-}
-
-.rectangle-2-1 {
-  border: 5px solid var(--black);
-  cursor: pointer;
-  height: 101px;
-  width: 570px;
-  background: linear-gradient(#fdfdfd 0%);
-  position: absolute;
-  top: 2px;
-  left: 0;
-}
-
-.retrieve-key {
-  -webkit-text-stroke: 1px var(--white);
-  color: var(--black);
-  font-family: var(--font-family-space_mono);
-  font-size: var(--font-size-xxl);
-  letter-spacing: 0;
-  text-align: center;
-  width: 478px;
-  font-weight: 400;
-  position: absolute;
-  top: 0;
-  left: 59px;
 }
 
 .metamask {
@@ -646,6 +290,118 @@
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.home {
+  background-color: var(--white);
+  height: 982px;
+  width: 1512px;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 105px;
+  display: flex;
+}
+
+.flex-row-1 {
+  min-width: 1211px;
+  align-self: flex-start;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.logo-1 {
+  height: 74px;
+  object-fit: cover;
+  width: 327px;
+}
+
+.forget-about-managin {
+  -webkit-text-stroke: 1px var(--black);
+  color: #0000;
+  font-family: var(--font-family-space_mono);
+  font-size: var(--font-size-xxxl);
+  letter-spacing: 0;
+  min-height: 212px;
+  text-align: center;
+  width: 965px;
+  margin-top: 139px;
+  margin-right: 1px;
+  font-weight: 700;
+}
+
+.span0 {
+  color: var(--white);
+}
+
+.span1 {
+  color: var(--black);
+}
+
+.overlap-group1-1 {
+  height: 101px;
+  width: 410px;
+  margin-top: 76px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.rectangle-1 {
+  cursor: pointer;
+  height: 101px;
+  width: 410px;
+  background: linear-gradient(#8629b0 0%, #9300ffa6 51.04%, #ff8686 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 13px 13px #000;
+}
+
+.join-us {
+  -webkit-text-stroke: 1px var(--white);
+  color: var(--white);
+  font-family: var(--font-family-space_mono);
+  font-size: var(--font-size-xxl);
+  letter-spacing: 0;
+  text-align: center;
+  width: 265px;
+  font-weight: 400;
+  position: absolute;
+  top: 11px;
+  left: 71px;
+}
+
+.overlap-group-1 {
+  height: 103px;
+  width: 570px;
+  margin-top: 85px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.rectangle-2-1 {
+  border: 5px solid var(--black);
+  cursor: pointer;
+  height: 101px;
+  width: 570px;
+  background: linear-gradient(#fdfdfd 0%);
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.retrieve-key {
+  -webkit-text-stroke: 1px var(--white);
+  color: var(--black);
+  font-family: var(--font-family-space_mono);
+  font-size: var(--font-size-xxl);
+  letter-spacing: 0;
+  text-align: center;
+  width: 478px;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  left: 59px;
 }
 
 .gift-a-wallet-6 {
@@ -927,6 +683,125 @@
   left: 68px;
 }
 
+.connect-wallets {
+  background-color: var(--white);
+  height: 1180px;
+  width: 1512px;
+  align-items: flex-start;
+  padding: 68px 95px;
+  display: flex;
+}
+
+.flex-col {
+  min-height: 1013px;
+  width: 586px;
+  flex-direction: column;
+  align-items: flex-end;
+  display: flex;
+}
+
+.logo-2-3 {
+  cursor: pointer;
+  height: 74px;
+  object-fit: cover;
+  width: 327px;
+  align-self: flex-start;
+}
+
+.overlap-group2-2 {
+  height: 368px;
+  width: 368px;
+  margin-top: 147px;
+  position: relative;
+}
+
+.rectangle-6 {
+  background-color: var(--white);
+  cursor: pointer;
+  height: 368px;
+  width: 368px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.walletconnect-name {
+  height: 46px;
+  width: 255px;
+  position: absolute;
+  top: 219px;
+  left: 56px;
+}
+
+.wallet-connect-logo {
+  height: 110px;
+  object-fit: cover;
+  width: 109px;
+  position: absolute;
+  top: 82px;
+  left: 130px;
+}
+
+.coinbase-container {
+  background-color: var(--white);
+  min-height: 368px;
+  width: 368px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 56px;
+  padding: 99px 45px;
+  display: flex;
+}
+
+.coinbase-logo {
+  height: 84px;
+  object-fit: cover;
+  width: 84px;
+  align-self: center;
+  margin-right: 8px;
+}
+
+.coinbase-name {
+  height: 79px;
+  object-fit: cover;
+  width: 271px;
+}
+
+.flex-col-1 {
+  min-height: 575px;
+  width: 645px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 14px;
+  display: flex;
+  position: relative;
+}
+
+.overlap-group1-4 {
+  height: 368px;
+  width: 368px;
+  margin-top: 160px;
+  margin-left: 23px;
+  position: relative;
+}
+
+.metamask-name {
+  height: 54px;
+  width: 221px;
+  position: absolute;
+  top: 192px;
+  left: 77px;
+}
+
+.metamask-logo {
+  height: 122px;
+  object-fit: cover;
+  width: 122px;
+  position: absolute;
+  top: 72px;
+  left: 120px;
+}
+
 .loading {
   height: 1164px;
   width: 1512px;
@@ -1090,6 +965,131 @@
   height: 44px;
   width: 359px;
   margin-top: 24px;
+}
+
+.connect-wallets-1 {
+  background-color: var(--white);
+  height: 1474px;
+  width: 1512px;
+  align-items: flex-start;
+  padding: 68px 95px;
+  display: flex;
+}
+
+.flex-col-2 {
+  min-height: 1099px;
+  width: 586px;
+  flex-direction: column;
+  align-items: flex-end;
+  display: flex;
+}
+
+.logo-2-5 {
+  cursor: pointer;
+  height: 74px;
+  object-fit: cover;
+  width: 327px;
+  align-self: flex-start;
+}
+
+.overlap-group-5 {
+  height: 368px;
+  width: 368px;
+  margin-top: 147px;
+  position: relative;
+}
+
+.rectangle-2-5 {
+  background-color: var(--white);
+  cursor: pointer;
+  height: 368px;
+  width: 368px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-10 {
+  height: 110px;
+  object-fit: cover;
+  width: 109px;
+  position: absolute;
+  top: 82px;
+  left: 130px;
+}
+
+.image-container {
+  background-color: var(--white);
+  min-height: 368px;
+  width: 368px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 142px;
+  padding: 99px 45px;
+  display: flex;
+}
+
+.image-8 {
+  height: 84px;
+  object-fit: cover;
+  width: 84px;
+  align-self: center;
+  margin-right: 8px;
+}
+
+.image-7 {
+  height: 79px;
+  object-fit: cover;
+  width: 271px;
+}
+
+.flex-col-3 {
+  min-height: 576px;
+  width: 368px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 13px;
+  margin-left: 150px;
+  display: flex;
+}
+
+.flex-row-5 {
+  height: 47px;
+  min-width: 315px;
+  align-items: flex-start;
+  margin-left: 23px;
+  display: flex;
+}
+
+.place-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 47px;
+  text-align: center;
+  width: 143px;
+}
+
+.app-6 {
+  letter-spacing: 0;
+  min-height: 47px;
+  text-align: center;
+  width: 143px;
+  margin-left: 29px;
+}
+
+.overlap-group1-6 {
+  background-color: var(--white);
+  height: 368px;
+  min-width: 368px;
+  align-items: flex-end;
+  margin-top: 161px;
+  padding: 126px 73px;
+  display: flex;
+}
+
+.image-6 {
+  height: 54px;
+  width: 221px;
 }
 
 /*# sourceMappingURL=index.e1b8c111.css.map */

@@ -5,6 +5,7 @@
     "build": "parcel build index.html --public-url ./ --no-scope-hoist"
   },
   "dependencies": {
+    "@worldcoin/id": "^0.8.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "5.2.0"
