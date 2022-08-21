@@ -1,0 +1,125 @@
+.connect-wallets-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1474px;
+  padding: 68px 95px;
+  width: 1512px;
+}
+
+.flex-col-2 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 1099px;
+  width: 586px;
+}
+
+.logo-2-5 {
+  align-self: flex-start;
+  cursor: pointer;
+  height: 74px;
+  object-fit: cover;
+  width: 327px;
+}
+
+.overlap-group-5 {
+  height: 368px;
+  margin-top: 147px;
+  position: relative;
+  width: 368px;
+}
+
+.rectangle-2-5 {
+  background-color: var(--white);
+  cursor: pointer;
+  height: 368px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 368px;
+}
+
+.image-10 {
+  height: 110px;
+  left: 130px;
+  object-fit: cover;
+  position: absolute;
+  top: 82px;
+  width: 109px;
+}
+
+.image-container {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 142px;
+  min-height: 368px;
+  padding: 99px 45px;
+  width: 368px;
+}
+
+.image-8 {
+  align-self: center;
+  height: 84px;
+  margin-right: 8.0px;
+  object-fit: cover;
+  width: 84px;
+}
+
+.image-7 {
+  height: 79px;
+  object-fit: cover;
+  width: 271px;
+}
+
+.flex-col-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-top: 13px;
+  min-height: 576px;
+  width: 368px;
+}
+
+.flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 47px;
+  margin-left: 23.0px;
+  min-width: 315px;
+}
+
+.place-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 47px;
+  text-align: center;
+  width: 143px;
+}
+
+.app-6 {
+  letter-spacing: 0;
+  margin-left: 29px;
+  min-height: 47px;
+  text-align: center;
+  width: 143px;
+}
+
+.overlap-group1-6 {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  height: 368px;
+  margin-top: 161px;
+  min-width: 368px;
+  padding: 126px 73px;
+}
+
+.image-6 {
+  height: 54px;
+  width: 221px;
+}
+

@@ -1,0 +1,61 @@
+.header {
+  align-items: flex-start;
+  display: flex;
+  height: 47px;
+  margin-left: 307px;
+  margin-top: 1.0px;
+  min-width: 645px;
+}
+
+.place {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-top: -1px;
+  min-height: 47px;
+  text-align: center;
+  width: 143px;
+}
+
+.app {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 29px;
+  margin-top: -1px;
+  min-height: 47px;
+  text-align: center;
+  width: 143px;
+}
+
+.gift-a-wallet {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 29px;
+  margin-top: -1px;
+  min-height: 47px;
+  text-align: center;
+  width: 301px;
+}
+
+.header.header-1 {
+  margin-left: 239px;
+}
+
+.header.header-1 .place,
+.header.header-2 .place {
+  cursor: unset;
+}
+
+.header.header-2 {
+  margin-left: 306px;
+  margin-top: unset;
+}
+
+.header.header-4 {
+  margin-left: unset;
+  margin-top: unset;
+}
+
+.header.header-5 {
+  cursor: pointer;
+}
+

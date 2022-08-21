@@ -1,0 +1,119 @@
+.connect-wallets {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1180px;
+  padding: 68px 95px;
+  width: 1512px;
+}
+
+.flex-col {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 1013px;
+  width: 586px;
+}
+
+.logo-2-3 {
+  align-self: flex-start;
+  cursor: pointer;
+  height: 74px;
+  object-fit: cover;
+  width: 327px;
+}
+
+.overlap-group2-2 {
+  height: 368px;
+  margin-top: 147px;
+  position: relative;
+  width: 368px;
+}
+
+.rectangle-6 {
+  background-color: var(--white);
+  cursor: pointer;
+  height: 368px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 368px;
+}
+
+.walletconnect-name {
+  height: 46px;
+  left: 56px;
+  position: absolute;
+  top: 219px;
+  width: 255px;
+}
+
+.wallet-connect-logo {
+  height: 110px;
+  left: 130px;
+  object-fit: cover;
+  position: absolute;
+  top: 82px;
+  width: 109px;
+}
+
+.coinbase-container {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 56px;
+  min-height: 368px;
+  padding: 99px 45px;
+  width: 368px;
+}
+
+.coinbase-logo {
+  align-self: center;
+  height: 84px;
+  margin-right: 8.0px;
+  object-fit: cover;
+  width: 84px;
+}
+
+.coinbase-name {
+  height: 79px;
+  object-fit: cover;
+  width: 271px;
+}
+
+.flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+  min-height: 575px;
+  position: relative;
+  width: 645px;
+}
+
+.overlap-group1-4 {
+  height: 368px;
+  margin-left: 23.0px;
+  margin-top: 160px;
+  position: relative;
+  width: 368px;
+}
+
+.metamask-name {
+  height: 54px;
+  left: 77px;
+  position: absolute;
+  top: 192px;
+  width: 221px;
+}
+
+.metamask-logo {
+  height: 122px;
+  left: 120px;
+  object-fit: cover;
+  position: absolute;
+  top: 72px;
+  width: 122px;
+}
+
