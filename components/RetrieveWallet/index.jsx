@@ -34,7 +34,7 @@ function RetrieveWallet(props) {
             
             
             <div className="private-key-1 spacemono-normal-black-30px">{privateKey}</div>
-            <div className="rectangle-5-1 border-3-5px-black"></div>
+            <input className="rectangle-5-1 border-3-5px-black"></input>
           </div>
         </div>
       </div>

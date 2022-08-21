@@ -29,17 +29,17 @@ function GiftAWallet(props) {
         <div className="gift-a-wallet-7">{giftAWallet}</div>
         <div className="gift-a-wallet-send-it-secure spacemono-normal-black-30px">{giftAWalletSendItSecure}</div>
         <div className="to spacemono-normal-black-30px">{to}</div>
-        <div className="rectangle-4-1 border-3-5px-black"></div>
+        <input className="rectangle-4-1 border-3-5px-black"></input>
         <div className="gift-a-wallet-item spacemono-normal-black-30px">{walletAddress}</div>
-        <div className="rectangle-3 border-3-5px-black"></div>
+        <input className="rectangle-3 border-3-5px-black"></input>
         <div className="gift-a-wallet-item spacemono-normal-black-30px">{from}</div>
-        <div className="rectangle-3 border-3-5px-black"></div>
+        <input className="rectangle-3 border-3-5px-black"></input>
         <div className="overlap-group-2">
           <div className="rectangle-2-2"></div>
           <div className="proof-of-gift spacemono-normal-white-40px">{proofOfGift}</div>
         </div>
         <div className="private-key spacemono-normal-black-30px">{privateKey}</div>
-        <div className="rectangle-3 border-3-5px-black"></div>
+        <input className="rectangle-3 border-3-5px-black"></input>
         <div className="overlap-group1-2">
           <a href="javascript:ShowOverlay('loading', 'animate-appear');">
             <div className="rectangle-2-3"></div>
