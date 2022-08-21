@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../Header";
+import {WorldIDWidget} from "@worldcoin/id";
 import "./Metamask.css";
 
 function Metamask(props) {
   const { logo2, image9, connect, wallet, email, privateKey, save } = props;
+  const actionId = process.env.WORLD_ID_ACTION_RETRIEVE_KEY
 
   return (
     <div className="container-center-horizontal">
@@ -21,6 +23,19 @@ function Metamask(props) {
             <div className="overlap-group border-3-5px-black">
               <div className="connect spacemono-bold-black-35px">{connect}</div>
             </div>
+            <div>
+              <br></br>
+            <WorldIDWidget
+          actionId={actionId}
+          signal="retrieve_key"
+          enableTelemetry
+          onSuccess={(verificationResponse) =>
+            console.log(verificationResponse)
+          } // you'll actually want to pass the proof to the API or your smart contract
+          onError={(error) => console.error(error)}
+             />
+            </div>
+
             <div className="wallet">{wallet}</div>
             <div className="rectangle-4 border-3-5px-black"></div>
             <div className="overlap-group1-item">{email}</div>

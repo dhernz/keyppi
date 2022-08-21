@@ -5,13 +5,15 @@
     "build": "parcel build index.html --public-url ./ --no-scope-hoist"
   },
   "dependencies": {
+    "@worldcoin/id": "^0.8.0",
+    "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-router-dom": "5.2.0", 
-    "react": "^18.1.0"
+    "react-router-dom": "5.2.0"
   },
   "devDependencies": {
-    "parcel": "^2.6.0",
     "browserslist": "4.19.3",
-    "parcel-reporter-static-files-copy": "^1.3.4"
+    "parcel": "^2.6.0",
+    "parcel-reporter-static-files-copy": "^1.3.4",
+    "process": "^0.11.10"
   }
 }
