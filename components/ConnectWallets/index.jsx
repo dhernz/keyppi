@@ -12,12 +12,14 @@ function ConnectWallets(props) {
           <Link to="/home" className="align-self-flex-start">
             <img className="logo-2" src={logo2} />
           </Link>
+          <Link to="/connect-wallets">
           <div className="overlap-group2">
-            <Link to="/connect-wallets">
+            
               <div className="rectangle-2 border-4px-black"></div>
-            </Link>
+            
             <img className="image-10" src={image10} />
           </div>
+          </Link>
           <div className="image-container border-4px-black">
             <img className="image-8" src={image8} />
             <img className="image-7" src={image7} />
