@@ -25,7 +25,7 @@ function WalletConnect(props) {
               <br></br>
             <WorldIDWidget
           actionId={actionId}
-          signal="retrieve_key"
+          signal="created_wallet"
           enableTelemetry
           onSuccess={(verificationResponse) =>
             console.log(verificationResponse)

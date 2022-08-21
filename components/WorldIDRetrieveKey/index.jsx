@@ -22,7 +22,15 @@ function WorldIDRetrieveKey(props) {
           <div className="app-1 spacemono-bold-black-35px">{app}</div>
         </div>
         <div className="group-2">
-
+        <WorldIDWidget
+          actionId={actionId}
+          signal="retrieve_key"
+          enableTelemetry
+          onSuccess={(verificationResponse) =>
+            console.log(verificationResponse)
+          } // you'll actually want to pass the proof to the API or your smart contract
+          onError={(error) => console.error(error)}
+        />
         </div>
       </div>
     </div>
