@@ -30424,7 +30424,7 @@ function Metamask(props) {
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _id.WorldIDWidget), {
                                         actionId: actionId,
-                                        signal: "retrieve_key",
+                                        signal: "created_wallet",
                                         enableTelemetry: true,
                                         onSuccess: (verificationResponse)=>console.log(verificationResponse),
                                         onError: (error)=>console.error(error)
@@ -57349,7 +57349,7 @@ function WalletConnect(props) {
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _id.WorldIDWidget), {
                                             actionId: actionId,
-                                            signal: "retrieve_key",
+                                            signal: "created_wallet",
                                             enableTelemetry: true,
                                             onSuccess: (verificationResponse)=>console.log(verificationResponse),
                                             onError: (error)=>console.error(error)
@@ -57812,8 +57812,10 @@ var _reactRouterDom = require("react-router-dom");
 var _header = require("../Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _retrieveWalletCss = require("./RetrieveWallet.css");
+var _id = require("@worldcoin/id");
 function RetrieveWallet(props) {
     const { logo2 , image12 , login , privateKey , headerProps  } = props;
+    const actionId = "wid_staging_461793cd256e210269dedca58af17e76";
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "container-center-horizontal",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -57829,25 +57831,25 @@ function RetrieveWallet(props) {
                                 src: logo2
                             }, void 0, false, {
                                 fileName: "components/RetrieveWallet/index.jsx",
-                                lineNumber: 14,
+                                lineNumber: 15,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "components/RetrieveWallet/index.jsx",
-                            lineNumber: 13,
+                            lineNumber: 14,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {
                             className: headerProps.className
                         }, void 0, false, {
                             fileName: "components/RetrieveWallet/index.jsx",
-                            lineNumber: 16,
+                            lineNumber: 17,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "components/RetrieveWallet/index.jsx",
-                    lineNumber: 12,
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -57860,22 +57862,31 @@ function RetrieveWallet(props) {
                                 src: image12
                             }, void 0, false, {
                                 fileName: "components/RetrieveWallet/index.jsx",
-                                lineNumber: 20,
+                                lineNumber: 21,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "overlap-group-4 border-3-5px-black",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "login spacemono-bold-black-35px",
-                                    children: login
-                                }, void 0, false, {
-                                    fileName: "components/RetrieveWallet/index.jsx",
-                                    lineNumber: 22,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        fileName: "components/RetrieveWallet/index.jsx",
+                                        lineNumber: 23,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _id.WorldIDWidget), {
+                                        actionId: actionId,
+                                        signal: "retrieve_key",
+                                        enableTelemetry: true,
+                                        onSuccess: (verificationResponse)=>console.log(verificationResponse),
+                                        onError: (error)=>console.error(error)
+                                    }, void 0, false, {
+                                        fileName: "components/RetrieveWallet/index.jsx",
+                                        lineNumber: 24,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "components/RetrieveWallet/index.jsx",
-                                lineNumber: 21,
+                                lineNumber: 22,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -57883,36 +57894,36 @@ function RetrieveWallet(props) {
                                 children: privateKey
                             }, void 0, false, {
                                 fileName: "components/RetrieveWallet/index.jsx",
-                                lineNumber: 24,
+                                lineNumber: 36,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "rectangle-5-1 border-3-5px-black"
                             }, void 0, false, {
                                 fileName: "components/RetrieveWallet/index.jsx",
-                                lineNumber: 25,
+                                lineNumber: 37,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "components/RetrieveWallet/index.jsx",
-                        lineNumber: 19,
+                        lineNumber: 20,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "components/RetrieveWallet/index.jsx",
-                    lineNumber: 18,
+                    lineNumber: 19,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "components/RetrieveWallet/index.jsx",
-            lineNumber: 11,
+            lineNumber: 12,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "components/RetrieveWallet/index.jsx",
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 5
     }, this);
 }
@@ -57926,7 +57937,7 @@ $RefreshReg$(_c, "RetrieveWallet");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../Header":"8xFa9","./RetrieveWallet.css":"bBPMA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bBPMA":[function() {},{}],"haVEI":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../Header":"8xFa9","./RetrieveWallet.css":"bBPMA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@worldcoin/id":"1iJYp"}],"bBPMA":[function() {},{}],"haVEI":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$664f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
