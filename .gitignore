@@ -3,3 +3,10 @@ node_modules
 .env
 dist/
 .parcel-cache
+node_modules
+coverage*
+typechain*
+
+#Hardhat files
+cache
+artifacts
