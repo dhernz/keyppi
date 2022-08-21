@@ -2932,7 +2932,7 @@ function getLibrary(provider) {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./globals.css":"54n8M","./styleguide.css":"7C4k8","./App":"ifStX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@web3-react/core":"lfDuP","@ethersproject/providers":"bErvj"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./globals.css":"54n8M","./styleguide.css":"7C4k8","./App":"ifStX","@web3-react/core":"lfDuP","@ethersproject/providers":"bErvj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -27088,6 +27088,8 @@ var _worldIDRetrieveKey = require("./components/WorldIDRetrieveKey");
 var _worldIDRetrieveKeyDefault = parcelHelpers.interopDefault(_worldIDRetrieveKey);
 var _home = require("./components/Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
+<<<<<<< HEAD
+=======
 var _walletlinkConnector = require("@web3-react/walletlink-connector");
 var _walletconnectConnector = require("@web3-react/walletconnect-connector");
 var _injectedConnector = require("@web3-react/injected-connector");
@@ -27119,9 +27121,8 @@ const Injected = new (0, _injectedConnector.InjectedConnector)({
     ]
 });
 require("dotenv").config();
+>>>>>>> 50f271905d1436c48228b1e398a4be827d50fd85
 function App() {
-    _s();
-    const { activate , deactivate  } = (0, _core.useWeb3React)();
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Switch), {
             children: [
@@ -27137,12 +27138,20 @@ function App() {
                         image6: "/img/image-6@2x.png"
                     }, void 0, false, {
                         fileName: "App.jsx",
+<<<<<<< HEAD
+                        lineNumber: 15,
+=======
                         lineNumber: 39,
+>>>>>>> 50f271905d1436c48228b1e398a4be827d50fd85
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "App.jsx",
+<<<<<<< HEAD
+                    lineNumber: 14,
+=======
                     lineNumber: 38,
+>>>>>>> 50f271905d1436c48228b1e398a4be827d50fd85
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -27151,12 +27160,20 @@ function App() {
                         ...connectWallets2Data
                     }, void 0, false, {
                         fileName: "App.jsx",
+<<<<<<< HEAD
+                        lineNumber: 26,
+=======
                         lineNumber: 50,
+>>>>>>> 50f271905d1436c48228b1e398a4be827d50fd85
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "App.jsx",
+<<<<<<< HEAD
+                    lineNumber: 25,
+=======
                     lineNumber: 49,
+>>>>>>> 50f271905d1436c48228b1e398a4be827d50fd85
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -27170,12 +27187,20 @@ function App() {
                         joinUs: "Join us"
                     }, void 0, false, {
                         fileName: "App.jsx",
+<<<<<<< HEAD
+                        lineNumber: 29,
+=======
                         lineNumber: 53,
+>>>>>>> 50f271905d1436c48228b1e398a4be827d50fd85
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "App.jsx",
+<<<<<<< HEAD
+                    lineNumber: 28,
+=======
                     lineNumber: 52,
+>>>>>>> 50f271905d1436c48228b1e398a4be827d50fd85
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -27184,11 +27209,18 @@ function App() {
                         ...worldIDData
                     }, void 0, false, {
                         fileName: "App.jsx",
+<<<<<<< HEAD
+                        lineNumber: 39,
+=======
                         lineNumber: 63,
+>>>>>>> 50f271905d1436c48228b1e398a4be827d50fd85
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "App.jsx",
+<<<<<<< HEAD
+                    lineNumber: 38,
+=======
                     lineNumber: 62,
                     columnNumber: 9
                 }, this),
@@ -27204,25 +27236,29 @@ function App() {
                 }, void 0, false, {
                     fileName: "App.jsx",
                     lineNumber: 65,
+>>>>>>> 50f271905d1436c48228b1e398a4be827d50fd85
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "App.jsx",
+<<<<<<< HEAD
+            lineNumber: 13,
+=======
             lineNumber: 37,
+>>>>>>> 50f271905d1436c48228b1e398a4be827d50fd85
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "App.jsx",
+<<<<<<< HEAD
+        lineNumber: 12,
+=======
         lineNumber: 36,
+>>>>>>> 50f271905d1436c48228b1e398a4be827d50fd85
         columnNumber: 5
     }, this);
 }
-_s(App, "4gVG7HxyFdo0LLkAN8nM1KpcxqM=", false, function() {
-    return [
-        (0, _core.useWeb3React)
-    ];
-});
 _c = App;
 exports.default = App;
 const connectWallets2Data = {
@@ -27233,8 +27269,7 @@ const connectWallets2Data = {
     connect: "Connect",
     wallet: "Wallet",
     privateKey: "Private key",
-    save: "Save",
-    walletConnect: WalletConnect
+    save: "Save"
 };
 const worldIDData = {
     logo2: "/img/logo-2@2x.png",
@@ -27264,7 +27299,11 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
+<<<<<<< HEAD
+},{"react/jsx-dev-runtime":"iTorj","./App.css":"7g3a6","react":"21dqq","react-router-dom":"cHIiW","./components/ConnectWallets":"3UUYm","./components/ConnectWallets2":"haVEI","./components/Home":"adc89","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/WorldID":"im3Zj"}],"7g3a6":[function() {},{}],"cHIiW":[function(require,module,exports) {
+=======
 },{"react/jsx-dev-runtime":"iTorj","./App.css":"7g3a6","react":"21dqq","react-router-dom":"cHIiW","./components/ConnectWallets":"3UUYm","./components/ConnectWallets2":"haVEI","./components/Home":"adc89","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@web3-react/walletlink-connector":"jrUeq","@web3-react/injected-connector":"5F53w","@web3-react/core":"lfDuP","@web3-react/walletconnect-connector":"kQ3v6","dotenv":"lErsX","./components/WorldIDCreatedWallet":"6h1ge","./components/WorldIDRetrieveKey":"7Esol"}],"7g3a6":[function() {},{}],"cHIiW":[function(require,module,exports) {
+>>>>>>> 50f271905d1436c48228b1e398a4be827d50fd85
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>(0, _reactRouter.MemoryRouter));
@@ -30324,12 +30363,12 @@ function ConnectWallets(props) {
                                 src: logo2
                             }, void 0, false, {
                                 fileName: "components/ConnectWallets/index.jsx",
-                                lineNumber: 13,
+                                lineNumber: 15,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "components/ConnectWallets/index.jsx",
-                            lineNumber: 12,
+                            lineNumber: 14,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -30341,7 +30380,7 @@ function ConnectWallets(props) {
                                         className: "rectangle-2 border-4px-black"
                                     }, void 0, false, {
                                         fileName: "components/ConnectWallets/index.jsx",
-                                        lineNumber: 18,
+                                        lineNumber: 20,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30349,18 +30388,18 @@ function ConnectWallets(props) {
                                         src: image10
                                     }, void 0, false, {
                                         fileName: "components/ConnectWallets/index.jsx",
-                                        lineNumber: 20,
+                                        lineNumber: 22,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/ConnectWallets/index.jsx",
-                                lineNumber: 16,
+                                lineNumber: 18,
                                 columnNumber: 11
                             }, this)
                         }, void 0, false, {
                             fileName: "components/ConnectWallets/index.jsx",
-                            lineNumber: 15,
+                            lineNumber: 17,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30371,7 +30410,7 @@ function ConnectWallets(props) {
                                     src: image8
                                 }, void 0, false, {
                                     fileName: "components/ConnectWallets/index.jsx",
-                                    lineNumber: 24,
+                                    lineNumber: 26,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30379,19 +30418,19 @@ function ConnectWallets(props) {
                                     src: image7
                                 }, void 0, false, {
                                     fileName: "components/ConnectWallets/index.jsx",
-                                    lineNumber: 25,
+                                    lineNumber: 27,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "components/ConnectWallets/index.jsx",
-                            lineNumber: 23,
+                            lineNumber: 25,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "components/ConnectWallets/index.jsx",
-                    lineNumber: 11,
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30407,12 +30446,12 @@ function ConnectWallets(props) {
                                         children: place
                                     }, void 0, false, {
                                         fileName: "components/ConnectWallets/index.jsx",
-                                        lineNumber: 31,
+                                        lineNumber: 33,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "components/ConnectWallets/index.jsx",
-                                    lineNumber: 30,
+                                    lineNumber: 32,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30420,13 +30459,13 @@ function ConnectWallets(props) {
                                     children: app
                                 }, void 0, false, {
                                     fileName: "components/ConnectWallets/index.jsx",
-                                    lineNumber: 33,
+                                    lineNumber: 35,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "components/ConnectWallets/index.jsx",
-                            lineNumber: 29,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30436,29 +30475,29 @@ function ConnectWallets(props) {
                                 src: image6
                             }, void 0, false, {
                                 fileName: "components/ConnectWallets/index.jsx",
-                                lineNumber: 36,
+                                lineNumber: 38,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "components/ConnectWallets/index.jsx",
-                            lineNumber: 35,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "components/ConnectWallets/index.jsx",
-                    lineNumber: 28,
+                    lineNumber: 30,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "components/ConnectWallets/index.jsx",
-            lineNumber: 10,
+            lineNumber: 12,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "components/ConnectWallets/index.jsx",
-        lineNumber: 9,
+        lineNumber: 11,
         columnNumber: 5
     }, this);
 }
@@ -30607,11 +30646,15 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
 var _connectWallets2Css = require("./ConnectWallets2.css");
 var _core = require("@web3-react/core");
+var _connectors = require("../../utils/connectors");
 var _s = $RefreshSig$();
 function ConnectWallets2(props) {
     _s();
-    const { logo2 , place , app , image11 , connect , wallet , privateKey , save , WalletConnect  } = props;
-    const { activate , deactivate  } = (0, _core.useWeb3React)();
+    const { logo2 , place , app , image11 , connect , wallet , privateKey , save  } = props;
+    const { activate  } = (0, _core.useWeb3React)();
+    const handleConnect = ()=>{
+        activate((0, _connectors.connectors).walletConnect);
+    };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "container-center-horizontal",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30627,12 +30670,12 @@ function ConnectWallets2(props) {
                                 src: logo2
                             }, void 0, false, {
                                 fileName: "components/ConnectWallets2/index.jsx",
-                                lineNumber: 15,
+                                lineNumber: 22,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "components/ConnectWallets2/index.jsx",
-                            lineNumber: 14,
+                            lineNumber: 21,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -30642,12 +30685,12 @@ function ConnectWallets2(props) {
                                 children: place
                             }, void 0, false, {
                                 fileName: "components/ConnectWallets2/index.jsx",
-                                lineNumber: 18,
+                                lineNumber: 25,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "components/ConnectWallets2/index.jsx",
-                            lineNumber: 17,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30655,13 +30698,13 @@ function ConnectWallets2(props) {
                             children: app
                         }, void 0, false, {
                             fileName: "components/ConnectWallets2/index.jsx",
-                            lineNumber: 20,
+                            lineNumber: 27,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "components/ConnectWallets2/index.jsx",
-                    lineNumber: 13,
+                    lineNumber: 20,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30674,33 +30717,29 @@ function ConnectWallets2(props) {
                                 src: image11
                             }, void 0, false, {
                                 fileName: "components/ConnectWallets2/index.jsx",
-                                lineNumber: 24,
+                                lineNumber: 31,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "overlap-group border-3-5px-black",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    onClick: ()=>{
-                                        activate({
-                                            WalletConnect
-                                        });
-                                    },
+                                    onClick: handleConnect,
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         className: "connect spacemono-bold-black-35px",
                                         children: connect
                                     }, void 0, false, {
                                         fileName: "components/ConnectWallets2/index.jsx",
-                                        lineNumber: 29,
+                                        lineNumber: 34,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "components/ConnectWallets2/index.jsx",
-                                    lineNumber: 27,
+                                    lineNumber: 33,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "components/ConnectWallets2/index.jsx",
-                                lineNumber: 25,
+                                lineNumber: 32,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30708,19 +30747,19 @@ function ConnectWallets2(props) {
                                 children: wallet
                             }, void 0, false, {
                                 fileName: "components/ConnectWallets2/index.jsx",
-                                lineNumber: 33,
+                                lineNumber: 40,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "rectangle-4 border-3-5px-black",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {}, void 0, false, {
                                     fileName: "components/ConnectWallets2/index.jsx",
-                                    lineNumber: 34,
+                                    lineNumber: 41,
                                     columnNumber: 61
                                 }, this)
                             }, void 0, false, {
                                 fileName: "components/ConnectWallets2/index.jsx",
-                                lineNumber: 34,
+                                lineNumber: 41,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30728,19 +30767,19 @@ function ConnectWallets2(props) {
                                 children: privateKey
                             }, void 0, false, {
                                 fileName: "components/ConnectWallets2/index.jsx",
-                                lineNumber: 35,
+                                lineNumber: 42,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "rectangle-5 border-3-5px-black",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {}, void 0, false, {
                                     fileName: "components/ConnectWallets2/index.jsx",
-                                    lineNumber: 36,
+                                    lineNumber: 43,
                                     columnNumber: 61
                                 }, this)
                             }, void 0, false, {
                                 fileName: "components/ConnectWallets2/index.jsx",
-                                lineNumber: 36,
+                                lineNumber: 43,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30750,7 +30789,7 @@ function ConnectWallets2(props) {
                                         className: "rectangle-2-1"
                                     }, void 0, false, {
                                         fileName: "components/ConnectWallets2/index.jsx",
-                                        lineNumber: 38,
+                                        lineNumber: 45,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30758,39 +30797,39 @@ function ConnectWallets2(props) {
                                         children: save
                                     }, void 0, false, {
                                         fileName: "components/ConnectWallets2/index.jsx",
-                                        lineNumber: 39,
+                                        lineNumber: 46,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/ConnectWallets2/index.jsx",
-                                lineNumber: 37,
+                                lineNumber: 44,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "components/ConnectWallets2/index.jsx",
-                        lineNumber: 23,
+                        lineNumber: 30,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "components/ConnectWallets2/index.jsx",
-                    lineNumber: 22,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "components/ConnectWallets2/index.jsx",
-            lineNumber: 12,
+            lineNumber: 19,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "components/ConnectWallets2/index.jsx",
-        lineNumber: 11,
+        lineNumber: 18,
         columnNumber: 5
     }, this);
 }
-_s(ConnectWallets2, "4gVG7HxyFdo0LLkAN8nM1KpcxqM=", false, function() {
+_s(ConnectWallets2, "V/BV8zIu1mEGrlTuFcwtxkRs0gA=", false, function() {
     return [
         (0, _core.useWeb3React)
     ];
@@ -30805,7 +30844,7 @@ $RefreshReg$(_c, "ConnectWallets2");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./ConnectWallets2.css":"MGbDI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@web3-react/core":"lfDuP"}],"MGbDI":[function() {},{}],"lfDuP":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./ConnectWallets2.css":"MGbDI","@web3-react/core":"lfDuP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../utils/connectors":"hMvTI"}],"MGbDI":[function() {},{}],"lfDuP":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "PRIMARY_KEY", ()=>PRIMARY_KEY);
@@ -32567,146 +32606,46 @@ var process = require("process");
     }
 })();
 
-},{"process":"d5jf4"}],"adc89":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$990b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$990b.prelude(module);
-
-try {
+},{"process":"d5jf4"}],"hMvTI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _homeCss = require("./Home.css");
-function Home(props) {
-    const { logo1 , place , app , spanText1 , spanText2 , joinUs  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "home screen",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex-row-2",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "logo-1",
-                            src: logo1
-                        }, void 0, false, {
-                            fileName: "components/Home/index.jsx",
-                            lineNumber: 14,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "place-2 spacemono-bold-black-35px",
-                            children: place
-                        }, void 0, false, {
-                            fileName: "components/Home/index.jsx",
-                            lineNumber: 15,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/connect-wallets-1",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "app-2 spacemono-bold-black-35px",
-                                children: app
-                            }, void 0, false, {
-                                fileName: "components/Home/index.jsx",
-                                lineNumber: 17,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Home/index.jsx",
-                            lineNumber: 16,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Home/index.jsx",
-                    lineNumber: 13,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    className: "forget-about-managin",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                            className: "span0",
-                            children: spanText1
-                        }, void 0, false, {
-                            fileName: "components/Home/index.jsx",
-                            lineNumber: 21,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                            className: "span1",
-                            children: spanText2
-                        }, void 0, false, {
-                            fileName: "components/Home/index.jsx",
-                            lineNumber: 22,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Home/index.jsx",
-                    lineNumber: 20,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group-1",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/connect-wallets-1",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "rectangle-1"
-                            }, void 0, false, {
-                                fileName: "components/Home/index.jsx",
-                                lineNumber: 26,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Home/index.jsx",
-                            lineNumber: 25,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "join-us",
-                            children: joinUs
-                        }, void 0, false, {
-                            fileName: "components/Home/index.jsx",
-                            lineNumber: 28,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Home/index.jsx",
-                    lineNumber: 24,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "components/Home/index.jsx",
-            lineNumber: 12,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/Home/index.jsx",
-        lineNumber: 11,
-        columnNumber: 5
-    }, this);
-}
-_c = Home;
-exports.default = Home;
-var _c;
-$RefreshReg$(_c, "Home");
+parcelHelpers.export(exports, "connectors", ()=>connectors);
+var _walletlinkConnector = require("@web3-react/walletlink-connector");
+var _walletconnectConnector = require("@web3-react/walletconnect-connector");
+var _injectedConnector = require("@web3-react/injected-connector");
+var _core = require("@web3-react/core");
+const CoinbaseWallet = new (0, _walletlinkConnector.WalletLinkConnector)({
+    url: `https://mainnet.infura.io/v3/${undefined}`,
+    appName: "Web3-react",
+    supportedChainIds: [
+        1,
+        3,
+        4,
+        5,
+        42
+    ]
+});
+const WalletConnect = new (0, _walletconnectConnector.WalletConnectConnector)({
+    rpcUrl: `https://mainnet.infura.io/v3/${undefined}`,
+    bridge: "https://bridge.walletconnect.org",
+    qrcode: true
+});
+const Injected = new (0, _injectedConnector.InjectedConnector)({
+    supportedChainIds: [
+        1,
+        3,
+        4,
+        5,
+        42
+    ]
+});
+const connectors = {
+    injected: Injected,
+    walletConnect: WalletConnect,
+    coinbaseWallet: CoinbaseWallet
+};
 
-  $parcel$ReactRefreshHelpers$990b.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./Home.css":"8jqc7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8jqc7":[function() {},{}],"jrUeq":[function(require,module,exports) {
+},{"@web3-react/walletlink-connector":"jrUeq","@web3-react/walletconnect-connector":"kQ3v6","@web3-react/injected-connector":"5F53w","@web3-react/core":"lfDuP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jrUeq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "WalletLinkConnector", ()=>WalletLinkConnector);
@@ -32776,7 +32715,7 @@ var WalletLinkConnector = /*#__PURE__*/ function(_AbstractConnector) {
                 _this3.provider = window.ethereum;
                 else {
                     var _temp6 = function() {
-                        if (!_this3.walletLink) return Promise.resolve(require("dbf99012dfcc3678").then(function(m) {
+                        if (!_this3.walletLink) return Promise.resolve(require("ab63f4673a0af035").then(function(m) {
                             var _m$default;
                             return (_m$default = m == null ? void 0 : m["default"]) != null ? _m$default : m;
                         })).then(function(CoinbaseWalletSDK) {
@@ -32855,7 +32794,7 @@ var WalletLinkConnector = /*#__PURE__*/ function(_AbstractConnector) {
     return WalletLinkConnector;
 }((0, _abstractConnector.AbstractConnector));
 
-},{"@web3-react/abstract-connector":"gkcsn","dbf99012dfcc3678":"iZshs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkcsn":[function(require,module,exports) {
+},{"@web3-react/abstract-connector":"gkcsn","ab63f4673a0af035":"iZshs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkcsn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "AbstractConnector", ()=>AbstractConnector);
@@ -33348,7 +33287,256 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"5F53w":[function(require,module,exports) {
+},{}],"kQ3v6":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "URI_AVAILABLE", ()=>URI_AVAILABLE);
+parcelHelpers.export(exports, "UserRejectedRequestError", ()=>UserRejectedRequestError);
+parcelHelpers.export(exports, "WalletConnectConnector", ()=>WalletConnectConnector);
+var _abstractConnector = require("@web3-react/abstract-connector");
+function _inheritsLoose(subClass, superClass) {
+    subClass.prototype = Object.create(superClass.prototype);
+    subClass.prototype.constructor = subClass;
+    _setPrototypeOf(subClass, superClass);
+}
+function _getPrototypeOf(o) {
+    _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+        return o.__proto__ || Object.getPrototypeOf(o);
+    };
+    return _getPrototypeOf(o);
+}
+function _setPrototypeOf(o, p) {
+    _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+        o.__proto__ = p;
+        return o;
+    };
+    return _setPrototypeOf(o, p);
+}
+function _isNativeReflectConstruct() {
+    if (typeof Reflect === "undefined" || !Reflect.construct) return false;
+    if (Reflect.construct.sham) return false;
+    if (typeof Proxy === "function") return true;
+    try {
+        Date.prototype.toString.call(Reflect.construct(Date, [], function() {}));
+        return true;
+    } catch (e) {
+        return false;
+    }
+}
+function _construct(Parent, args, Class) {
+    if (_isNativeReflectConstruct()) _construct = Reflect.construct;
+    else _construct = function _construct(Parent, args, Class) {
+        var a = [
+            null
+        ];
+        a.push.apply(a, args);
+        var Constructor = Function.bind.apply(Parent, a);
+        var instance = new Constructor();
+        if (Class) _setPrototypeOf(instance, Class.prototype);
+        return instance;
+    };
+    return _construct.apply(null, arguments);
+}
+function _isNativeFunction(fn) {
+    return Function.toString.call(fn).indexOf("[native code]") !== -1;
+}
+function _wrapNativeSuper(Class) {
+    var _cache = typeof Map === "function" ? new Map() : undefined;
+    _wrapNativeSuper = function _wrapNativeSuper(Class) {
+        if (Class === null || !_isNativeFunction(Class)) return Class;
+        if (typeof Class !== "function") throw new TypeError("Super expression must either be null or a function");
+        if (typeof _cache !== "undefined") {
+            if (_cache.has(Class)) return _cache.get(Class);
+            _cache.set(Class, Wrapper);
+        }
+        function Wrapper() {
+            return _construct(Class, arguments, _getPrototypeOf(this).constructor);
+        }
+        Wrapper.prototype = Object.create(Class.prototype, {
+            constructor: {
+                value: Wrapper,
+                enumerable: false,
+                writable: true,
+                configurable: true
+            }
+        });
+        return _setPrototypeOf(Wrapper, Class);
+    };
+    return _wrapNativeSuper(Class);
+}
+function _assertThisInitialized(self) {
+    if (self === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+    return self;
+}
+var URI_AVAILABLE = "URI_AVAILABLE";
+var UserRejectedRequestError = /*#__PURE__*/ function(_Error) {
+    _inheritsLoose(UserRejectedRequestError, _Error);
+    function UserRejectedRequestError() {
+        var _this;
+        _this = _Error.call(this) || this;
+        _this.name = _this.constructor.name;
+        _this.message = "The user rejected the request.";
+        return _this;
+    }
+    return UserRejectedRequestError;
+}(/*#__PURE__*/ _wrapNativeSuper(Error));
+function getSupportedChains(_ref) {
+    var supportedChainIds = _ref.supportedChainIds, rpc = _ref.rpc;
+    if (supportedChainIds) return supportedChainIds;
+    return rpc ? Object.keys(rpc).map(function(k) {
+        return Number(k);
+    }) : undefined;
+}
+var WalletConnectConnector = /*#__PURE__*/ function(_AbstractConnector) {
+    _inheritsLoose(WalletConnectConnector, _AbstractConnector);
+    function WalletConnectConnector(config) {
+        var _this2;
+        _this2 = _AbstractConnector.call(this, {
+            supportedChainIds: getSupportedChains(config)
+        }) || this;
+        _this2.config = config;
+        _this2.handleChainChanged = _this2.handleChainChanged.bind(_assertThisInitialized(_this2));
+        _this2.handleAccountsChanged = _this2.handleAccountsChanged.bind(_assertThisInitialized(_this2));
+        _this2.handleDisconnect = _this2.handleDisconnect.bind(_assertThisInitialized(_this2));
+        return _this2;
+    }
+    var _proto = WalletConnectConnector.prototype;
+    _proto.handleChainChanged = function handleChainChanged(chainId) {
+        console.log("Handling 'chainChanged' event with payload", chainId);
+        this.emitUpdate({
+            chainId: chainId
+        });
+    };
+    _proto.handleAccountsChanged = function handleAccountsChanged(accounts) {
+        console.log("Handling 'accountsChanged' event with payload", accounts);
+        this.emitUpdate({
+            account: accounts[0]
+        });
+    };
+    _proto.handleDisconnect = function handleDisconnect() {
+        console.log("Handling 'disconnect' event");
+        if (this.walletConnectProvider) {
+            this.walletConnectProvider.removeListener("chainChanged", this.handleChainChanged);
+            this.walletConnectProvider.removeListener("accountsChanged", this.handleAccountsChanged);
+            this.walletConnectProvider = undefined;
+        }
+        this.emitDeactivate();
+    };
+    _proto.activate = function activate() {
+        try {
+            var _this4 = this;
+            var _temp5 = function _temp5() {
+                function _temp2() {
+                    var account;
+                    return Promise.resolve(new Promise(function(resolve, reject) {
+                        var userReject = function userReject() {
+                            // Erase the provider manually
+                            _this4.walletConnectProvider = undefined;
+                            reject(new UserRejectedRequestError());
+                        }; // Workaround to bubble up the error when user reject the connection
+                        _this4.walletConnectProvider.connector.on("disconnect", function() {
+                            // Check provider has not been enabled to prevent this event callback from being called in the future
+                            if (!account) userReject();
+                        });
+                        _this4.walletConnectProvider.enable().then(function(accounts) {
+                            return resolve(accounts[0]);
+                        })["catch"](function(error) {
+                            // TODO ideally this would be a better check
+                            if (error.message === "User closed modal") {
+                                userReject();
+                                return;
+                            }
+                            reject(error);
+                        });
+                    })["catch"](function(err) {
+                        throw err;
+                    })).then(function(_Promise$catch) {
+                        account = _Promise$catch;
+                        _this4.walletConnectProvider.on("disconnect", _this4.handleDisconnect);
+                        _this4.walletConnectProvider.on("chainChanged", _this4.handleChainChanged);
+                        _this4.walletConnectProvider.on("accountsChanged", _this4.handleAccountsChanged);
+                        return {
+                            provider: _this4.walletConnectProvider,
+                            account: account
+                        };
+                    });
+                }
+                var _temp = function() {
+                    if (!_this4.walletConnectProvider.connector.connected) return Promise.resolve(_this4.walletConnectProvider.connector.createSession(_this4.config.chainId ? {
+                        chainId: _this4.config.chainId
+                    } : undefined)).then(function() {
+                        _this4.emit(URI_AVAILABLE, _this4.walletConnectProvider.connector.uri);
+                    });
+                }();
+                // ensure that the uri is going to be available, and emit an event if there's a new uri
+                return _temp && _temp.then ? _temp.then(_temp2) : _temp2(_temp);
+            };
+            var _temp6 = function() {
+                if (!_this4.walletConnectProvider) return Promise.resolve(require("ccd5b68ae5777adf").then(function(m) {
+                    var _m$default;
+                    return (_m$default = m == null ? void 0 : m["default"]) != null ? _m$default : m;
+                })).then(function(WalletConnectProvider) {
+                    _this4.walletConnectProvider = new WalletConnectProvider(_this4.config);
+                });
+            }();
+            return Promise.resolve(_temp6 && _temp6.then ? _temp6.then(_temp5) : _temp5(_temp6));
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.getProvider = function getProvider() {
+        try {
+            var _this6 = this;
+            return Promise.resolve(_this6.walletConnectProvider);
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.getChainId = function getChainId() {
+        try {
+            var _this8 = this;
+            return Promise.resolve(_this8.walletConnectProvider.chainId);
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.getAccount = function getAccount() {
+        try {
+            var _this10 = this;
+            return Promise.resolve(_this10.walletConnectProvider.accounts).then(function(accounts) {
+                return accounts[0];
+            });
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    _proto.deactivate = function deactivate() {
+        if (this.walletConnectProvider) {
+            this.walletConnectProvider.removeListener("disconnect", this.handleDisconnect);
+            this.walletConnectProvider.removeListener("chainChanged", this.handleChainChanged);
+            this.walletConnectProvider.removeListener("accountsChanged", this.handleAccountsChanged);
+            this.walletConnectProvider.disconnect();
+        }
+    };
+    _proto.close = function close() {
+        try {
+            var _this12 = this;
+            _this12.emitDeactivate();
+            return Promise.resolve();
+        } catch (e) {
+            return Promise.reject(e);
+        }
+    };
+    return WalletConnectConnector;
+}((0, _abstractConnector.AbstractConnector));
+
+},{"@web3-react/abstract-connector":"gkcsn","ccd5b68ae5777adf":"d0tNZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d0tNZ":[function(require,module,exports) {
+module.exports = require("./helpers/browser/js-loader")(require("./helpers/bundle-url").getBundleURL("UckoE") + "esm.dcb881e5.js" + "?" + Date.now()).catch((err)=>{
+    delete module.bundle.cache[module.id];
+    throw err;
+}).then(()=>module.bundle.root("bBAaA"));
+
+},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"5F53w":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "InjectedConnector", ()=>InjectedConnector);
@@ -33683,249 +33871,149 @@ var InjectedConnector = /*#__PURE__*/ function(_AbstractConnector) {
     return InjectedConnector;
 }((0, _abstractConnector.AbstractConnector));
 
-},{"@web3-react/abstract-connector":"gkcsn","tiny-warning":"82vrW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kQ3v6":[function(require,module,exports) {
+},{"@web3-react/abstract-connector":"gkcsn","tiny-warning":"82vrW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"adc89":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$990b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$990b.prelude(module);
+
+try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "URI_AVAILABLE", ()=>URI_AVAILABLE);
-parcelHelpers.export(exports, "UserRejectedRequestError", ()=>UserRejectedRequestError);
-parcelHelpers.export(exports, "WalletConnectConnector", ()=>WalletConnectConnector);
-var _abstractConnector = require("@web3-react/abstract-connector");
-function _inheritsLoose(subClass, superClass) {
-    subClass.prototype = Object.create(superClass.prototype);
-    subClass.prototype.constructor = subClass;
-    _setPrototypeOf(subClass, superClass);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _homeCss = require("./Home.css");
+function Home(props) {
+    const { logo1 , place , app , spanText1 , spanText2 , joinUs  } = props;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "container-center-horizontal",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "home screen",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex-row-2",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "logo-1",
+                            src: logo1
+                        }, void 0, false, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 14,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "place-2 spacemono-bold-black-35px",
+                            children: place
+                        }, void 0, false, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 15,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/connect-wallets-1",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "app-2 spacemono-bold-black-35px",
+                                children: app
+                            }, void 0, false, {
+                                fileName: "components/Home/index.jsx",
+                                lineNumber: 17,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 16,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Home/index.jsx",
+                    lineNumber: 13,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    className: "forget-about-managin",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            className: "span0",
+                            children: spanText1
+                        }, void 0, false, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 21,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            className: "span1",
+                            children: spanText2
+                        }, void 0, false, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 22,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Home/index.jsx",
+                    lineNumber: 20,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-group-1",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/connect-wallets-1",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "rectangle-1"
+                            }, void 0, false, {
+                                fileName: "components/Home/index.jsx",
+                                lineNumber: 26,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 25,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "join-us",
+                            children: joinUs
+                        }, void 0, false, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 28,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Home/index.jsx",
+                    lineNumber: 24,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/Home/index.jsx",
+            lineNumber: 12,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "components/Home/index.jsx",
+        lineNumber: 11,
+        columnNumber: 5
+    }, this);
 }
-function _getPrototypeOf(o) {
-    _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
-        return o.__proto__ || Object.getPrototypeOf(o);
-    };
-    return _getPrototypeOf(o);
-}
-function _setPrototypeOf(o, p) {
-    _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
-        o.__proto__ = p;
-        return o;
-    };
-    return _setPrototypeOf(o, p);
-}
-function _isNativeReflectConstruct() {
-    if (typeof Reflect === "undefined" || !Reflect.construct) return false;
-    if (Reflect.construct.sham) return false;
-    if (typeof Proxy === "function") return true;
-    try {
-        Date.prototype.toString.call(Reflect.construct(Date, [], function() {}));
-        return true;
-    } catch (e) {
-        return false;
-    }
-}
-function _construct(Parent, args, Class) {
-    if (_isNativeReflectConstruct()) _construct = Reflect.construct;
-    else _construct = function _construct(Parent, args, Class) {
-        var a = [
-            null
-        ];
-        a.push.apply(a, args);
-        var Constructor = Function.bind.apply(Parent, a);
-        var instance = new Constructor();
-        if (Class) _setPrototypeOf(instance, Class.prototype);
-        return instance;
-    };
-    return _construct.apply(null, arguments);
-}
-function _isNativeFunction(fn) {
-    return Function.toString.call(fn).indexOf("[native code]") !== -1;
-}
-function _wrapNativeSuper(Class) {
-    var _cache = typeof Map === "function" ? new Map() : undefined;
-    _wrapNativeSuper = function _wrapNativeSuper(Class) {
-        if (Class === null || !_isNativeFunction(Class)) return Class;
-        if (typeof Class !== "function") throw new TypeError("Super expression must either be null or a function");
-        if (typeof _cache !== "undefined") {
-            if (_cache.has(Class)) return _cache.get(Class);
-            _cache.set(Class, Wrapper);
-        }
-        function Wrapper() {
-            return _construct(Class, arguments, _getPrototypeOf(this).constructor);
-        }
-        Wrapper.prototype = Object.create(Class.prototype, {
-            constructor: {
-                value: Wrapper,
-                enumerable: false,
-                writable: true,
-                configurable: true
-            }
-        });
-        return _setPrototypeOf(Wrapper, Class);
-    };
-    return _wrapNativeSuper(Class);
-}
-function _assertThisInitialized(self) {
-    if (self === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-    return self;
-}
-var URI_AVAILABLE = "URI_AVAILABLE";
-var UserRejectedRequestError = /*#__PURE__*/ function(_Error) {
-    _inheritsLoose(UserRejectedRequestError, _Error);
-    function UserRejectedRequestError() {
-        var _this;
-        _this = _Error.call(this) || this;
-        _this.name = _this.constructor.name;
-        _this.message = "The user rejected the request.";
-        return _this;
-    }
-    return UserRejectedRequestError;
-}(/*#__PURE__*/ _wrapNativeSuper(Error));
-function getSupportedChains(_ref) {
-    var supportedChainIds = _ref.supportedChainIds, rpc = _ref.rpc;
-    if (supportedChainIds) return supportedChainIds;
-    return rpc ? Object.keys(rpc).map(function(k) {
-        return Number(k);
-    }) : undefined;
-}
-var WalletConnectConnector = /*#__PURE__*/ function(_AbstractConnector) {
-    _inheritsLoose(WalletConnectConnector, _AbstractConnector);
-    function WalletConnectConnector(config) {
-        var _this2;
-        _this2 = _AbstractConnector.call(this, {
-            supportedChainIds: getSupportedChains(config)
-        }) || this;
-        _this2.config = config;
-        _this2.handleChainChanged = _this2.handleChainChanged.bind(_assertThisInitialized(_this2));
-        _this2.handleAccountsChanged = _this2.handleAccountsChanged.bind(_assertThisInitialized(_this2));
-        _this2.handleDisconnect = _this2.handleDisconnect.bind(_assertThisInitialized(_this2));
-        return _this2;
-    }
-    var _proto = WalletConnectConnector.prototype;
-    _proto.handleChainChanged = function handleChainChanged(chainId) {
-        console.log("Handling 'chainChanged' event with payload", chainId);
-        this.emitUpdate({
-            chainId: chainId
-        });
-    };
-    _proto.handleAccountsChanged = function handleAccountsChanged(accounts) {
-        console.log("Handling 'accountsChanged' event with payload", accounts);
-        this.emitUpdate({
-            account: accounts[0]
-        });
-    };
-    _proto.handleDisconnect = function handleDisconnect() {
-        console.log("Handling 'disconnect' event");
-        if (this.walletConnectProvider) {
-            this.walletConnectProvider.removeListener("chainChanged", this.handleChainChanged);
-            this.walletConnectProvider.removeListener("accountsChanged", this.handleAccountsChanged);
-            this.walletConnectProvider = undefined;
-        }
-        this.emitDeactivate();
-    };
-    _proto.activate = function activate() {
-        try {
-            var _this4 = this;
-            var _temp5 = function _temp5() {
-                function _temp2() {
-                    var account;
-                    return Promise.resolve(new Promise(function(resolve, reject) {
-                        var userReject = function userReject() {
-                            // Erase the provider manually
-                            _this4.walletConnectProvider = undefined;
-                            reject(new UserRejectedRequestError());
-                        }; // Workaround to bubble up the error when user reject the connection
-                        _this4.walletConnectProvider.connector.on("disconnect", function() {
-                            // Check provider has not been enabled to prevent this event callback from being called in the future
-                            if (!account) userReject();
-                        });
-                        _this4.walletConnectProvider.enable().then(function(accounts) {
-                            return resolve(accounts[0]);
-                        })["catch"](function(error) {
-                            // TODO ideally this would be a better check
-                            if (error.message === "User closed modal") {
-                                userReject();
-                                return;
-                            }
-                            reject(error);
-                        });
-                    })["catch"](function(err) {
-                        throw err;
-                    })).then(function(_Promise$catch) {
-                        account = _Promise$catch;
-                        _this4.walletConnectProvider.on("disconnect", _this4.handleDisconnect);
-                        _this4.walletConnectProvider.on("chainChanged", _this4.handleChainChanged);
-                        _this4.walletConnectProvider.on("accountsChanged", _this4.handleAccountsChanged);
-                        return {
-                            provider: _this4.walletConnectProvider,
-                            account: account
-                        };
-                    });
-                }
-                var _temp = function() {
-                    if (!_this4.walletConnectProvider.connector.connected) return Promise.resolve(_this4.walletConnectProvider.connector.createSession(_this4.config.chainId ? {
-                        chainId: _this4.config.chainId
-                    } : undefined)).then(function() {
-                        _this4.emit(URI_AVAILABLE, _this4.walletConnectProvider.connector.uri);
-                    });
-                }();
-                // ensure that the uri is going to be available, and emit an event if there's a new uri
-                return _temp && _temp.then ? _temp.then(_temp2) : _temp2(_temp);
-            };
-            var _temp6 = function() {
-                if (!_this4.walletConnectProvider) return Promise.resolve(require("bb941398b2ccc541").then(function(m) {
-                    var _m$default;
-                    return (_m$default = m == null ? void 0 : m["default"]) != null ? _m$default : m;
-                })).then(function(WalletConnectProvider) {
-                    _this4.walletConnectProvider = new WalletConnectProvider(_this4.config);
-                });
-            }();
-            return Promise.resolve(_temp6 && _temp6.then ? _temp6.then(_temp5) : _temp5(_temp6));
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.getProvider = function getProvider() {
-        try {
-            var _this6 = this;
-            return Promise.resolve(_this6.walletConnectProvider);
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.getChainId = function getChainId() {
-        try {
-            var _this8 = this;
-            return Promise.resolve(_this8.walletConnectProvider.chainId);
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.getAccount = function getAccount() {
-        try {
-            var _this10 = this;
-            return Promise.resolve(_this10.walletConnectProvider.accounts).then(function(accounts) {
-                return accounts[0];
-            });
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    _proto.deactivate = function deactivate() {
-        if (this.walletConnectProvider) {
-            this.walletConnectProvider.removeListener("disconnect", this.handleDisconnect);
-            this.walletConnectProvider.removeListener("chainChanged", this.handleChainChanged);
-            this.walletConnectProvider.removeListener("accountsChanged", this.handleAccountsChanged);
-            this.walletConnectProvider.disconnect();
-        }
-    };
-    _proto.close = function close() {
-        try {
-            var _this12 = this;
-            _this12.emitDeactivate();
-            return Promise.resolve();
-        } catch (e) {
-            return Promise.reject(e);
-        }
-    };
-    return WalletConnectConnector;
-}((0, _abstractConnector.AbstractConnector));
+_c = Home;
+exports.default = Home;
+var _c;
+$RefreshReg$(_c, "Home");
 
+<<<<<<< HEAD
+  $parcel$ReactRefreshHelpers$990b.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./Home.css":"8jqc7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8jqc7":[function() {},{}],"im3Zj":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$26a3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+=======
 },{"@web3-react/abstract-connector":"gkcsn","bb941398b2ccc541":"d0tNZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d0tNZ":[function(require,module,exports) {
 module.exports = require("./helpers/browser/js-loader")(require("./helpers/bundle-url").getBundleURL("UckoE") + "esm.dcb881e5.js" + "?" + Date.now()).catch((err)=>{
     delete module.bundle.cache[module.id];
@@ -34492,6 +34580,7 @@ exports.homedir = function() {
 
 },{}],"6h1ge":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$b5c0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+>>>>>>> 50f271905d1436c48228b1e398a4be827d50fd85
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$b5c0.prelude(module);
@@ -34600,7 +34689,11 @@ $RefreshReg$(_c, "WorldIDCreatedWallet");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
+<<<<<<< HEAD
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","@worldcoin/id":"1iJYp","./WorldID.css":"gcRdo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1iJYp":[function(require,module,exports) {
+=======
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","@worldcoin/id":"1iJYp","./WorldID.css":"naur1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1iJYp":[function(require,module,exports) {
+>>>>>>> 50f271905d1436c48228b1e398a4be827d50fd85
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ErrorCodes", ()=>qe) /*!
@@ -59773,6 +59866,9 @@ exports.renderToReadableStream = s.renderToReadableStream;
     })();
 });
 
+<<<<<<< HEAD
+},{}],"gcRdo":[function() {},{}],"bErvj":[function(require,module,exports) {
+=======
 },{}],"naur1":[function() {},{}],"7Esol":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$5acb = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
@@ -59884,6 +59980,7 @@ $RefreshReg$(_c, "WorldIDRetrieveKey");
   window.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","@worldcoin/id":"1iJYp","./WorldID.css":"2wQjq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2wQjq":[function() {},{}],"bErvj":[function(require,module,exports) {
+>>>>>>> 50f271905d1436c48228b1e398a4be827d50fd85
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 ////////////////////////

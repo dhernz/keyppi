@@ -1,0 +1,151 @@
+.connect-wallets {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1736px;
+  padding: 68px 95px;
+  width: 1512px;
+}
+
+.flex-row-1 {
+  align-items: center;
+  display: flex;
+  min-width: 1089px;
+}
+
+.logo-2-1 {
+  cursor: pointer;
+  height: 74px;
+  object-fit: cover;
+  width: 327px;
+}
+
+.place-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  margin-left: 447px;
+  min-height: 47px;
+  text-align: center;
+  width: 143px;
+}
+
+.app-1 {
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  margin-left: 29px;
+  min-height: 47px;
+  text-align: center;
+  width: 143px;
+}
+
+.group-2 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 931px;
+  margin-left: 6.58px;
+  margin-top: 145px;
+  min-width: 601px;
+}
+
+.overlap-group1-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 931px;
+  padding: 34.4px 62.7px;
+  width: 595px;
+}
+
+.image-11 {
+  height: 80px;
+  margin-left: 0.81px;
+  width: 433px;
+}
+
+.overlap-group {
+  align-items: flex-start;
+  align-self: center;
+  background-color: var(--white);
+  display: flex;
+  height: 74px;
+  margin-right: 7.0px;
+  margin-top: 83px;
+  min-width: 301px;
+  padding: 10.2px 50.6px;
+}
+
+.connect {
+  letter-spacing: 0;
+  min-height: 31px;
+  text-align: center;
+  width: 194px;
+}
+
+.wallet {
+  letter-spacing: 0;
+  margin-left: 1.61px;
+  margin-top: 54px;
+  min-height: 40px;
+  width: 157px;
+}
+
+.rectangle-4 {
+  background-color: var(--white);
+  height: 57px;
+  margin-left: 0.81px;
+  margin-top: 14px;
+  width: 462px;
+}
+
+.private-key {
+  letter-spacing: 0;
+  margin-left: 1.85px;
+  margin-top: 70px;
+  min-height: 39px;
+  width: 392px;
+}
+
+.rectangle-5 {
+  background-color: var(--white);
+  height: 57px;
+  margin-top: 31px;
+  width: 462px;
+}
+
+.overlap-group2-1 {
+  align-self: center;
+  height: 71px;
+  margin-right: 21.98px;
+  margin-top: 107px;
+  position: relative;
+  width: 290px;
+}
+
+.rectangle-2-1 {
+  background: linear-gradient(180deg, rgb(134, 41, 176) 0%, rgba(147, 0, 255, 0.65) 51.04%, rgb(255, 134, 134) 100%);
+  box-shadow: 13px 13px 0px #000000;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 286px;
+}
+
+.save {
+  -webkit-text-stroke: 1px var(--white);
+  color: var(--white);
+  font-family: var(--font-family-space_mono);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  left: 5px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 286px;
+}
+
