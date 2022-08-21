@@ -131,3 +131,23 @@ console.log(
     "B62qphDTxPu59YSpb1XebPFixFMu1vN6mqKQ7bCBtejdAS3LctWFfn7", 
     "kajhskdjhas"
 ))
+
+//---------------------------------------------------------------------------------------------//
+
+/*
+SCATTER/SPLIT/SPLASH THE PK INTO THE UNRECOGNIZABLE AND DISTRIBUTED METAVERSE
+*/
+
+function split_protected_pk(protected_pk /*string*/) {
+    const L = protected_pk.length
+    return L 
+}
+
+const protected_temp = protect_pk(
+                        "B62qphDTxPu59YSpb1XebPFixFMu1vN6mqKQ7bCBtejdAS3LctWFfn7", 
+                        "kajhskdjhas"
+                        )
+split_protected_pk(
+    protected_temp[Object.keys(protected_temp)[0]]
+)
+ 
