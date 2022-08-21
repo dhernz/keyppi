@@ -12,6 +12,7 @@
     "@web3-react/walletconnect-connector": "^6.2.13",
     "@web3-react/walletlink-connector": "^6.2.14",
     "@worldcoin/id": "^0.8.0",
+    "crypto": "^1.0.1",
     "dotenv": "^16.0.1",
     "ethers": "^5.7.0",
     "nft.storage": "^7.0.0",
