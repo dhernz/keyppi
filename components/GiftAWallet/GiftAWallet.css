@@ -1,0 +1,144 @@
+.gift-a-wallet-6 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1474px;
+  padding: 68px 95px;
+  width: 1512px;
+}
+
+.flex-row-2 {
+  align-items: flex-end;
+  align-self: flex-start;
+  display: flex;
+  min-width: 1278px;
+  position: relative;
+}
+
+.logo-2-1 {
+  cursor: pointer;
+  height: 74px;
+  object-fit: cover;
+  width: 327px;
+}
+
+.gift-a-wallet-7 {
+  color: var(--black);
+  font-family: var(--font-family-space_mono);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-right: 88.0px;
+  margin-top: 139px;
+  min-height: 61px;
+  text-align: center;
+  width: 546px;
+}
+
+.gift-a-wallet-send-it-secure {
+  letter-spacing: 0;
+  margin-right: 88.0px;
+  margin-top: 44px;
+  min-height: 61px;
+  text-align: center;
+  width: 546px;
+}
+
+.to {
+  letter-spacing: 0;
+  margin-right: 549.0px;
+  margin-top: 44px;
+  min-height: 45px;
+  width: 125px;
+}
+
+.rectangle-4-1 {
+  background-color: var(--white);
+  height: 46px;
+  margin-top: 12px;
+  width: 674px;
+}
+
+.gift-a-wallet-item {
+  letter-spacing: 0;
+  margin-right: 358.0px;
+  margin-top: 55px;
+  min-height: 40px;
+  width: 316px;
+}
+
+.rectangle-3 {
+  background-color: var(--white);
+  height: 46px;
+  margin-right: 2.0px;
+  margin-top: 16px;
+  width: 674px;
+}
+
+.overlap-group-2 {
+  height: 65px;
+  margin-right: 1.0px;
+  margin-top: 54px;
+  position: relative;
+  width: 423px;
+}
+
+.rectangle-2-2 {
+  background: linear-gradient(180deg, rgb(134, 41, 176) 0%, rgba(147, 0, 255, 0.65) 51.04%, rgb(255, 134, 134) 100%);
+  box-shadow: 13px 13px 0px #000000;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 423px;
+}
+
+.proof-of-gift {
+  -webkit-text-stroke: 1px var(--white);
+  left: 24px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 373px;
+}
+
+.private-key {
+  letter-spacing: 0;
+  margin-right: 266.0px;
+  margin-top: 120px;
+  min-height: 40px;
+  width: 408px;
+}
+
+.overlap-group1-2 {
+  height: 65px;
+  margin-right: 0.07px;
+  margin-top: 54px;
+  position: relative;
+  width: 230px;
+}
+
+.rectangle-2-3 {
+  background: linear-gradient(180deg, rgb(134, 41, 176) 0%, rgba(147, 0, 255, 0.65) 51.04%, rgb(255, 134, 134) 100%);
+  box-shadow: 13px 13px 0px #000000;
+  cursor: pointer;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 227px;
+}
+
+.save-1 {
+  -webkit-text-stroke: 1px var(--white);
+  cursor: pointer;
+  left: 4px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 226px;
+}
+
