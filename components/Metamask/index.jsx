@@ -2,12 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../Header";
 import {WorldIDWidget} from "@worldcoin/id";
+import { connectors } from "../../utils/connectors"
+import { useWeb3React } from '@web3-react/core'
 import "./Metamask.css";
 
 function Metamask(props) {
   const { logo2, image9, connect, wallet, email, privateKey, save } = props;
   const actionId = process.env.WORLD_ID_ACTION_RETRIEVE_KEY
-
+  const { activate } = useWeb3React();
+  const handleConnect = () => {
+    activate(connectors.injected)
+  }
+  
   return (
     <div className="container-center-horizontal">
       <div className="metamask screen">
@@ -21,7 +27,10 @@ function Metamask(props) {
           <div className="overlap-group1 spacemono-normal-black-30px border-3-5px-black">
             <img className="image-9" src={image9} />
             <div className="overlap-group border-3-5px-black">
+            <button onClick={handleConnect}>
               <div className="connect spacemono-bold-black-35px">{connect}</div>
+            </button>
+              
             </div>
             <div>
               <br></br>
@@ -37,11 +46,11 @@ function Metamask(props) {
             </div>
 
             <div className="wallet">{wallet}</div>
-            <div className="rectangle-4 border-3-5px-black"></div>
+            <input className="rectangle-4 border-3-5px-black"></input>
             <div className="overlap-group1-item">{email}</div>
-            <div className="rectangle border-3-5px-black"></div>
+            <input className="rectangle border-3-5px-black"></input>
             <div className="overlap-group1-item">{privateKey}</div>
-            <div className="rectangle border-3-5px-black"></div>
+            <input className="rectangle border-3-5px-black"></input>
             <div className="overlap-group2">
               <div className="rectangle-2"></div>
               <a href="javascript:ShowOverlay('loading', 'animate-appear');">
