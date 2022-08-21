@@ -3,6 +3,7 @@ import admin from 'firebase-admin';
 // functions list
 import {httpVerificationServices} from "./http/verification/services.mjs";
 import {httpIpfsServices} from "./http/ipfs/services.mjs";
+import {httpSecuringServices} from "./http/securing/services.mjs";
 
 import {readFile} from 'fs/promises';
 const serviceAccount = JSON.parse(
@@ -22,5 +23,6 @@ admin.firestore().settings(settings);
 
 export {httpVerificationServices};
 export {httpIpfsServices};
+export {httpSecuringServices};
 
 
