@@ -3,8 +3,10 @@ node_modules
 .env
 dist/
 .parcel-cache
-<<<<<<< HEAD
-=======
-dist
+node_modules
+coverage*
+typechain*
 
->>>>>>> 51fe6c6880b868d4a8d380b35b70453b3efe968b
+#Hardhat files
+cache
+artifacts
