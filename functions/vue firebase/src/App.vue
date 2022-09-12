@@ -53,8 +53,8 @@
             v-model="form.otp"
           />
           <FormulateInput
-            type="text"
-            label="PK"
+            type="password"
+            label="Private Key"
             v-model="form.pk"
           />
           <FormulateInput

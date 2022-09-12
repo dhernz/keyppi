@@ -63,7 +63,7 @@ const getInfo = (cid) => {
       try {
         // Prepare iPFS url
         // const url = cid.replace("ipfs://", "https://api.nft.storage/");
-        const url = `https://api.nft.storage/${cid}`;
+        const url = `https://ipfs.io/ipfs/${cid}`;
         console.log("IPFS NFT URL...:", url);
         try {
           const nft_storage_key = await functions.config().ipfs.nft_storage_key;
@@ -74,9 +74,9 @@ const getInfo = (cid) => {
             }
           }
           const response = await axios(config);
-          console.log(Object.keys(response));
-          console.log("response.data...:", response.data);
-          console.log("response.data.value", response.data.value);
+          // console.log(Object.keys(response));
+          console.log("response...:", response.data);
+          // console.log("response.data.value", response.data.value);
           // console.log("response.status...:", response.status);
           // console.log("response.config...:")
           // const response = await fetch(url, {
@@ -84,7 +84,7 @@ const getInfo = (cid) => {
           //     Authorization: `Bearer ${nft_storage_key}`,
           //   },
           // });
-          resolve(response.data.value);
+          resolve(response.data);
         } catch (error) {
           console.log("Error retrieving shards from IPFS...:", error);
           reject(error);

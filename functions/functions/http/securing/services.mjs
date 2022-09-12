@@ -40,7 +40,14 @@ import { NFTStorage, File, Blob } from "nft.storage";
               .catch( error => {
                 console.log("Error while attempting to store references...:", error);
                 reject(error);
+              });
+              db.collection("users").add({
+                proof: nstring
               })
+              .catch( error => {
+                console.log("Error while attempting to store user...:", error);
+                reject(error);
+              });
               console.log("addressesArray...:", addressesArray);
               resolve({data: {message: "Succesfully executed reference storage."}});
             }
